@@ -1,7 +1,10 @@
 import React from "react";
 import Link from "next/link";
+import { useRouter } from 'next/router';
 
 const ContactUs = () => {
+
+    const router = useRouter()
 
     return (
         <>
@@ -9,10 +12,15 @@ const ContactUs = () => {
                 <div className="container">
                     <div className="col-xxl-10 col-xl-10 col-lg-10 m-auto">
                         <div className="contact__wrapper">
-                            <div className="section__title-wrapper mb-40">
-                                <h2 className="section__title-50 text-center">Contact Us</h2>
-                            </div>
-                            <div className="contact__form">
+                            {
+                                router.pathname !== '/contact' ?
+                                    <div className="section__title-wrapper mb-40">
+                                        <h2 className="section__title-50 text-center">Contact Us</h2>
+                                    </div>
+                                    :
+                                    <></>
+                            }
+                            <div className={"contact__form" + (router.pathname === '/contact' ? " mt-60" : "")}>
                                 <form action="#">
                                     <div className="row">
                                         <div className="col-xxl-6 col-xl-6 col-md-6">
@@ -35,7 +43,7 @@ const ContactUs = () => {
                                                 <textarea required placeholder="Message"></textarea>
                                             </div>
                                         </div>
-                                        <div className="col-xxl-12" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end'}}>
+                                        <div className="col-12" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end' }}>
                                             <Link href="/">
                                                 <a className="tp-btn-secondary">Submit <i className="fa-regular fa-arrow-right fa-ri">
                                                 </i></a>

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react'
 import Select from 'react-select'
+import { HiOutlineSearch } from 'react-icons/hi'
 
 const JoinAnalog = () => {
 
@@ -62,6 +63,18 @@ const JoinAnalog = () => {
         }
     ]
 
+    const courseList = [
+        { value: 'tspsc-group1', label: 'TSPSC Group 1' },
+        { value: 'appsc-group2', label: 'APPSC Group 2' },
+        { value: 'civil-services', label: 'Civil Services' }
+    ]
+
+    const locationList = [
+        { value: 'an-hyd', label: 'Ashok Nagar, HYD' },
+        { value: 'ip-hyd', label: 'Indira Park, HYD' },
+        { value: 'beng', label: 'Bengaluru' }
+    ]
+
     return (
         <>
             <section className="research__area research__border grey-bg-3 pt-30 pb-30 p-relative z-index-1">
@@ -74,6 +87,37 @@ const JoinAnalog = () => {
                         </div>
                     </div>
                     <div className="col-xxl-8 col-xl-8 col-lg-10 col-md-10 col-12 m-auto">
+                        <div className="row mb-15">
+                            <div className="col-5">
+                                <Select
+                                    className="basic-single"
+                                    classNamePrefix="select"
+                                    isClearable={true}
+                                    isSearchable={true}
+                                    name="courses"
+                                    options={courseList}
+                                    placeholder="Course"
+                                />
+                            </div>
+                            <div className="col-md-6 col-5">
+                                <Select
+                                    className="basic-single"
+                                    classNamePrefix="select"
+                                    isClearable={true}
+                                    isSearchable={true}
+                                    name="locations"
+                                    options={locationList}
+                                    placeholder="Location"
+                                />
+                            </div>
+                            <div className='col-md-1 col-2'>
+                                <div className='row'>
+                                    <i className='col-10 search-btn'>
+                                        <HiOutlineSearch color='#fff' size={20} />
+                                    </i>
+                                </div>
+                            </div>
+                        </div>
                         <div className='join-area'>
                             <div className="row">
                                 <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-6">
@@ -145,7 +189,7 @@ const JoinAnalog = () => {
                                                     </div>
                                                 </button>
                                             </h2>
-                                            <div id={item.control} className="accordion-collapse collapse show" aria-labelledby={item.id} data-bs-parent="#checkoutAccordion">
+                                            <div id={item.control} className={"accordion-collapse collapse " + (courseData[0].id === item.id ? "show" : "")} aria-labelledby={item.id} data-bs-parent="#checkoutAccordion">
                                                 <div className="accordion-body row">
                                                     <hr />
                                                     <div className='col-md-8'>

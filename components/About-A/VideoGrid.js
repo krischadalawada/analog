@@ -1,0 +1,48 @@
+import Link from 'next/link';
+import { VideosData } from '../../data/VideosData';
+import { BsPlayCircle } from 'react-icons/bs';
+
+const VideoGrid = () => {
+
+   return (
+      <>
+         <section className="slider__area pt-60 pb-60 include-bg d-flex align-items-center">
+            <div className="container-lg">
+               <div className='col-xl-12 col-md-12 col-12 m-auto'>
+                  <div className="row align-items-center">
+                     {
+                        VideosData.map((item, index) =>
+                           <div key={index} className='col-xl-6 col-md-6 col-12 m-auto'>
+                              <div className="slider__thumb-2 mb-60">
+                                 <span className="slider__thumb-home p-relative">
+                                    <img style={{ width: '100%' }} src={item.thumbnail} alt="" />
+                                    <i className='play-btn pointer'>
+                                       <BsPlayCircle color='#011627' width={20} size={120} />
+                                    </i>
+                                 </span>
+                                 <div className='video-title'>
+                                    <h3 className='text-center'>STUDY TIME WITH SRIKANTH VINNAKOTA, Director - ANALOG IAS ACADEMY (Tv5 INTERVIEW)</h3>
+                                 </div>
+                              </div>
+                           </div>
+                        )
+                     }
+                  </div>
+                  <div className="row">
+                     <div className="col-xxl-12">
+                        <div className="section__title-wrapper mt-30 mb-50 text-center">
+                           <Link href="/">
+                              <a className="tp-btn-secondary" style={{ marginRight: '5%' }}>Load More <i className="fa-regular fa-arrow-right fa-ri">
+                              </i></a>
+                           </Link>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </>
+   );
+};
+
+export default VideoGrid;

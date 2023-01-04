@@ -153,6 +153,34 @@
                 font-weight: 300;
             }
         }
+        &-courses{
+            & p{
+                color: #fff;
+                font-size: 2.7vh;
+                letter-spacing: 0;
+                line-height: 4vh;
+                font-weight: 200;
+            }
+        }
+        &-about{
+            & p{
+                color: #fff;
+                font-size: 2.7vh;
+                letter-spacing: 0;
+                line-height: 4vh;
+                font-weight: 200;
+            }
+            & ul{
+                list-style-position: inside;
+                list-style-image: url("../../images/about/bullet.png");
+            }
+            & li{
+                font-size: 2.7vh;
+                line-height: 4vh;
+                color: #fff;
+                font-weight: 500;
+            }
+        }
     }
     &__title{
         font-size: 70px;
@@ -216,6 +244,12 @@
             color: #011627;
             line-height: 6.7vh;
         }
+        &-courses{
+            font-size: 7.2vh;
+            font-weight: 800;
+            color: #fff;
+            line-height: 6.7vh;
+        }
     }
     &__thumb{
         &-mask{
@@ -239,6 +273,24 @@
                 position: relative;
                 left: 0;
                 z-index: 1;
+            }
+        }
+        &-about{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            & h3{
+                font-size: 3.2vh;
+                font-weight: 700;
+                line-height: 4vh;
+                color: #011627;
+                padding-top: 3vh;
+            }
+            & p{
+                font-size: 2.7vh;
+                color: #011627;
+                font-weight: 300;
             }
         }
     }
@@ -682,4 +734,70 @@
     height: 5vh;
     line-height: 5vh;
     text-align: center;
+}
+
+.black {
+    color: #011627 !important;
+}
+
+.white {
+    color: #fff !important;
+}
+
+.f-400 {
+    font-weight: 400 !important;
+}
+
+.f-50 {
+    font-size: 6vh;
+    font-weight: 700;
+    line-height: 10vh;
+}
+
+.f-70 {
+    font-size: 7.7vh;
+    font-weight: 700;
+    line-height: 10vh;
+}
+
+.video-title {
+    background: #C0E8F9 0% 0% no-repeat padding-box;
+
+    & h3{
+        font-size: 2.7vh;
+        font-weight: 700;
+        line-height: 3.7vh;
+        color: #011627;
+        padding: 3vh;
+    }
+}
+
+.download-title {
+    background: #FEB326 0% 0% no-repeat padding-box;
+
+    & h3{
+        font-size: 3.2vh;
+        font-weight: 700;
+        line-height: 3.7vh;
+        color: #fff;
+        padding: 3vh;
+    }
+}
+
+.play-btn {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.download-btn {
+    background-color: #3772FF;
+    padding: 2vh;
+    position: absolute;
+    z-index: 10;
+    top: 7%;
+    right: 7%;
+    border-radius: 50%;
 }

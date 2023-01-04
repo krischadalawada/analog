@@ -8,19 +8,19 @@ const links = [
 
     {
         id:2,
-        url:'/',
+        url:'/courses',
         name:'Courses'
     },
 
     {
         id:3,
-        url:'/',
+        url:'/about',
         name:'About',
     },
 
     {
         id:4,
-        url:'/',
+        url:'/downloads',
         name:'Downloads',        
     },
 
@@ -32,7 +32,7 @@ const links = [
 
     {
         id:6,
-        url:'/',
+        url:'/contact',
         name:'Contact'
     },
 ]

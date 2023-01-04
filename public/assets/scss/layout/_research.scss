@@ -100,6 +100,20 @@
             font-weight: 300;
             color: #011627;
         }
+
+        &-course {
+            font-size: 3.2vh;
+            font-weight: 700;
+            color: #011627;
+            text-align: left;
+        }
+
+        &-batch {
+            font-size: 2.7vh;
+            font-weight: 700;
+            color: #fff;
+            text-align: left;
+        }
     }
 
     &__content {
@@ -333,4 +347,152 @@
 .join-area {
     background: #3772FF 0% 0% no-repeat padding-box;
     padding: 3vh;
+}
+
+.search-btn {
+    background-color: #3772FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+}
+
+/*---------------------------------------
+    FAQ Styles
+----------------------------------------*/
+.faq-item {
+    width: 100%;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+/*---------------------------------------
+    Course Styles
+----------------------------------------*/
+.course-area {
+    background: #FAE4BA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 3vh;
+    width: 100%;
+}
+
+.course-body {
+    background: #FDF9F0 0% 0% no-repeat padding-box;
+}
+
+.course-body .subview {
+    padding: 2vh;
+
+    & h3 {
+        font-size: 2vh;
+        font-weight: bolder;
+        color: #011627;
+    }
+
+    & p {
+        font-size: 2vh;
+        font-weight: 300;
+        color: #011627;
+    }
+
+    & b {
+        font-weight: 500;
+    }
+
+    & ul {
+        list-style-position: inside;
+    }
+
+    & li {
+        font-size: 2vh;
+        font-weight: 300;
+        color: #011627;
+    }
+}
+
+.course-body .batchview {
+    padding: 2vh;
+
+    &-heading {
+        font-size: 2.7vh;
+        font-weight: 700;
+        color: #011627 !important;
+    }
+
+    & h3 {
+        font-size: 2.7vh;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    & h5 {
+        font-size: 2.7vh;
+        font-weight: 300;
+        color: #011627;
+        margin-bottom: 0 !important;
+    }
+
+    & h4 {
+        font-size: 5.2vh;
+        font-weight: 400;
+        color: #011627;
+    }
+
+    & b {
+        font-weight: 500;
+    }
+}
+
+.syll-download {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+    background-color: #3772FF;
+    cursor: pointer;
+
+    &-text {
+        font-size: 2.7vh;
+        font-weight: 700;
+        color: #fff;
+
+        @media #{$md, $sm, $xs} {
+            display: none;
+        }
+    }
+}
+
+.batch-area {
+    background: #FF6359 0% 0% no-repeat padding-box;
+    padding: 3vh;
+    width: 100%;
+}
+
+.instructor-area {
+    margin-top: 5vh;
+
+    &-title {
+        font-size: 3.5vh;
+        font-weight: 700;
+        color: #011627;
+    }
+
+    &-sub {
+        font-size: 2vh !important;
+        line-height: 2.7vh !important;
+        font-weight: 300;
+        color: #011627;
+
+        & b {
+            font-weight: 500;
+        }
+    }
+}
+
+.mob-none {
+    @media #{$sm, $xs} {
+        display: none;
+    }
 }

@@ -1,22 +1,29 @@
 import Head from 'next/head';
 import BreadCrumb from '../../../components/common/BreadCrumb';
+import Footer from '../../../components/common/Footer';
 import ContactArea from '../../../components/Contact/ContactArea';
 import ContactFooter from '../../../components/Contact/ContactFooter';
 import ContactInfoArea from '../../../components/Contact/ContactInfoArea';
-import Header from '../../../components/Home/Header';
+import ContactUs from '../../../components/Contact/ContactUs';
+import Header from '../../../components/Home-A/Header';
 
 const Contact = () => {
    return (
       <>
-      <Head>
-         <title>Contact Page</title>
-       </Head>
+         <Head>
+            <title>Contact</title>
+         </Head>
 
          <Header />
-         <BreadCrumb title="Contact" subtitle="Contact" />
-         <ContactArea />
-         <ContactInfoArea />
-         <ContactFooter />
+         <>
+            <section className="slider__area pt-200 pb-160 include-bg d-flex align-items-center bg-contact">
+               <div className="container">
+                  <h3 className='f-70 text-center white mt-40'>Contact Us</h3>
+               </div>
+            </section>
+         </>
+         <ContactUs />
+         <Footer />
       </>
    );
 };
