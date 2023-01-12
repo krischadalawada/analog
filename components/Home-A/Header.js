@@ -40,7 +40,7 @@ const Header = () => {
    return (
       <>
          <header>
-            <div id="header-sticky" className={"header__area header__transparent"} style={{ marginTop: '2%' }}>
+            <div id="header-sticky" className={"header__area header__transparent"} style={{ marginTop: '2%', caretColor: 'transparent' }}>
                <div className="header__bottom">
                   <div className="container elevate">
                      <div className="row align-items-center">
@@ -49,7 +49,7 @@ const Header = () => {
                               <div className="logo">
                                  <Link href="/">
                                     <a >
-                                       <img src="assets/images/logo/logo.png" alt="logo" />
+                                       <img src="/assets/images/logo/logo.png" alt="logo" />
                                     </a>
                                  </Link>
                               </div>
@@ -87,7 +87,7 @@ const Header = () => {
                                        }
                                        <Link href="/">
                                           <li>
-                                             <img className='wa pointer' src="assets/images/home/whatsapp.png" alt="logo" />
+                                             <img className='wa pointer' src="/assets/images/home/whatsapp.png" alt="logo" />
                                           </li>
                                        </Link>
                                     </ul>

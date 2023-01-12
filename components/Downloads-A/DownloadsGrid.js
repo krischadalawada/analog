@@ -16,12 +16,14 @@ const DownloadsGrid = () => {
                               <div className="slider__thumb-2 mb-60">
                                  <span className="slider__thumb-home p-relative">
                                     <img style={{ width: '100%' }} src={item.thumbnail} alt="" />
-                                    <i className='download-btn pointer'>
-                                       <FiDownload color='#fff' size={40} />
-                                    </i>
+                                    <Link href={item.url}>
+                                       <i className='download-btn pointer'>
+                                          <FiDownload color='#fff' size={40} />
+                                       </i>
+                                    </Link>
                                  </span>
                                  <div className='download-title'>
-                                    <h3 className='text-center'>{item.title}</h3>
+                                    <h3 className='text-center'>{item.category}</h3>
                                  </div>
                               </div>
                            </div>

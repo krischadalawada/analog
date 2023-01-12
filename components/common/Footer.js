@@ -14,7 +14,7 @@ const Footer = ({ white_bg = '' }) => {
                                  <div className="logo-white">
                                     <Link href="/">
                                        <a>
-                                          <img src="assets/images/logo/logo-white.png" alt="" />
+                                          <img src="/assets/images/logo/logo-white.png" alt="" />
                                        </a>
                                     </Link>
                                  </div>
@@ -22,7 +22,7 @@ const Footer = ({ white_bg = '' }) => {
                               <div className="footer__widget-content">
                                  <div className="footer__widget-info">
                                     <p>Analog Education Society was established with an aim to impart quality coaching for aspirants preparing for Civil Services and other government services.</p>
-                                    <img className='map' src="assets/images/footer/footer-map.png" alt="" />
+                                    <img className='map' src="/assets/images/footer/footer-map.png" alt="" />
                                  </div>
                               </div>
                            </div>
