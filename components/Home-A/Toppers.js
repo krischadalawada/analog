@@ -1,41 +1,8 @@
 import Link from 'next/link';
+import { TopperList } from '../../data/ToppersData';
 
 const Toppers = () => {
-   // toppers data
-   const toppersData = [
-      {
-         id: 1,
-         img: 'assets/images/toppers/topper-1.png',
-         title: 'Ishita Rathi',
-         rank: '008',
-         year: '2016',
-         ht_no: '3535556'
-      },
-      {
-         id: 2,
-         img: 'assets/images/toppers/topper-2.png',
-         title: 'Yasharth Shekhar',
-         rank: '012',
-         year: '2016',
-         ht_no: '3535556'
-      },
-      {
-         id: 3,
-         img: 'assets/images/toppers/topper-3.png',
-         title: 'C. Yashwanth Reddy',
-         rank: '015',
-         year: '2016',
-         ht_no: '3535556'
-      },
-      {
-         id: 4,
-         img: 'assets/images/toppers/topper-4.png',
-         title: 'Pusapati Sahitya',
-         rank: '024',
-         year: '2016',
-         ht_no: '3535556'
-      },
-   ]
+
    return (
       <>
          <section className="research__area research__border pt-60 pb-30 p-relative z-index-1">
@@ -49,11 +16,11 @@ const Toppers = () => {
                </div>
                <div className="row">
                   {
-                     toppersData.map(item => {
-                        return <div key={item.id} className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                     TopperList.map(item => {
+                        return <div key={item.ht_no} className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
                            <div className={`research__item text-left mb-30 transition-3`}>
                               <div className="research__thumb mb-35">
-                                 <img src={item.img} alt="" />
+                                 <img className='toppers' src={item.img} alt="" />
                               </div>
                               <div className="research__content">
                                  <h3 className="research__title-topper">{item.title}</h3>

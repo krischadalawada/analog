@@ -40,9 +40,6 @@
     }
 
     &__thumb {
-        & img {
-            width: 100%;
-        }
 
         &-2 {
             position: absolute;
@@ -495,4 +492,11 @@
     @media #{$sm, $xs} {
         display: none;
     }
+}
+
+.toppers {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    align-self: center;
 }
