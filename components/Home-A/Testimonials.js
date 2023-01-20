@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination } from 'swiper';
 import { TestimonialsList } from '../../data/TestimonialsData';
-import { TestimonialsList } from '../../data/TestimonialsData';
 SwiperCore.use([ Pagination]);
 
 const Testimonials = () => {
