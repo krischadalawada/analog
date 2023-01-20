@@ -34,21 +34,17 @@ const Testimonials = () => {
                               },
                               768: {
                                  slidesPerView: 2,
-                                 slidesPerView: 2,
                               },
                               992: {
                                  slidesPerView: 2,
                               },
                            }}
                         >
-
                            {
-                              TestimonialsList.map(testimonial => {
                               TestimonialsList.map(testimonial => {
                                  return <SwiperSlide key={testimonial.id}>
                                     <div className="testimonial__item transition-3 text-left white-bg">
                                        <div className="testimonial__avatar">
-                                          <img className='toppers' src={testimonial.img} alt="" />
                                           <img className='toppers' src={testimonial.img} alt="" />
                                        </div>
                                        <div className="testimonial__avatar-info mb-5">
@@ -59,9 +55,7 @@ const Testimonials = () => {
                                  </SwiperSlide>
                               })
                            }
-
                         </Swiper>
-
                      </div>
                   </div>
                </div>
