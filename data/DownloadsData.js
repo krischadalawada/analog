@@ -400,7 +400,7 @@ export const DownloadsData = [
         url: ''
     },
     {
-        category: 'IAS Interview',
+        category: 'IAS Interviews',
         thumbnail: '/assets/images/downloads/downloads-1@2x.png',
         url: ''
     },
