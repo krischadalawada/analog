@@ -236,7 +236,6 @@
     }
 
     &__call {
-        &-icon {}
 
         &-content {
             & h4 {
@@ -911,4 +910,15 @@
 
 .wa {
     width: 5vh;
+}
+
+.selected {
+    color: #e52322 !important;
+}
+
+.whatsapp {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin-right: 27px;
 }

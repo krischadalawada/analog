@@ -9,7 +9,6 @@ import JoinAnalog from '../../components/Home-A/JoinAnalog';
 import EventsHome from '../../components/Home-A/Events';
 import Testimonials from '../../components/Home-A/Testimonials';
 import ContactUs from '../../components/Contact/ContactUs';
-import FAQ from '../../components/Home-A/FAQs';
 
 export default function Home() {
   return (
@@ -30,7 +29,6 @@ export default function Home() {
       <JoinAnalog />
       <EventsHome />
       <Testimonials />
-      <FAQ />
       <ContactUs />
       <Footer />
     </>

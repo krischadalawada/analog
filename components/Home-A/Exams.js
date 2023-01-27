@@ -17,11 +17,11 @@ const Exams = () => {
          icon_img: 'assets/images/home/TSPSC.png',
          title: 'TSPSC',
       },
-      {
-         id: 4,
-         icon_img: 'assets/images/home/KPSC.png',
-         title: 'KPSC-KAS',
-      },
+      // {
+      //    id: 4,
+      //    icon_img: 'assets/images/home/KPSC.png',
+      //    title: 'KPSC-KAS',
+      // },
    ]
    return (
       <>
@@ -31,7 +31,7 @@ const Exams = () => {
                   <div className="row">
                      {
                         featuresData.map(feature => {
-                           return <div key={feature.id} className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
+                           return <div key={feature.id} className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
                               <div className="features__item white-bg">
                                  <div className="" style={{ width: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                                     <img className='logos' src={feature.icon_img} />

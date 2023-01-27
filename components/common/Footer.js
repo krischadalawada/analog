@@ -68,11 +68,6 @@ const Footer = ({ white_bg = '' }) => {
                               <div className="footer__subscribe">
                                  <p>3rd Floor, Kamala Towers, Above OBC Bank, Ashoknagar X Road, Telangana - 500020.<br /><br /> Ph: 9912441138 <br />Email: info@analogeducation.in</p>
                               </div>
-
-                              <h3 className="footer__widget-title" style={{marginTop: 50}}>Bengaluru</h3>
-                              <div className="footer__subscribe">
-                                 <p>Adj to Attiguppe Metro Station, Near Sharavathi Nursing Home, Vijaynagar, Bengaluru - 560040.<br /><br /> Ph: 9441943593 <br />Email: ias.analog.blr@gmail.com</p>
-                              </div>
                            </div>
                         </div>
                      </div>

@@ -21,8 +21,8 @@ const HeroAbout = () => {
                         ANALOG offers comprehensive courses for various competitive exams that get you equipped with the right knowledge and skill to crack the tests.</p>
                         <ul>
                            <li>11 Courses</li>
-                           <li>10+ Faculty Members</li>
-                           <li>2000+ Students Benefited</li>
+                           <li>25+ Faculty Members</li>
+                           <li>15000+ Students Benefited</li>
                         </ul>
                      </div>
                   </div>

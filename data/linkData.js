@@ -26,8 +26,8 @@ const links = [
 
     {
         id:5,
-        url:'/',
-        name:'Blog',
+        url:'/FAQ',
+        name:'FAQ',
     },
 
     {

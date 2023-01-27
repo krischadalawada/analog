@@ -21,7 +21,7 @@ const CourseDetails = (props) => {
                                             <div className="row">
                                                 <div className="col-md-11 col-10">
                                                     <div className={`text-left mt-2`}>
-                                                        <h3 className="research__title-course">General Studies</h3>
+                                                        <h3 className="research__title-course">General Studies (PCM)</h3>
                                                     </div>
                                                 </div>
                                                 <div className="col-md-1 col-2">
@@ -149,146 +149,6 @@ const CourseDetails = (props) => {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="accordion-item mb-20">
-                                                            <h2 class="accordion-header batch-area" id="batchTwo">
-                                                                <button class="w-100 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBTwo" aria-expanded="false" aria-controls="collapseBTwo">
-                                                                    <div className="row">
-                                                                        <div className="col-md-11 col-10">
-                                                                            <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Hyderbad - Indira Park</h3>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-md-1 col-2">
-                                                                            <HiOutlineChevronDown color='#fff' size={30} />
-                                                                        </div>
-                                                                    </div>
-                                                                </button>
-                                                            </h2>
-                                                            <div id="collapseBTwo" class="accordion-collapse collapse" aria-labelledby="batchTwo" data-bs-parent="#accordionBatches">
-                                                                <div class="accordion-body">
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Start:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>12/12/22</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Duration:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>9 Months</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Timings:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Seats Available:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>30</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h4>14500</h4>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
-                                                                            </i></a>
-                                                                        </Link>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="accordion-item mb-20">
-                                                            <h2 class="accordion-header batch-area" id="batchThree">
-                                                                <button class="w-100 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBThree" aria-expanded="false" aria-controls="collapseBThree">
-                                                                    <div className="row">
-                                                                        <div className="col-md-11 col-10">
-                                                                            <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Bengaluru</h3>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-md-1 col-2">
-                                                                            <HiOutlineChevronDown color='#fff' size={30} />
-                                                                        </div>
-                                                                    </div>
-                                                                </button>
-                                                            </h2>
-                                                            <div id="collapseBThree" class="accordion-collapse collapse" aria-labelledby="batchThree" data-bs-parent="#accordionBatches">
-                                                                <div class="accordion-body">
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Start:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>12/12/22</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Duration:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>9 Months</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Timings:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Seats Available:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>30</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h4>14500</h4>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
-                                                                            </i></a>
-                                                                        </Link>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -303,7 +163,7 @@ const CourseDetails = (props) => {
                                             <div className="row">
                                                 <div className="col-md-11 col-10">
                                                     <div className={`text-left mt-2`}>
-                                                        <h3 className="research__title-course">Political Science</h3>
+                                                        <h3 className="research__title-course">Political Science (Optional)</h3>
                                                     </div>
                                                 </div>
                                                 <div className="col-md-1 col-2">
@@ -488,76 +348,6 @@ const CourseDetails = (props) => {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="accordion-item mb-20">
-                                                            <h2 class="accordion-header batch-area" id="batchThree">
-                                                                <button class="w-100 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBThree" aria-expanded="false" aria-controls="collapseBThree">
-                                                                    <div className="row">
-                                                                        <div className="col-md-11 col-10">
-                                                                            <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Bengaluru</h3>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-md-1 col-2">
-                                                                            <HiOutlineChevronDown color='#fff' size={30} />
-                                                                        </div>
-                                                                    </div>
-                                                                </button>
-                                                            </h2>
-                                                            <div id="collapseBThree" class="accordion-collapse collapse" aria-labelledby="batchThree" data-bs-parent="#accordionBatches">
-                                                                <div class="accordion-body">
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Start:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>12/12/22</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Duration:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>9 Months</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Timings:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Seats Available:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>30</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h4>14500</h4>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
-                                                                            </i></a>
-                                                                        </Link>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -592,7 +382,7 @@ const CourseDetails = (props) => {
                                             <div className="row">
                                                 <div className="col-md-11 col-10">
                                                     <div className={`text-left mt-2`}>
-                                                        <h3 className="research__title-course">Mathematics</h3>
+                                                        <h3 className="research__title-course">Mathematics (Optional)</h3>
                                                     </div>
                                                 </div>
                                                 <div className="col-md-1 col-2">
@@ -772,76 +562,6 @@ const CourseDetails = (props) => {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="accordion-item mb-20">
-                                                            <h2 class="accordion-header batch-area" id="batchThree">
-                                                                <button class="w-100 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBThree" aria-expanded="false" aria-controls="collapseBThree">
-                                                                    <div className="row">
-                                                                        <div className="col-md-11 col-10">
-                                                                            <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Bengaluru</h3>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-md-1 col-2">
-                                                                            <HiOutlineChevronDown color='#fff' size={30} />
-                                                                        </div>
-                                                                    </div>
-                                                                </button>
-                                                            </h2>
-                                                            <div id="collapseBThree" class="accordion-collapse collapse" aria-labelledby="batchThree" data-bs-parent="#accordionBatches">
-                                                                <div class="accordion-body">
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Start:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>12/12/22</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Duration:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>9 Months</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Timings:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Seats Available:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>30</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h4>14500</h4>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
-                                                                            </i></a>
-                                                                        </Link>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -876,7 +596,7 @@ const CourseDetails = (props) => {
                                             <div className="row">
                                                 <div className="col-md-11 col-10">
                                                     <div className={`text-left mt-2`}>
-                                                        <h3 className="research__title-course">Public Administration</h3>
+                                                        <h3 className="research__title-course">Public Administration (Optional)</h3>
                                                     </div>
                                                 </div>
                                                 <div className="col-md-1 col-2">
@@ -1065,76 +785,6 @@ const CourseDetails = (props) => {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="accordion-item mb-20">
-                                                            <h2 class="accordion-header batch-area" id="batchThree">
-                                                                <button class="w-100 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBThree" aria-expanded="false" aria-controls="collapseBThree">
-                                                                    <div className="row">
-                                                                        <div className="col-md-11 col-10">
-                                                                            <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Bengaluru</h3>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-md-1 col-2">
-                                                                            <HiOutlineChevronDown color='#fff' size={30} />
-                                                                        </div>
-                                                                    </div>
-                                                                </button>
-                                                            </h2>
-                                                            <div id="collapseBThree" class="accordion-collapse collapse" aria-labelledby="batchThree" data-bs-parent="#accordionBatches">
-                                                                <div class="accordion-body">
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Start:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>12/12/22</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Duration:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>9 Months</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Timings:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Seats Available:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>30</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h4>14500</h4>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
-                                                                            </i></a>
-                                                                        </Link>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1186,7 +836,7 @@ const CourseDetails = (props) => {
                                             <div className="row">
                                                 <div className="col-md-11 col-10">
                                                     <div className={`text-left mt-2`}>
-                                                        <h3 className="research__title-course">Anthropology</h3>
+                                                        <h3 className="research__title-course">Anthropology (Optional)</h3>
                                                     </div>
                                                 </div>
                                                 <div className="col-md-1 col-2">
@@ -1383,76 +1033,6 @@ const CourseDetails = (props) => {
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="accordion-item mb-20">
-                                                            <h2 class="accordion-header batch-area" id="batchThree">
-                                                                <button class="w-100 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBThree" aria-expanded="false" aria-controls="collapseBThree">
-                                                                    <div className="row">
-                                                                        <div className="col-md-11 col-10">
-                                                                            <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Bengaluru</h3>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-md-1 col-2">
-                                                                            <HiOutlineChevronDown color='#fff' size={30} />
-                                                                        </div>
-                                                                    </div>
-                                                                </button>
-                                                            </h2>
-                                                            <div id="collapseBThree" class="accordion-collapse collapse" aria-labelledby="batchThree" data-bs-parent="#accordionBatches">
-                                                                <div class="accordion-body">
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Start:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>12/12/22</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Duration:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>9 Months</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Timings:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Seats Available:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>30</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h4>14500</h4>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
-                                                                            </i></a>
-                                                                        </Link>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1487,7 +1067,7 @@ const CourseDetails = (props) => {
                                             <div className="row">
                                                 <div className="col-md-11 col-10">
                                                     <div className={`text-left mt-2`}>
-                                                        <h3 className="research__title-course">Sociology</h3>
+                                                        <h3 className="research__title-course">Sociology (Optional)</h3>
                                                     </div>
                                                 </div>
                                                 <div className="col-md-1 col-2">
@@ -1618,76 +1198,6 @@ const CourseDetails = (props) => {
                                                                 </button>
                                                             </h2>
                                                             <div id="collapseBTwo" class="accordion-collapse collapse" aria-labelledby="batchTwo" data-bs-parent="#accordionBatches">
-                                                                <div class="accordion-body">
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Start:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>12/12/22</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Duration:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>9 Months</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Timings:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Seats Available:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>30</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h4>14500</h4>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
-                                                                            </i></a>
-                                                                        </Link>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="accordion-item mb-20">
-                                                            <h2 class="accordion-header batch-area" id="batchThree">
-                                                                <button class="w-100 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBThree" aria-expanded="false" aria-controls="collapseBThree">
-                                                                    <div className="row">
-                                                                        <div className="col-md-11 col-10">
-                                                                            <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Bengaluru</h3>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-md-1 col-2">
-                                                                            <HiOutlineChevronDown color='#fff' size={30} />
-                                                                        </div>
-                                                                    </div>
-                                                                </button>
-                                                            </h2>
-                                                            <div id="collapseBThree" class="accordion-collapse collapse" aria-labelledby="batchThree" data-bs-parent="#accordionBatches">
                                                                 <div class="accordion-body">
                                                                     <div className='row'>
                                                                         <div className='col-lg-5 col-12'>

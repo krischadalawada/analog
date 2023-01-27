@@ -8,12 +8,12 @@ const HeroHome = () => {
                <div className="row align-items-center">
                   <div className="col-xxl-6 col-lg-6">
                      <div className="slider__content-2 mt-30">
-                        <h3 className="slider__title-2">Be UPSC <br />exam-ready in <br />less than a year</h3>
-                        <Link href="/">
+                        <h3 className="slider__title-2">Be UPSC <br />Exam-Ready in <br />less than a Year</h3>
+                        <Link href="/contact">
                            <a className="tp-btn-primary" style={{ marginRight: '5%' }}>Register now! <i className="fa-regular fa-arrow-right fa-ri">
                            </i></a>
                         </Link>
-                        <Link href="/">
+                        <Link href="/courses">
                            <a className="tp-btn-primary">New Batches <i className="fa-regular fa-arrow-right fa-ri">
                            </i></a>
                         </Link>
@@ -21,12 +21,6 @@ const HeroHome = () => {
                   </div>
                   <div className="col-xxl-6 col-lg-6">
                      <div className="slider__thumb-2 p-relative">
-                        <div className="slider__shape">
-                           <div className="slider__shape-5 row">
-                              <a className='upsc pointer'>UPSC Results</a>
-                              <a className='tseries pointer'>Test Series</a>
-                           </div>
-                        </div>
                         <span className="slider__thumb-mask">
                            <img style={{ width: '100%'}} src="assets/images/home/HomeBannerPic_1@2x.png" alt="" />
                         </span>

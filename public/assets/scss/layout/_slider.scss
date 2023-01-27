@@ -427,19 +427,11 @@
 
         &-5 {
             position: absolute;
-            top: 0;
-            right: 0;
+            bottom: -5vh;
+            right: 4%;
             @include box-shadow(0px 40px 60px rgba(95, 43, 0, 0.14));
             z-index: 11;
             @include border-radius(10px);
-
-            @media #{$md} {
-                right: 20%;
-            }
-
-            @media #{$xs} {
-                display: none;
-            }
 
             -webkit-animation: hero-shadow 3s ease-in-out infinite alternate;
             animation: hero-shadow 3s ease-in-out infinite alternate;

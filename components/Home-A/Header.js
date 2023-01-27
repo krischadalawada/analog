@@ -37,12 +37,15 @@ const Header = () => {
          router.push('/search-courses')
       }
    }
+
+   const route = useRouter().pathname
+
    return (
       <>
          <header>
             <div id="header-sticky" className={"header__area header__transparent"} style={{ marginTop: '2%', caretColor: 'transparent' }}>
                <div className="header__bottom">
-                  <div className="container elevate">
+                  <div className="container elevate p-relative">
                      <div className="row align-items-center">
                         <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-6">
                            <div className="header__bottom-left d-flex align-items-center">
@@ -63,7 +66,7 @@ const Header = () => {
                                        {!user?.email &&
                                           links.map((link) => {
                                              return <li key={link.id}>
-                                                <Link href={`${link.url}`}><a >{link.name}</a></Link>
+                                                <Link href={`${link.url}`}><a className={(route === link.url ? 'selected' : '')}>{link.name}</a></Link>
                                              </li>
                                           })
                                        }
@@ -85,14 +88,14 @@ const Header = () => {
                                              </li>
                                           })
                                        }
-                                       <Link href="/">
-                                          <li>
-                                             <img className='wa pointer' src="/assets/images/home/whatsapp.png" alt="logo" />
-                                          </li>
-                                       </Link>
                                     </ul>
                                  </nav>
                               </div>
+                              <Link href="/">
+                                 <li className='whatsapp'>
+                                    <img className='wa pointer' src="/assets/images/home/whatsapp.png" alt="logo" />
+                                 </li>
+                              </Link>
                               {/* <div className="header__hamburger ml-50 d-xl-none">
                                  <button type="button" onClick={handleShow} className="hamurger-btn">
                                     <span></span>
@@ -101,6 +104,14 @@ const Header = () => {
                                  </button>
                               </div> */}
                            </div>
+                        </div>
+                     </div>
+                     <div className="slider__shape">
+                        <div className="slider__shape-5 row">
+                           <Link href="/toppers">
+                              <a className='upsc pointer'>UPSC Results</a>
+                           </Link>
+                           {/* <a className='tseries pointer'>Test Series</a> */}
                         </div>
                      </div>
                   </div>

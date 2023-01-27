@@ -8,7 +8,7 @@ const Faculty = () => {
          <section className="slider__area pt-60 pb-60 include-bg d-flex align-items-center">
             <div className="container">
                <div className='col-xl-12 col-md-12 col-12 m-auto'>
-                  <h3 className='f-50 black text-center'>Analog Faculty</h3>
+                  <h3 className='f-50 black text-center'>ANALOG Faculty</h3>
                   <div className="row align-items-center">
                      {
                         FacultyData.map((item, index) => 

@@ -31,8 +31,8 @@ const VideoGrid = () => {
                   <div className="row">
                      <div className="col-xxl-12">
                         <div className="section__title-wrapper mt-30 mb-50 text-center">
-                           <Link href="/">
-                              <a className="tp-btn-secondary" style={{ marginRight: '5%' }}>Load More <i className="fa-regular fa-arrow-right fa-ri">
+                           <Link href="https://www.youtube.com/@analogiasacademy2081/videos">
+                              <a className="tp-btn-secondary" rel='noopener noreferrer' target="_blank" style={{ marginRight: '5%' }}>Load More <i className="fa-regular fa-arrow-right fa-ri">
                               </i></a>
                            </Link>
                         </div>
