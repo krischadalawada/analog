@@ -164,6 +164,7 @@
                 letter-spacing: 0;
                 line-height: 4vh;
                 font-weight: 300;
+                text-align: justify;
             }
         }
 
@@ -174,6 +175,7 @@
                 letter-spacing: 0;
                 line-height: 4vh;
                 font-weight: 200;
+                text-align: justify;
             }
         }
 
@@ -184,6 +186,7 @@
                 letter-spacing: 0;
                 line-height: 4vh;
                 font-weight: 200;
+                text-align: justify;
             }
 
             & ul {
@@ -591,6 +594,7 @@
 .slider__content {
     p {
         max-width: 510px;
+        text-align: justify;
     }
 }
 

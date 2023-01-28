@@ -10,26 +10,14 @@ const EventsHome = () => {
          id: 1,
          img: 'assets/images/home/Event-1.png',
          location: '@ Indira Park, ANALOG IAS ACADEMY',
-         title: 'Free workshop for UPSC candidates CSE-2022'
+         title: 'Free workshop for UPSC candidates CSE-2024'
       },
       {
          id: 2,
          img: 'assets/images/home/Event-2.png',
-         location: '@ Indira Park, ANALOG IAS ACADEMY',
-         title: 'Free workshop for UPSC candidates CSE-2022'
-      },
-      {
-         id: 3,
-         img: 'assets/images/home/Event-1.png',
-         location: '@ Indira Park, ANALOG IAS ACADEMY',
-         title: 'Free workshop for UPSC candidates CSE-2022'
-      },
-      {
-         id: 4,
-         img: 'assets/images/home/Event-2.png',
-         location: '@ Indira Park, ANALOG IAS ACADEMY',
-         title: 'Free workshop for UPSC candidates CSE-2022'
-      },
+         location: '@ Ashok Nagar, ANALOG IAS ACADEMY',
+         title: 'Free workshop for UPSC candidates CSE-2024'
+      }
    ]
    return (
       <>
@@ -38,7 +26,7 @@ const EventsHome = () => {
                <div className="row">
                   <div className="col-xxl-12">
                      <div className="section__title-wrapper-2 mb-40 text-center">
-                        <h3 className="section__title-50" style={{ color: '#fff' }}>Events at Analog</h3>
+                        <h3 className="section__title-50" style={{ color: '#fff' }}>Events at ANALOG IAS</h3>
                      </div>
                   </div>
                </div>
@@ -78,10 +66,10 @@ const EventsHome = () => {
                                                 <h4>{testimonial.title}</h4>
                                                 <p>{testimonial.location}</p>
                                              </div>
-                                             <Link href="/">
+                                             {/* <Link href="/">
                                                 <a className="tp-btn-primary" style={{ marginRight: '5%', width: '80%' }}>Learn more <i className="fa-regular fa-arrow-right fa-ri">
                                                 </i></a>
-                                             </Link>
+                                             </Link> */}
                                           </div>
                                        </div>
                                     </div>

@@ -8,7 +8,7 @@ const ContactUs = () => {
 
     return (
         <>
-            <section className="contact__area pt-60 pb-120" style={{ backgroundColor: '#F4F4F4' }}>
+            <section className="contact__area pt-60 pb-120" style={{ backgroundColor: '#F4F4F4' }} id="contactForm">
                 <div className="container">
                     <div className="col-xxl-10 col-xl-10 col-lg-10 m-auto">
                         <div className="contact__wrapper">

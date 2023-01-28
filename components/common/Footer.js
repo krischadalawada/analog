@@ -22,7 +22,9 @@ const Footer = ({ white_bg = '' }) => {
                               <div className="footer__widget-content">
                                  <div className="footer__widget-info">
                                     <p>Analog Education Society was established with an aim to impart quality coaching for aspirants preparing for Civil Services and other government services.</p>
-                                    <img className='map' src="/assets/images/footer/footer-map.png" alt="" />
+                                    <a target="_blank" rel="noopener noreferrer" href='https://www.google.com/maps/place/ANALOG+IAS+ACADEMY+Ashok+Nagar/@17.410885,78.4847279,16z/data=!4m5!3m4!1s0x3bcb99e8e1c1ecbf:0x11e6fd3ae91626dc!8m2!3d17.4090615!4d78.4893515'>
+                                       <img className='map pointer' src="/assets/images/footer/map-zoomed.png" alt="" />
+                                    </a>
                                  </div>
                               </div>
                            </div>
@@ -64,7 +66,7 @@ const Footer = ({ white_bg = '' }) => {
                                  <p>House No: 1-2-288/32, 1st Floor, Indira Park ‘X’ Road, Domalguda, Hyderabad - 500029.<br /><br /> Ph: 9912441137 <br />Email: info@analogeducation.in</p>
                               </div>
 
-                              <h3 className="footer__widget-title" style={{marginTop: 50}}>Hyderabad: Ashok Nagar</h3>
+                              <h3 className="footer__widget-title" style={{ marginTop: 50 }}>Hyderabad: Ashok Nagar</h3>
                               <div className="footer__subscribe">
                                  <p>3rd Floor, Kamala Towers, Above OBC Bank, Ashoknagar X Road, Telangana - 500020.<br /><br /> Ph: 9912441138 <br />Email: info@analogeducation.in</p>
                               </div>

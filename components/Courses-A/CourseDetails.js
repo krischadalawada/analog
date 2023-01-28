@@ -2,10 +2,11 @@ import Link from 'next/link';
 import React, { useState } from 'react'
 import { HiOutlineChevronDown } from 'react-icons/hi';
 import { FiDownload } from 'react-icons/fi';
+import { Link as ScrollLink } from "react-scroll";
 
 const CourseDetails = (props) => {
 
-    const [expanded, setExpanded] = useState('')
+    const [expanded, setExpanded] = useState('GS')
     const details = props.data
 
     return (
@@ -85,7 +86,7 @@ const CourseDetails = (props) => {
                                                                     <div className="row">
                                                                         <div className="col-md-11 col-10">
                                                                             <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Hyderbad - Ashok Nagar</h3>
+                                                                                <h3 className="research__title-batch">Hyderbad - Ashok Nagar / Indira Park</h3>
                                                                             </div>
                                                                         </div>
                                                                         <div className="col-md-1 col-2">
@@ -101,7 +102,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Start:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>12/12/22</h5>
+                                                                            <h5>11/02/2023</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -110,7 +111,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Duration:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>9 Months</h5>
+                                                                            <h5>10 Months</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -119,7 +120,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Timings:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-8'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
+                                                                            <h5>06:30 AM - 09:00 AM</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -128,7 +129,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Seats Available:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>30</h5>
+                                                                            <h5>70</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -137,14 +138,19 @@ const CourseDetails = (props) => {
                                                                             <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h4>14500</h4>
+                                                                            <h4>1,40,000</h4>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
+                                                                        <ScrollLink
+                                                                            to="contactForm"
+                                                                            duration={500}
+                                                                            id="enrollNow"
+                                                                            offset={-120}
+                                                                        >
+                                                                            <a className="tp-btn-secondary pointer pointer "><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
                                                                             </i></a>
-                                                                        </Link>
+                                                                        </ScrollLink>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -214,7 +220,7 @@ const CourseDetails = (props) => {
                                                                     <div className="row">
                                                                         <div className="col-md-11 col-10">
                                                                             <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Hyderbad - Ashok Nagar</h3>
+                                                                                <h3 className="research__title-batch">Hyderbad - Ashok Nagar / Indira Park</h3>
                                                                             </div>
                                                                         </div>
                                                                         <div className="col-md-1 col-2">
@@ -230,7 +236,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Start:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>12/12/22</h5>
+                                                                            <h5>06/06/2023</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -239,7 +245,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Duration:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>9 Months</h5>
+                                                                            <h5>4 Months</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -248,7 +254,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Timings:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-8'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
+                                                                            <h5>10:30 AM - 01:00 PM</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -257,7 +263,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Seats Available:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>30</h5>
+                                                                            <h5>50</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -266,84 +272,19 @@ const CourseDetails = (props) => {
                                                                             <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h4>14500</h4>
+                                                                            <h4>40,000</h4>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
+                                                                        <ScrollLink
+                                                                            to="contactForm"
+                                                                            duration={500}
+                                                                            id="enrollNow"
+                                                                            offset={-120}
+                                                                        >
+                                                                            <a className="tp-btn-secondary pointer"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
                                                                             </i></a>
-                                                                        </Link>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="accordion-item mb-20">
-                                                            <h2 class="accordion-header batch-area" id="batchTwo">
-                                                                <button class="w-100 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBTwo" aria-expanded="false" aria-controls="collapseBTwo">
-                                                                    <div className="row">
-                                                                        <div className="col-md-11 col-10">
-                                                                            <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Hyderbad - Indira Park</h3>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-md-1 col-2">
-                                                                            <HiOutlineChevronDown color='#fff' size={30} />
-                                                                        </div>
-                                                                    </div>
-                                                                </button>
-                                                            </h2>
-                                                            <div id="collapseBTwo" class="accordion-collapse collapse" aria-labelledby="batchTwo" data-bs-parent="#accordionBatches">
-                                                                <div class="accordion-body">
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Start:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>12/12/22</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Duration:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>9 Months</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Timings:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Seats Available:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>30</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h4>14500</h4>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
-                                                                            </i></a>
-                                                                        </Link>
+                                                                        </ScrollLink>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -359,15 +300,15 @@ const CourseDetails = (props) => {
                                                 <div className="col-xxl-4 col-lg-4 col-sm-6">
                                                     <div className="slider__thumb-2 p-relative">
                                                         <span className="slider__thumb-home">
-                                                            <img style={{ width: '100%' }} src="assets/images/courses/Instructor@2x.png" alt="" />
+                                                            <img style={{ width: '100%' }} src="assets/images/faculty/Srinivas.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                 </div>
                                                 <div className="col-xxl-8 col-lg-8 col-sm-6">
                                                     <div className="pt-60">
-                                                        <h3 className="instructor-area-title text-left">S. Srinivas</h3>
+                                                        <h3 className="instructor-area-title text-left">Srinivas Sannidhanam</h3>
                                                         <p className='mt-20 instructor-area-sub'>Professor</p>
-                                                        <p className='mt-20 mb-40 instructor-area-sub'><b>Subjects:</b> Political Science</p>
+                                                        <p className='mt-20 mb-40 instructor-area-sub'><b>Subjects:</b> Political Science & International Relations</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -428,7 +369,7 @@ const CourseDetails = (props) => {
                                                                     <div className="row">
                                                                         <div className="col-md-11 col-10">
                                                                             <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Hyderbad - Ashok Nagar</h3>
+                                                                                <h3 className="research__title-batch">Hyderbad - Ashok Nagar / Indira Park</h3>
                                                                             </div>
                                                                         </div>
                                                                         <div className="col-md-1 col-2">
@@ -444,7 +385,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Start:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>12/12/22</h5>
+                                                                            <h5>06/06/2023</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -453,7 +394,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Duration:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>9 Months</h5>
+                                                                            <h5>5 Months</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -462,7 +403,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Timings:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-8'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
+                                                                            <h5>10:30 AM - 01:00 PM</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -471,7 +412,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Seats Available:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>30</h5>
+                                                                            <h5>60</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -480,84 +421,19 @@ const CourseDetails = (props) => {
                                                                             <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h4>14500</h4>
+                                                                            <h4>40,000</h4>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
+                                                                        <ScrollLink
+                                                                            to="contactForm"
+                                                                            duration={500}
+                                                                            id="enrollNow"
+                                                                            offset={-120}
+                                                                        >
+                                                                            <a className="tp-btn-secondary pointer"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
                                                                             </i></a>
-                                                                        </Link>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="accordion-item mb-20">
-                                                            <h2 class="accordion-header batch-area" id="batchTwo">
-                                                                <button class="w-100 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBTwo" aria-expanded="false" aria-controls="collapseBTwo">
-                                                                    <div className="row">
-                                                                        <div className="col-md-11 col-10">
-                                                                            <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Hyderbad - Indira Park</h3>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-md-1 col-2">
-                                                                            <HiOutlineChevronDown color='#fff' size={30} />
-                                                                        </div>
-                                                                    </div>
-                                                                </button>
-                                                            </h2>
-                                                            <div id="collapseBTwo" class="accordion-collapse collapse" aria-labelledby="batchTwo" data-bs-parent="#accordionBatches">
-                                                                <div class="accordion-body">
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Start:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>12/12/22</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Duration:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>9 Months</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Timings:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Seats Available:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>30</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h4>14500</h4>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
-                                                                            </i></a>
-                                                                        </Link>
+                                                                        </ScrollLink>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -573,15 +449,15 @@ const CourseDetails = (props) => {
                                                 <div className="col-xxl-4 col-lg-4 col-sm-6">
                                                     <div className="slider__thumb-2 p-relative">
                                                         <span className="slider__thumb-home">
-                                                            <img style={{ width: '100%' }} src="assets/images/courses/Instructor@2x.png" alt="" />
+                                                            <img style={{ width: '100%' }} src="assets/images/about/Srikanth@2x.png" alt="" />
                                                         </span>
                                                     </div>
                                                 </div>
                                                 <div className="col-xxl-8 col-lg-8 col-sm-6">
                                                     <div className="pt-60">
-                                                        <h3 className="instructor-area-title text-left">S. Srinivas</h3>
+                                                        <h3 className="instructor-area-title text-left">Srikanth Vinnakota & Team</h3>
                                                         <p className='mt-20 instructor-area-sub'>Professor</p>
-                                                        <p className='mt-20 mb-40 instructor-area-sub'><b>Subjects:</b> Political Science</p>
+                                                        <p className='mt-20 mb-40 instructor-area-sub'><b>Subjects:</b> Mathematics</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -651,7 +527,7 @@ const CourseDetails = (props) => {
                                                                     <div className="row">
                                                                         <div className="col-md-11 col-10">
                                                                             <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Hyderbad - Ashok Nagar</h3>
+                                                                                <h3 className="research__title-batch">Hyderbad - Ashok Nagar / Indira Park</h3>
                                                                             </div>
                                                                         </div>
                                                                         <div className="col-md-1 col-2">
@@ -667,7 +543,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Start:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>12/12/22</h5>
+                                                                            <h5>06/06/2023</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -676,7 +552,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Duration:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>9 Months</h5>
+                                                                            <h5>3.5 Months</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -685,7 +561,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Timings:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-8'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
+                                                                            <h5>10:30 AM - 01:00 PM</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -694,7 +570,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Seats Available:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>30</h5>
+                                                                            <h5>50</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -703,84 +579,19 @@ const CourseDetails = (props) => {
                                                                             <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h4>14500</h4>
+                                                                            <h4>40,000</h4>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
+                                                                        <ScrollLink
+                                                                            to="contactForm"
+                                                                            duration={500}
+                                                                            id="enrollNow"
+                                                                            offset={-120}
+                                                                        >
+                                                                            <a className="tp-btn-secondary pointer"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
                                                                             </i></a>
-                                                                        </Link>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="accordion-item mb-20">
-                                                            <h2 class="accordion-header batch-area" id="batchTwo">
-                                                                <button class="w-100 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBTwo" aria-expanded="false" aria-controls="collapseBTwo">
-                                                                    <div className="row">
-                                                                        <div className="col-md-11 col-10">
-                                                                            <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Hyderbad - Indira Park</h3>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-md-1 col-2">
-                                                                            <HiOutlineChevronDown color='#fff' size={30} />
-                                                                        </div>
-                                                                    </div>
-                                                                </button>
-                                                            </h2>
-                                                            <div id="collapseBTwo" class="accordion-collapse collapse" aria-labelledby="batchTwo" data-bs-parent="#accordionBatches">
-                                                                <div class="accordion-body">
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Start:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>12/12/22</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Duration:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>9 Months</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Timings:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Seats Available:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>30</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h4>14500</h4>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
-                                                                            </i></a>
-                                                                        </Link>
+                                                                        </ScrollLink>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -796,24 +607,7 @@ const CourseDetails = (props) => {
                                                 <div className="col-xxl-4 col-lg-4 col-sm-6">
                                                     <div className="slider__thumb-2 p-relative">
                                                         <span className="slider__thumb-home">
-                                                            <img style={{ width: '100%' }} src="assets/images/courses/Instructor@2x.png" alt="" />
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div className="col-xxl-8 col-lg-8 col-sm-6">
-                                                    <div className="pt-60">
-                                                        <h3 className="instructor-area-title text-left">R C Sinha</h3>
-                                                        <p className='mt-20 instructor-area-sub'>Chief Consultant</p>
-                                                        <p className='mt-20 mb-40 instructor-area-sub'><b>Subjects:</b> Indian Polity &amp; Governance, post-independent India, security related issues, current affairs &amp;
-                                                            newspaper analysis</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="row align-items-center instructor-area mb-60">
-                                                <div className="col-xxl-4 col-lg-4 col-sm-6">
-                                                    <div className="slider__thumb-2 p-relative">
-                                                        <span className="slider__thumb-home">
-                                                            <img style={{ width: '100%' }} src="assets/images/courses/Instructor@2x.png" alt="" />
+                                                            <img style={{ width: '100%' }} src="assets/images/faculty/RaviKumar.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                 </div>
@@ -899,7 +693,7 @@ const CourseDetails = (props) => {
                                                                     <div className="row">
                                                                         <div className="col-md-11 col-10">
                                                                             <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Hyderbad - Ashok Nagar</h3>
+                                                                                <h3 className="research__title-batch">Hyderbad - Ashok Nagar / Indira Park</h3>
                                                                             </div>
                                                                         </div>
                                                                         <div className="col-md-1 col-2">
@@ -915,7 +709,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Start:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>12/12/22</h5>
+                                                                            <h5>06/06/2023</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -924,7 +718,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Duration:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>9 Months</h5>
+                                                                            <h5>4 Months</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -933,7 +727,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Timings:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-8'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
+                                                                            <h5>10:30 AM - 01:00 PM</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -942,7 +736,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Seats Available:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>30</h5>
+                                                                            <h5>60</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -951,84 +745,19 @@ const CourseDetails = (props) => {
                                                                             <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h4>14500</h4>
+                                                                            <h4>40,000</h4>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
+                                                                        <ScrollLink
+                                                                            to="contactForm"
+                                                                            duration={500}
+                                                                            id="enrollNow"
+                                                                            offset={-120}
+                                                                        >
+                                                                            <a className="tp-btn-secondary pointer"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
                                                                             </i></a>
-                                                                        </Link>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="accordion-item mb-20">
-                                                            <h2 class="accordion-header batch-area" id="batchTwo">
-                                                                <button class="w-100 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBTwo" aria-expanded="false" aria-controls="collapseBTwo">
-                                                                    <div className="row">
-                                                                        <div className="col-md-11 col-10">
-                                                                            <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Hyderbad - Indira Park</h3>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-md-1 col-2">
-                                                                            <HiOutlineChevronDown color='#fff' size={30} />
-                                                                        </div>
-                                                                    </div>
-                                                                </button>
-                                                            </h2>
-                                                            <div id="collapseBTwo" class="accordion-collapse collapse" aria-labelledby="batchTwo" data-bs-parent="#accordionBatches">
-                                                                <div class="accordion-body">
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Start:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>12/12/22</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Duration:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>9 Months</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Timings:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Seats Available:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>30</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h4>14500</h4>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
-                                                                            </i></a>
-                                                                        </Link>
+                                                                        </ScrollLink>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1044,7 +773,7 @@ const CourseDetails = (props) => {
                                                 <div className="col-xxl-4 col-lg-4 col-sm-6">
                                                     <div className="slider__thumb-2 p-relative">
                                                         <span className="slider__thumb-home">
-                                                            <img style={{ width: '100%' }} src="assets/images/courses/Instructor@2x.png" alt="" />
+                                                            <img style={{ width: '100%' }} src="assets/images/faculty/RavindharReddy.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                 </div>
@@ -1118,7 +847,7 @@ const CourseDetails = (props) => {
                                                                     <div className="row">
                                                                         <div className="col-md-11 col-10">
                                                                             <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Hyderbad - Ashok Nagar</h3>
+                                                                                <h3 className="research__title-batch">Hyderbad - Ashok Nagar / Indira Park</h3>
                                                                             </div>
                                                                         </div>
                                                                         <div className="col-md-1 col-2">
@@ -1134,7 +863,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Start:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>12/12/22</h5>
+                                                                            <h5>06/06/2023</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -1143,7 +872,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Duration:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>9 Months</h5>
+                                                                            <h5>4 Months</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -1152,7 +881,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Timings:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-8'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
+                                                                            <h5>10:30 AM - 01:00 PM</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -1161,7 +890,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Seats Available:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>30</h5>
+                                                                            <h5>60</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -1170,84 +899,19 @@ const CourseDetails = (props) => {
                                                                             <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h4>14500</h4>
+                                                                            <h4>40,000</h4>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
+                                                                        <ScrollLink
+                                                                            to="contactForm"
+                                                                            duration={500}
+                                                                            id="enrollNow"
+                                                                            offset={-120}
+                                                                        >
+                                                                            <a className="tp-btn-secondary pointer"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
                                                                             </i></a>
-                                                                        </Link>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="accordion-item mb-20">
-                                                            <h2 class="accordion-header batch-area" id="batchTwo">
-                                                                <button class="w-100 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBTwo" aria-expanded="false" aria-controls="collapseBTwo">
-                                                                    <div className="row">
-                                                                        <div className="col-md-11 col-10">
-                                                                            <div className={`text-left mt-2`}>
-                                                                                <h3 className="research__title-batch">Hyderbad - Indira Park</h3>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-md-1 col-2">
-                                                                            <HiOutlineChevronDown color='#fff' size={30} />
-                                                                        </div>
-                                                                    </div>
-                                                                </button>
-                                                            </h2>
-                                                            <div id="collapseBTwo" class="accordion-collapse collapse" aria-labelledby="batchTwo" data-bs-parent="#accordionBatches">
-                                                                <div class="accordion-body">
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Start:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>12/12/22</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Duration:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>9 Months</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Timings:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>10:00 AM - 06:00 PM</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5>Seats Available:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h5>30</h5>
-                                                                        </div>
-                                                                    </div>
-                                                                    <hr />
-                                                                    <div className='row'>
-                                                                        <div className='col-lg-5 col-12'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
-                                                                        </div>
-                                                                        <div className='col-lg-7 col-12'>
-                                                                            <h4>14500</h4>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-                                                                        <Link href="/">
-                                                                            <a className="tp-btn-secondary"><b>ENROLL NOW </b><i className="fa-regular fa-arrow-right fa-ri">
-                                                                            </i></a>
-                                                                        </Link>
+                                                                        </ScrollLink>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1263,7 +927,7 @@ const CourseDetails = (props) => {
                                                 <div className="col-xxl-4 col-lg-4 col-sm-6">
                                                     <div className="slider__thumb-2 p-relative">
                                                         <span className="slider__thumb-home">
-                                                            <img style={{ width: '100%' }} src="assets/images/courses/Instructor@2x.png" alt="" />
+                                                            <img style={{ width: '100%' }} src="assets/images/faculty/Amit_Bose.jpg" alt="" />
                                                         </span>
                                                     </div>
                                                 </div>
@@ -1271,7 +935,7 @@ const CourseDetails = (props) => {
                                                     <div className="pt-60">
                                                         <h3 className="instructor-area-title text-left">Mr. Amit Bose</h3>
                                                         <p className='mt-20 instructor-area-sub'>Faculty</p>
-                                                        <p className='mt-20 mb-40 instructor-area-sub'><b>Subjects:</b> Sociology optional, social issues and social justice &amp; international relations</p>
+                                                        <p className='mt-20 mb-40 instructor-area-sub'><b>Subjects:</b> Sociology (optional), <br />Social Issues and Social Justice &amp; International Relations</p>
                                                     </div>
                                                 </div>
                                             </div>

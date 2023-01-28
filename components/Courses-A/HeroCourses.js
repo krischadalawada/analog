@@ -19,10 +19,10 @@ const HeroCourses = () => {
                         <h3 className="slider__title-courses">CIVIL SERVICES</h3>
                         <p className='mt-40 mb-40'>The Civil Services Examination (CSE) is one of the toughest competitive examinations in India,
                            conducted by the Union Public Service Commission (UPSC). It is conducted in two phases namely - UPSC Prelims and UPSC Mains.
-                           The preliminary examination consists of two objective-type papers (general studies and aptitude test).
-                           The mains examination consists of nine papers of conventional (essay) type.
-                           The last phase of the examination includes a personality test (interview).
-                           Once you enroll at ANALOG, we stand by you all along your preparation and UPSC journey from the start to finish.</p>
+                           The Preliminary examination consists of two objective-type papers (General Studies and Aptitude Test - CSAT).
+                           The Mains examination consists of 9 papers of conventional (descriptive) type.
+                           The last phase of the examination includes a Personality Test (Interview).
+                           Once you enroll at ANALOG IAS, we stand by you all along your preparation and UPSC journey from the start to finish.</p>
                      </div>
                   </div>
                </div>

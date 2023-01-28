@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react'
 import Select from 'react-select'
 import { HiOutlineSearch } from 'react-icons/hi'
+import { Link as ScrollLink } from "react-scroll";
 
 const JoinAnalog = () => {
 
@@ -11,55 +12,66 @@ const JoinAnalog = () => {
             control: 'courseOne',
             target: '#courseOne',
             location: 'Ashok Nagar, HYD',
-            course: 'TSPSC Group 1',
-            startDate: '05/12/22',
-            endDate: '04/07/23',
-            demoDate: '03/12/22',
-            timings: '10:00 AM - 06:00 PM'
+            course: 'General Studies (PCM)',
+            startDate: '11/02/2023',
+            endDate: '11/12/2023',
+            demoDate: '11/02/2023',
+            timings: '06:30 AM - 09:00 AM'
         },
         {
             id: 'b3d23820',
             control: 'courseTwo',
             target: '#courseTwo',
             location: 'Ashok Nagar, HYD',
-            course: 'TSPSC Group 1',
-            startDate: '05/12/22',
-            endDate: '04/07/23',
-            demoDate: '03/12/22',
-            timings: '10:00 AM - 06:00 PM'
-        },
-        {
-            id: '2660ab2a',
-            control: 'courseThr',
-            target: '#courseThr',
-            location: 'Bengaluru',
-            course: 'Civil Services',
-            startDate: '05/12/22',
-            endDate: '04/07/23',
-            demoDate: '03/12/22',
-            timings: '10:00 AM - 06:00 PM'
+            course: 'Political Science',
+            startDate: '06/06/2023',
+            endDate: '06/10/2023',
+            demoDate: '06/06/2023',
+            timings: '10:30 AM - 01:00 PM'
         },
         {
             id: '282b0fff',
             control: 'courseFour',
             target: '#courseFour',
             location: 'Ashok Nagar, HYD',
-            course: 'TSPSC Group 1',
-            startDate: '05/12/22',
-            endDate: '04/07/23',
-            demoDate: '03/12/22',
-            timings: '10:00 AM - 06:00 PM'
+            course: 'Mathematics',
+            startDate: '06/06/2023',
+            endDate: '06/11/2023',
+            demoDate: '06/06/2023',
+            timings: '10:30 AM - 01:00 PM'
         },
         {
             id: 'fee30c00',
             control: 'courseFive',
             target: '#courseFive',
             location: 'Ashok Nagar, HYD',
-            course: 'APPSC Group 2',
-            startDate: '05/12/22',
-            endDate: '04/07/23',
-            demoDate: '03/12/22',
-            timings: '10:00 AM - 06:00 PM'
+            course: 'Public Administration',
+            startDate: '06/06/2023',
+            endDate: '06/10/2023',
+            demoDate: '06/06/2023',
+            timings: '10:30 AM - 01:00 PM'
+        },
+        {
+            id: '282b0fff',
+            control: 'courseThr',
+            target: '#courseThr',
+            location: 'Ashok Nagar, HYD',
+            course: 'Anthropology',
+            startDate: '06/06/2023',
+            endDate: '06/11/2023',
+            demoDate: '06/06/2023',
+            timings: '10:30 AM - 01:00 PM'
+        },
+        {
+            id: 'fee30c00',
+            control: 'courseSix',
+            target: '#courseSix',
+            location: 'Ashok Nagar, HYD',
+            course: 'Sociology',
+            startDate: '06/06/2023',
+            endDate: '06/11/2023',
+            demoDate: '06/06/2023',
+            timings: '10:30 AM - 01:00 PM'
         }
     ]
 
@@ -82,12 +94,12 @@ const JoinAnalog = () => {
                     <div className="row">
                         <div className="col-xxl-12">
                             <div className="section__title-wrapper mb-50 text-center">
-                                <h2 className="section__title section__title-50">Join Analog</h2>
+                                <h2 className="section__title section__title-50">Join ANALOG IAS</h2>
                             </div>
                         </div>
                     </div>
                     <div className="col-xxl-8 col-xl-8 col-lg-10 col-md-10 col-12 m-auto">
-                        <div className="row mb-15">
+                        {/* <div className="row mb-15">
                             <div className="col-5">
                                 <Select
                                     className="basic-single"
@@ -117,7 +129,7 @@ const JoinAnalog = () => {
                                     </i>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className='join-area'>
                             <div className="row">
                                 <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-6">
@@ -197,10 +209,15 @@ const JoinAnalog = () => {
                                                         <p className='research__title-info'>Batch Timings {item.timings}</p>
                                                     </div>
                                                     <div className='col-md-4 mb-10' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-end' }}>
-                                                        <Link href="/">
-                                                            <a className="tp-btn-secondary">ENROLL NOW <i className="fa-regular fa-arrow-right fa-ri">
+                                                        <ScrollLink
+                                                            to="contactForm"
+                                                            duration={500}
+                                                            id="enrollNow"
+                                                            offset={-120}
+                                                        >
+                                                            <a className="tp-btn-secondary pointer">ENROLL NOW <i className="fa-regular fa-arrow-right fa-ri">
                                                             </i></a>
-                                                        </Link>
+                                                        </ScrollLink>
                                                     </div>
                                                 </div>
                                             </div>

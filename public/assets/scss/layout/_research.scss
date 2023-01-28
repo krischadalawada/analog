@@ -88,7 +88,7 @@
             line-height: 3.3vh;
             font-weight: 300;
             color: #011627;
-            text-align: left;
+            text-align: justify;
         }
 
         &-binfo {
@@ -347,7 +347,7 @@
 }
 
 .search-btn {
-    background-color: #3772FF;
+    background-color: #333996;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -391,6 +391,7 @@
         font-size: 2vh;
         font-weight: 300;
         color: #011627;
+        text-align: justify;
     }
 
     & b {
