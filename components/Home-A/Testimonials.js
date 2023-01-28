@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination } from 'swiper';
 import { TestimonialsList } from '../../data/TestimonialsData';
-SwiperCore.use([ Pagination]);
+SwiperCore.use([Pagination]);
 
 const Testimonials = () => {
 
@@ -26,7 +26,6 @@ const Testimonials = () => {
                            slidesPerView={1}
                            className='testimonial__slider'
                            autoplay={{ delay: 3000 }}
-                           autoHeight={true}
                            breakpoints={{
                               550: {
                                  slidesPerView: 1,
@@ -49,6 +48,7 @@ const Testimonials = () => {
                                        <div className="testimonial__avatar-info mb-5">
                                           <h3>{testimonial.name} | {testimonial.year} AIR {testimonial.rank}</h3>
                                           <p>{testimonial.desc}</p>
+                                          {/* <p>{testimonial.desc.length > 500 ? testimonial.desc.substring(0, 504) + "..." : testimonial.desc}<a onClick={() => }><p>{testimonial.desc.length > 500 ? "see more" : ""}</p></a></p> */}
                                        </div>
                                     </div>
                                  </SwiperSlide>

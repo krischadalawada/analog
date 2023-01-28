@@ -35,10 +35,10 @@ const CourseDetails = (props) => {
                                     {
                                         expanded === 'GS' &&
                                         <div className='col-lg-4 col-3'>
-                                            <div className='syll-download'>
+                                            <a className='syll-download' href="/assets/downloads/syllabus/General_Studies_Syllabus.pdf" target="_blank" rel="noopener noreferrer">
                                                 <h3 className='syll-download-text'>Download Syllabus</h3>
                                                 <FiDownload color='#ffffff' size={30} />
-                                            </div>
+                                            </a>
                                         </div>
                                     }
                                 </h2>
@@ -182,10 +182,10 @@ const CourseDetails = (props) => {
                                     {
                                         expanded === 'PS' &&
                                         <div className='col-lg-4 col-3'>
-                                            <div className='syll-download'>
+                                            <a className='syll-download' href="/assets/downloads/syllabus/Political_Science_Optional_Syllabus.pdf" target="_blank" rel="noopener noreferrer">
                                                 <h3 className='syll-download-text'>Download Syllabus</h3>
                                                 <FiDownload color='#ffffff' size={30} />
-                                            </div>
+                                            </a>
                                         </div>
                                     }
                                 </h2>
@@ -336,10 +336,10 @@ const CourseDetails = (props) => {
                                     {
                                         expanded === 'MA' &&
                                         <div className='col-lg-4 col-3'>
-                                            <div className='syll-download'>
+                                            <a className='syll-download' href="/assets/downloads/syllabus/Mathematics_Optional_Syllabus.pdf" target="_blank" rel="noopener noreferrer">
                                                 <h3 className='syll-download-text'>Download Syllabus</h3>
                                                 <FiDownload color='#ffffff' size={30} />
-                                            </div>
+                                            </a>
                                         </div>
                                     }
                                 </h2>
@@ -485,10 +485,10 @@ const CourseDetails = (props) => {
                                     {
                                         expanded === 'PA' &&
                                         <div className='col-lg-4 col-3'>
-                                            <div className='syll-download'>
+                                            <a className='syll-download' href="/assets/downloads/syllabus/Public_Administration_Optional_Syllabus.pdf" target="_blank" rel="noopener noreferrer">
                                                 <h3 className='syll-download-text'>Download Syllabus</h3>
                                                 <FiDownload color='#ffffff' size={30} />
-                                            </div>
+                                            </a>
                                         </div>
                                     }
                                 </h2>
@@ -643,10 +643,10 @@ const CourseDetails = (props) => {
                                     {
                                         expanded === 'AN' &&
                                         <div className='col-lg-4 col-3'>
-                                            <div className='syll-download'>
+                                            <a className='syll-download' href="/assets/downloads/syllabus/Geography_Optional_Syllabus.pdf" target="_blank" rel="noopener noreferrer">
                                                 <h3 className='syll-download-text'>Download Syllabus</h3>
                                                 <FiDownload color='#ffffff' size={30} />
-                                            </div>
+                                            </a>
                                         </div>
                                     }
                                 </h2>
@@ -809,10 +809,10 @@ const CourseDetails = (props) => {
                                     {
                                         expanded === 'SO' &&
                                         <div className='col-lg-4 col-3'>
-                                            <div className='syll-download'>
+                                            <a className='syll-download' href="/assets/downloads/syllabus/Sociology_Optional_Syllabus.pdf" target="_blank" rel="noopener noreferrer">
                                                 <h3 className='syll-download-text'>Download Syllabus</h3>
                                                 <FiDownload color='#ffffff' size={30} />
-                                            </div>
+                                            </a>
                                         </div>
                                     }
                                 </h2>

@@ -15,7 +15,7 @@ const Target = () => {
             </Head>
 
             <Header />
-            <HeroDownloads />
+            <HeroDownloads title="Target 2020 Daily Test Series" />
             <>
                 <section className="slider__area pt-60 pb-60 include-bg d-flex align-items-center" style={{ caretColor: 'transparent' }}>
                     <div className="container">

@@ -14,7 +14,7 @@ const Downloads = () => {
       </Head>
 
          <Header/>
-         <HeroDownloads />
+         <HeroDownloads title="DOWNLOADS" />
          <DownloadTabs />
          <DownloadsGrid />
          <ContactUs />

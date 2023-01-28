@@ -15,7 +15,7 @@ export const FacultyData = [
         title: 'Mr. R C Sinha',
         desc: 'Chief Consultant, New Delhi IAS, Delhi',
         subjects: 'Indian polity & governance, post-independent India, security related issues, current affairs & news paper reading analysis.',
-        image: 'assets/images/faculty/faculty-1@2x.png'
+        image: 'assets/images/faculty/RC_Sinha.jpg'
     },
     {
         title: 'Mr. Siva Kumar',

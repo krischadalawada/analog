@@ -1,12 +1,12 @@
 import Link from 'next/link';
 
-const HeroDownloads = () => {
+const HeroDownloads = (props) => {
 
    return (
       <>
          <section className="slider__area pt-200 pb-160 include-bg d-flex align-items-center bg-downloads">
             <div className="container">
-               <h3 className='f-70 text-center white mt-40'>DOWNLOADS</h3>
+               <h3 className='f-70 text-center white mt-40'>{props.title}</h3>
             </div>
          </section>
       </>

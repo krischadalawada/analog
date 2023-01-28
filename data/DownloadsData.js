@@ -377,7 +377,21 @@ export const DownloadsData = [
     {
         category: 'UPSC Interview Tips',
         thumbnail: '/assets/images/downloads/downloads-2@2x.png',
-        url: ''
+        url: '/downloads/upsc-interview-tips',
+        list: [
+            {
+                title: 'Interview Booklet',
+                link: '/assets/downloads/upsc_interview_tips/Interview_Booklet.pdf'
+            },
+            {
+                title: 'Interview Preparation Content for Mathematics Students',
+                link: '/assets/downloads/upsc_interview_tips/Mathematics_Optional_Content.pdf'
+            },
+            {
+                title: 'Interview Preparation Content Based On Residence',
+                link: '/assets/downloads/upsc_interview_tips/Residence_related.pdf'
+            }
+        ]
     },
     {
         category: 'The Hindu Hyderabad Edition',
@@ -392,7 +406,13 @@ export const DownloadsData = [
     {
         category: 'UPSC Prelims 2020 Answer Key',
         thumbnail: '/assets/images/downloads/downloads-1@2x.png',
-        url: ''
+        url: '/downloads/upsc-prelims-2020-answer-key',
+        list: [
+            {
+                title: 'UPSC Prelims 2020 Answer Key',
+                link: '/assets/downloads/upsc_prelims_2020_answer_key/UPSC-prelims-questions-paper-2020-GS-paper-1.pdf'
+            },
+        ]
     },
     {
         category: 'ASTRA Material',
