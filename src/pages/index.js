@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Analog</title>
+        <title>Analog IAS</title>
         <meta name="description" content="IAS Academy" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

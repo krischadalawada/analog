@@ -38,6 +38,19 @@
                 resize: none;
                 margin-bottom: 13px;
             }
+            & h2{
+                font-size: 2.7vh;
+                line-height: 4vh;
+                text-align: center;
+                transition: all 400ms ease-in-out;
+            }
+            & h3{
+                color: #E52322;
+                font-size: 2.2vh;
+                line-height: 4vh;
+                text-align: left;
+                transition: all 300ms ease-in-out;
+            }
         }
         &-agree{
             padding-left: 5px;

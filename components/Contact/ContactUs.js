@@ -1,10 +1,72 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from 'next/router';
+import { Spinner } from "react-bootstrap";
+import emailjs from "@emailjs/browser";
 
 const ContactUs = () => {
 
     const router = useRouter()
+    const [loading, setLoading] = useState(false)
+    const [clickedSubmit, setClickedSubmit] = useState(false)
+    const [success, setSuccess] = useState(false)
+    const [failure, setFailure] = useState(false)
+    const [alert, setAlert] = useState(false)
+    const [alertMsg, setAlertMsg] = useState(false)
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [phone, setPhone] = useState('')
+    const [message, setMessage] = useState('')
+
+    const validateEmail = (email) => {
+        var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if (email) {
+            return  email.match(mailformat);
+        }        
+    };
+
+    const onChangeText = (event) => {
+        var field = event.target.name
+        var value = event.target.value
+        if (field === 'name') {
+            setName(value)
+        } else if (field === 'phone') {
+            setPhone(value)
+        } else if (field === 'email') {
+            setEmail(value)
+        } else if (field === 'message') {
+            setMessage(value)
+        }
+    }
+
+    const onSubmit = () => {
+
+        console.log('SUBMIT');
+
+        if (name.length > 1 && phone.length === 10 && validateEmail(email)) {
+            setAlert(false)
+            setClickedSubmit(true)
+            setLoading(true)
+            emailjs.send("service_frj3va9", "template_p3h2j35", {
+                from_name: name,
+                phone: phone,
+                email: email,
+                message: message,
+            }, "vE-Cc658AKOCommhp")
+                .then((result) => {
+                    setLoading(false)
+                    setSuccess(true)
+                    setAlert(false)
+                }, (error) => {
+                    setLoading(false)
+                    setFailure(true)
+                });
+
+        } else {
+            setClickedSubmit(false)
+            setAlert(true)
+        }
+    }
 
     return (
         <>
@@ -22,34 +84,63 @@ const ContactUs = () => {
                             }
                             <div className={"contact__form" + (router.pathname === '/contact' ? " mt-60" : "")}>
                                 <form action="#">
-                                    <div className="row">
-                                        <div className="col-xxl-6 col-xl-6 col-md-6">
-                                            <div className="contact__form-input">
-                                                <input required type="text" placeholder="Name" />
+                                    {
+                                        loading ?
+                                            <div className="mtb-8 center">
+                                                <Spinner animation="grow" variant="danger" />
                                             </div>
-                                        </div>
-                                        <div className="col-xxl-6 col-xl-6 col-md-6">
-                                            <div className="contact__form-input">
-                                                <input required type="phone" placeholder="Phone" />
-                                            </div>
-                                        </div>
-                                        <div className="col-xxl-12">
-                                            <div className="contact__form-input">
-                                                <input required type="email" placeholder="Email" />
-                                            </div>
-                                        </div>
-                                        <div className="col-xxl-12">
-                                            <div className="contact__form-input">
-                                                <textarea required placeholder="Message"></textarea>
-                                            </div>
-                                        </div>
-                                        <div className="col-12" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end' }}>
-                                            <Link href="/">
-                                                <a className="tp-btn-secondary">Submit <i className="fa-regular fa-arrow-right fa-ri">
-                                                </i></a>
-                                            </Link>
-                                        </div>
-                                    </div>
+                                            :
+                                            clickedSubmit && success ?
+                                                <div className="col-xxl-12">
+                                                    <div className="contact__form-input">
+                                                        <h2>Request submitted successfully! <br />You'll hear from us soon.</h2>
+                                                    </div>
+                                                </div>
+                                                :
+                                                <div className="row">
+                                                    <div className="col-xxl-6 col-xl-6 col-md-6">
+                                                        <div className="contact__form-input">
+                                                            <input style={{ color: !isNaN(name) || name.length < 2 ? "red" : "#011627", caretColor: 'black' }} name="name" required type="text" placeholder="Name*" onChange={onChangeText} />
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-xxl-6 col-xl-6 col-md-6">
+                                                        <div className="contact__form-input">
+                                                            <input style={{ color: isNaN(phone) || phone.length !== 10 ? "red" : "#011627", caretColor: 'black' }} name="phone" required type="phone" placeholder="Phone*" onChange={onChangeText} />
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-xxl-12">
+                                                        <div className="contact__form-input">
+                                                            <input style={{ color: !validateEmail(email) ? "red" : "#011627", caretColor: 'black' }} name="email" required type="email" placeholder="Email*" onChange={onChangeText} />
+                                                        </div>
+                                                    </div>
+                                                    <div className="col-xxl-12">
+                                                        <div className="contact__form-input">
+                                                            <textarea name="message" required placeholder="Message" onChange={onChangeText} ></textarea>
+                                                        </div>
+                                                    </div>
+                                                    {
+                                                        clickedSubmit && failure ?
+                                                            <div className="col-xxl-12">
+                                                                <div className="contact__form-input">
+                                                                    <h3>We couldn't process your request at this time. Please try again after some time.</h3>
+                                                                </div>
+                                                            </div>
+                                                            :
+                                                            alert ?
+                                                                <div className="col-xxl-12">
+                                                                    <div className="contact__form-input">
+                                                                        <h3>*Please submit valid details and try again.</h3>
+                                                                    </div>
+                                                                </div>
+                                                                :
+                                                                <></>
+                                                    }
+                                                    <div className="col-12" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', caretColor: 'transparent' }}>
+                                                        <a className="tp-btn-secondary pointer" onClick={() => onSubmit()}>Submit <i className="fa-regular fa-arrow-right fa-ri">
+                                                        </i></a>
+                                                    </div>
+                                                </div>
+                                    }
                                 </form>
                             </div>
                         </div>
