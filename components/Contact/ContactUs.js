@@ -41,8 +41,6 @@ const ContactUs = () => {
 
     const onSubmit = () => {
 
-        console.log('SUBMIT');
-
         if (name.length > 1 && phone.length === 10 && validateEmail(email)) {
             setAlert(false)
             setClickedSubmit(true)

@@ -1,3 +1,4 @@
+import React, {useState} from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination } from 'swiper';
 import { TestimonialsList } from '../../data/TestimonialsData';
@@ -5,6 +6,11 @@ SwiperCore.use([Pagination]);
 
 const Testimonials = () => {
 
+   const [seeMore, setSeeMore] = useState(false)
+
+   const onSeeMore = () => {
+      setSeeMore(!seeMore)
+   }
 
    return (
       <>
@@ -47,8 +53,7 @@ const Testimonials = () => {
                                        </div>
                                        <div className="testimonial__avatar-info mb-5">
                                           <h3>{testimonial.name} | {testimonial.year} AIR {testimonial.rank}</h3>
-                                          <p>{testimonial.desc}</p>
-                                          {/* <p>{testimonial.desc.length > 500 ? testimonial.desc.substring(0, 504) + "..." : testimonial.desc}<a onClick={() => }><p>{testimonial.desc.length > 500 ? "see more" : ""}</p></a></p> */}
+                                          <p>{testimonial.desc.length > 500 && !seeMore ? testimonial.desc.substring(0, 450) + "..." : testimonial.desc}<a className='pointer' onClick={() => onSeeMore()}><p style={{ color: '#333996', textDecorationLine: 'underline'}}>{testimonial.desc.length > 500 && !seeMore ? "see more" : testimonial.desc.length > 500 && seeMore ? "see less" : ""}</p></a></p>
                                        </div>
                                     </div>
                                  </SwiperSlide>

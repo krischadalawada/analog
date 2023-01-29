@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { VideosData } from '../../data/VideosData';
 import { BsPlayCircle } from 'react-icons/bs';
+import ReactPlayer from "react-player/lazy";
 
 const VideoGrid = () => {
 
@@ -14,14 +15,20 @@ const VideoGrid = () => {
                         VideosData.map((item, index) =>
                            <div key={index} className='col-xl-6 col-md-6 col-12 m-auto'>
                               <div className="slider__thumb-2 mb-60">
-                                 <span className="slider__thumb-home p-relative">
-                                    <img style={{ width: '100%' }} src={item.thumbnail} alt="" />
-                                    <i className='play-btn pointer'>
+                                 <span className="slider__thumb-home player p-relative">
+                                    <ReactPlayer
+                                       className='react-player'
+                                       url={item.url}
+                                       width='100%'
+                                       height='100%'
+                                       controls={true}
+                                    />
+                                    {/* <i className='play-btn pointer'>
                                        <BsPlayCircle color='#011627' width={20} size={120} />
-                                    </i>
+                                    </i> */}
                                  </span>
                                  <div className='video-title'>
-                                    <h3 className='text-center'>STUDY TIME WITH SRIKANTH VINNAKOTA, Director - ANALOG IAS ACADEMY (Tv5 INTERVIEW)</h3>
+                                    <h3 className='text-center'>{item.title}</h3>
                                  </div>
                               </div>
                            </div>
