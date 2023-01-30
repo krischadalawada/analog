@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Header from '../../components/Home-A/Header';
-import Footer from '../../components/common/Footer';
+import Footer from '../../components/Common-A/Footer';
 import HeroHome from '../../components/Home-A/HeroHome';
 import Exams from '../../components/Home-A/Exams';
 import HeroMain from '../../components/Home-A/HeroMainHome';

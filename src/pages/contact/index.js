@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import BreadCrumb from '../../../components/common/BreadCrumb';
-import Footer from '../../../components/common/Footer';
+import Footer from '../../../components/Common-A/Footer';
 import ContactArea from '../../../components/Contact/ContactArea';
 import ContactFooter from '../../../components/Contact/ContactFooter';
 import ContactInfoArea from '../../../components/Contact/ContactInfoArea';

@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import BreadCrumb from '../../../components/common/BreadCrumb';
-import Footer from '../../../components/common/Footer';
+import Footer from '../../../components/Common-A/Footer';
 import AboutArea from '../../../components/Home/AboutArea';
 import Header from '../../../components/Home-A/Header';
 import HomeCourses from '../../../components/Home/HomeCourses';

@@ -1,8 +1,10 @@
-import React, {useState} from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Pagination } from 'swiper';
+import React, { useState } from 'react';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { TestimonialsList } from '../../data/TestimonialsData';
-SwiperCore.use([Pagination]);
+import Slider from "react-slick";
+import useWindowSize from "../Common-A/Window";
+import { CgChevronRight } from 'react-icons/cg';
 
 const Testimonials = () => {
 
@@ -12,9 +14,62 @@ const Testimonials = () => {
       setSeeMore(!seeMore)
    }
 
+   function SampleNextArrow(props) {
+      const { className, style, onClick } = props;
+      const { width, height } = useWindowSize();
+      return (
+         <div className="next" onClick={onClick}>
+            <CgChevronRight color="#fff" size={height / 30} />
+         </div>
+      );
+   }
+
+   function SamplePrevArrow(props) {
+      const { className, style, onClick } = props;
+      const { width, height } = useWindowSize();
+      return (
+         <div className="prev" onClick={onClick}>
+            <CgChevronRight color="#fff" size={height / 30} />
+         </div>
+      );
+   }
+
+   const settings = {
+      infinite: true,
+      speed: 500,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
+      responsive: [
+         {
+            breakpoint: 992,
+            settings: {
+               slidesToShow: 2,
+               slidesToScroll: 1
+            }
+         },
+         {
+            breakpoint: 768,
+            settings: {
+               slidesToShow: 2,
+               slidesToScroll: 1
+            }
+         },
+         {
+            breakpoint: 550,
+            settings: {
+               slidesToShow: 1,
+               slidesToScroll: 1,
+               adaptiveHeight: true
+            }
+         }
+      ]
+   };
+
    return (
       <>
-         <section className="testimonial__area pt-80 fix">
+         <section className="testimonial__area pt-80 pb-60 fix">
             <div className="container-lg">
                <div className="row">
                   <div className="col-xxl-12">
@@ -25,41 +80,24 @@ const Testimonials = () => {
                </div>
                <div className="row">
                   <div className="col-xxl-12">
-                     <div className="testimonial__slider">
-
-                        <Swiper
-                           spaceBetween={30}
-                           slidesPerView={1}
-                           className='testimonial__slider'
-                           autoplay={{ delay: 3000 }}
-                           breakpoints={{
-                              550: {
-                                 slidesPerView: 1,
-                              },
-                              768: {
-                                 slidesPerView: 2,
-                              },
-                              992: {
-                                 slidesPerView: 2,
-                              },
-                           }}
-                        >
+                     <div className='testimonial__slider'>
+                        <Slider className='testimonial__container' {...settings}>
                            {
-                              TestimonialsList.map(testimonial => {
-                                 return <SwiperSlide key={testimonial.id}>
-                                    <div className="testimonial__item transition-3 text-left white-bg">
+                              TestimonialsList.map(testimonial =>
+                                 <div key={testimonial.id} className="testimonial__item_cont">
+                                    <div className="testimonial__item transition-3 text-left">
                                        <div className="testimonial__avatar">
                                           <img className='toppers' src={testimonial.img} alt="" />
                                        </div>
                                        <div className="testimonial__avatar-info mb-5">
                                           <h3>{testimonial.name} | {testimonial.year} AIR {testimonial.rank}</h3>
-                                          <p>{testimonial.desc.length > 500 && !seeMore ? testimonial.desc.substring(0, 450) + "..." : testimonial.desc}<a className='pointer' onClick={() => onSeeMore()}><p style={{ color: '#333996', textDecorationLine: 'underline'}}>{testimonial.desc.length > 500 && !seeMore ? "see more" : testimonial.desc.length > 500 && seeMore ? "see less" : ""}</p></a></p>
+                                          <p>{testimonial.desc.length > 500 && !seeMore ? testimonial.desc.substring(0, 420) + "..." : testimonial.desc}<a className='pointer' onClick={() => onSeeMore()}><p style={{ color: '#333996', textDecorationLine: 'underline' }}>{testimonial.desc.length > 500 && !seeMore ? "see more" : testimonial.desc.length > 500 && seeMore ? "see less" : ""}</p></a></p>
                                        </div>
                                     </div>
-                                 </SwiperSlide>
-                              })
+                                 </div>
+                              )
                            }
-                        </Swiper>
+                        </Slider>
                      </div>
                   </div>
                </div>

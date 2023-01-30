@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Footer from '../../components/common/Footer';
+import Footer from '../../components/Common-A/Footer';
 import Header from '../../components/Home-A/Header';
 import HeroAbout from '../../components/About-A/HeroAbout';
 import Leadership from '../../components/About-A/Leadership';

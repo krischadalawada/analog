@@ -91,11 +91,11 @@ const Header = () => {
                                     </ul>
                                  </nav>
                               </div>
-                              <Link href="/">
+                              <a href="https://wa.me/919912441137" target="_blank" rel="noopener noreferrer">
                                  <li className='whatsapp'>
                                     <img className='wa pointer' src="/assets/images/home/whatsapp.png" alt="logo" />
                                  </li>
-                              </Link>
+                              </a>
                               {/* <div className="header__hamburger ml-50 d-xl-none">
                                  <button type="button" onClick={handleShow} className="hamurger-btn">
                                     <span></span>
