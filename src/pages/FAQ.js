@@ -9,16 +9,17 @@ import VideoGrid from '../../components/About-A/VideoGrid';
 import HeroToppers from '../../components/Toppers-A/HeroToppers';
 import ToppersGrid from '../../components/Toppers-A/ToppersGrid';
 import FAQs from '../../components/FAQs-A/FAQs';
+import HeroFAQ from '../../components/FAQs-A/HeroFAQ';
 
 const FAQPage = () => {
     return (
         <>
             <Head>
-                <title>FAQ</title>
+                <title>FAQs</title>
             </Head>
 
             <Header />
-            <HeroToppers />
+            <HeroFAQ />
             <FAQs />
             <ContactUs />
             <Footer />

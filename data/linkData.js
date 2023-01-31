@@ -18,11 +18,11 @@ const links = [
         name:'About',
     },
 
-    {
-        id:4,
-        url:'/downloads',
-        name:'Downloads',        
-    },
+    // {
+    //     id:4,
+    //     url:'/downloads',
+    //     name:'Downloads',        
+    // },
 
     {
         id:5,

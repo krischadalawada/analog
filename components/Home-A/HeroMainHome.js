@@ -1,6 +1,10 @@
 import Link from 'next/link';
+import useWindowSize from '../Common-A/Window';
 
 const HeroMain = () => {
+
+   const { width, height } = useWindowSize()
+
    return (
       <>
          <section className="slider__area d-flex align-items-center">
@@ -21,7 +25,7 @@ const HeroMain = () => {
                            Since its inception in 2002, ANALOG has earned the reputation of the best IAS coaching centre in Hyderabad by helping several students crack the exam with top ranks. 
                            In a way, the institute has been serving the nation by producing able civil servants.</p>
                         <Link href="/about">
-                           <a className="tp-btn-primary-b" style={{ marginRight: '5%' }}>Learn More <i className="fa-regular fa-arrow-right fa-ri">
+                           <a className="tp-btn-primary-b" style={{ marginRight: '5%', marginBottom: width < 460 ? '3%' : 0 }}>Learn More <i className="fa-regular fa-arrow-right fa-ri">
                            </i></a>
                         </Link>
                         <Link href="/contact">

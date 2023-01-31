@@ -7,7 +7,9 @@ import { useRouter } from 'next/router';
 import { searchText } from '../../redux/features/coursesSlice';
 import LoginData from '../../data/LoginMenuData';
 import useAuth from '../../hooks/useAuth';
-import Sidebar from '../common/SideBar';
+import Sidebar from '../Common-A/SideBar';
+import useWindowSize from '../Common-A/Window';
+import { MdOutlineEmail } from 'react-icons/md'
 
 const Header = () => {
    // handle sidebar show
@@ -39,13 +41,33 @@ const Header = () => {
    }
 
    const route = useRouter().pathname
+   const { width, height } = useWindowSize()
 
    return (
       <>
          <header>
-            <div id="header-sticky" className={"header__area header__transparent"} style={{ marginTop: '2%', caretColor: 'transparent' }}>
-               <div className="header__bottom">
-                  <div className="container elevate p-relative">
+            <div id="header-sticky" className={"header__area header__transparent"} style={{ caretColor: 'transparent' }}>
+               <div className="container header__bottom">
+                  <div className='header-top'>
+                     <div>
+                        {
+                           width > 530 ?
+                              <h2 >Hyderabad | New Delhi | Bangalore | Guntur | Vizag</h2>
+                              :
+                              <h2 style={{ marginRight: 10 }}><MdOutlineEmail size={height / 40} /> ias.analog@gmail.com</h2>
+                        }
+                     </div>
+                     <div style={{ display: 'flex', justifyContent: 'space-between', textAlign: 'center' }}>
+                        {
+                           width > 770 ?
+                              <h2 style={{ marginRight: 10 }}><MdOutlineEmail size={height / 40} /> ias.analog@gmail.com</h2>
+                              :
+                              <></>
+                        }
+                        <h2>Board No. 8494990066</h2>
+                     </div>
+                  </div>
+                  <div className="elevate p-relative">
                      <div className="row align-items-center">
                         <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-6">
                            <div className="header__bottom-left d-flex align-items-center">
@@ -91,18 +113,18 @@ const Header = () => {
                                     </ul>
                                  </nav>
                               </div>
-                              <a href="https://wa.me/919912441137" target="_blank" rel="noopener noreferrer">
+                              <a className='focus-trans' href="https://wa.me/919912441137" target="_blank" rel="noopener noreferrer">
                                  <li className='whatsapp'>
                                     <img className='wa pointer' src="/assets/images/home/whatsapp.png" alt="logo" />
                                  </li>
                               </a>
-                              {/* <div className="header__hamburger ml-50 d-xl-none">
+                              <div className="header__hamburger d-lg-none">
                                  <button type="button" onClick={handleShow} className="hamurger-btn">
                                     <span></span>
                                     <span></span>
                                     <span></span>
                                  </button>
-                              </div> */}
+                              </div>
                            </div>
                         </div>
                      </div>

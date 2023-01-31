@@ -5,7 +5,7 @@ export const TopperList = [
       "ht_no": 801479,
       "year": 2021,
       "path": "assets/images/toppers/2021/",
-      "img": "8_ISHITA_RATI_1.jpg"
+      "img": "8_Ishita-Rathi_801479.jpg"
     },
     {
       "title": "YASHARTH SHEKHAR",
@@ -16,7 +16,7 @@ export const TopperList = [
       "img": "12_Yashrath_Shekhar.jpg"
     },
     {
-      "title": "CHALLAPALLE YASWANTH KUMAR REDDY",
+      "title": "C YASWANTH REDDY",
       "rank": 15,
       "ht_no": 7600782,
       "year": 2021,

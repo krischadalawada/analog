@@ -194,7 +194,7 @@
     }
 
     &__hamburger {
-        margin-top: 3px;
+        margin-right: 4vh;
     }
 
     &__action {
@@ -930,6 +930,11 @@
     animation: none;
 }
 
+.whatsapp:focus {
+    background-color: transparent;
+    outline: none;
+}
+
 @-webkit-keyframes pulse {
     0% {
       -webkit-box-shadow: 0 0 0 0 rgba(37,211,102, 0.4);
@@ -954,4 +959,25 @@
         -moz-box-shadow: 0 0 0 0 rgba(37,211,102, 0);
         box-shadow: 0 0 0 0 rgba(37,211,102, 0);
     }
+  }
+
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh;
+
+    & h2{
+        font-size: 2vh;
+        color: #FFFFFF;
+        font-weight: 300;
+    }
+  }
+
+  .focus-trans {
+    background-color: transparent;
+  }
+
+  .focus-trans:focus {
+    background-color: transparent;
+    outline: none;
   }

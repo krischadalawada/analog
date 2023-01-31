@@ -1,6 +1,10 @@
 import Link from 'next/link';
+import useWindowSize from '../Common-A/Window';
 
 const HeroHome = () => {
+
+   const { width, height } = useWindowSize()
+
    return (
       <>
          <section className="slider__area slider__height-2 include-bg d-flex align-items-center bg-home">
@@ -14,7 +18,7 @@ const HeroHome = () => {
                            </i></a>
                         </Link>
                         <Link href="/courses">
-                           <a className="tp-btn-primary">New Batches <i className="fa-regular fa-arrow-right fa-ri">
+                           <a className="tp-btn-primary" style={{ marginTop: width < 400 ? '3%' : 0 }}>New Batches <i className="fa-regular fa-arrow-right fa-ri">
                            </i></a>
                         </Link>
                      </div>
