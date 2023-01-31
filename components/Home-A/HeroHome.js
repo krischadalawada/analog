@@ -7,7 +7,7 @@ const HeroHome = () => {
 
    return (
       <>
-         <section className="slider__area slider__height-2 include-bg d-flex align-items-center bg-home">
+         <section className="slider__area slider__height-2 include-bg d-flex align-items-center bg-home" style={{ caretColor: 'transparent' }}>
             <div className="container">
                <div className="row align-items-center">
                   <div className="col-xxl-6 col-lg-6">

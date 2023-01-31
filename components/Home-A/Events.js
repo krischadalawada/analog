@@ -1,11 +1,13 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Pagination } from 'swiper';
-import Link from 'next/link';
-SwiperCore.use([Pagination]);
+import React from 'react';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import useWindowSize from "../Common-A/Window";
+import { CgChevronRight } from 'react-icons/cg';
 
 const EventsHome = () => {
-   // testimonialData
-   const testimonialData = [
+
+   const eventsData = [
       {
          id: 1,
          img: 'assets/images/home/Event-1.png',
@@ -17,8 +19,74 @@ const EventsHome = () => {
          img: 'assets/images/home/Event-2.png',
          location: '@ Ashok Nagar, ANALOG IAS ACADEMY',
          title: 'Free workshop for UPSC candidates CSE-2024'
+      },
+      {
+         id: 3,
+         img: 'assets/images/home/Event-1.png',
+         location: '@ Indira Park, ANALOG IAS ACADEMY',
+         title: 'Free workshop for UPSC candidates CSE-2024'
+      },
+      {
+         id: 4,
+         img: 'assets/images/home/Event-2.png',
+         location: '@ Ashok Nagar, ANALOG IAS ACADEMY',
+         title: 'Free workshop for UPSC candidates CSE-2024'
       }
    ]
+
+   function SampleNextArrow(props) {
+      const { className, style, onClick } = props;
+      const { width, height } = useWindowSize();
+      return (
+         <div className="next2" onClick={onClick}>
+            <CgChevronRight color="#fff" size={height / 30} />
+         </div>
+      );
+   }
+
+   function SamplePrevArrow(props) {
+      const { className, style, onClick } = props;
+      const { width, height } = useWindowSize();
+      return (
+         <div className="prev2" onClick={onClick}>
+            <CgChevronRight color="#fff" size={height / 30} />
+         </div>
+      );
+   }
+
+   const settings = {
+      infinite: true,
+      speed: 500,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
+      responsive: [
+         {
+            breakpoint: 992,
+            settings: {
+               slidesToShow: 2,
+               slidesToScroll: 1
+            }
+         },
+         {
+            breakpoint: 768,
+            settings: {
+               slidesToShow: 1,
+               slidesToScroll: 1
+            }
+         },
+         {
+            breakpoint: 550,
+            settings: {
+               slidesToShow: 1,
+               slidesToScroll: 1,
+               adaptiveHeight: true
+            }
+         }
+      ]
+   };
+
    return (
       <>
          <section className="testimonial__area fix">
@@ -34,50 +102,30 @@ const EventsHome = () => {
                   <div className="col-xxl-12">
                      <div className="testimonial__slider">
 
-                        <Swiper
-                           spaceBetween={30}
-                           slidesPerView={1}
-                           className='testimonial__slider'
-                           autoplay={{ delay: 3000 }}
-                           loop
-                           breakpoints={{
-                              550: {
-                                 slidesPerView: 1,
-                              },
-                              768: {
-                                 slidesPerView: 1,
-                              },
-                              992: {
-                                 slidesPerView: 2,
-                              },
-                           }}
-                        >
-
+                        <Slider className='' {...settings}>
                            {
-                              testimonialData.map(testimonial => {
-                                 return <SwiperSlide key={testimonial.id}>
-                                    <div className="testimonial__event transition-3 text-left">
-                                       <div className='row'>
-                                          <div className='col-5'>
-                                             <img src={testimonial.img} alt="" />
+                              eventsData.map(event => {
+                                 return <div key={event.id} className="testimonial__event transition-3 text-left">
+                                    <div className='row'>
+                                       <div className='col-xl-5'>
+                                          <img src={event.img} alt="" />
+                                       </div>
+                                       <div className='col-xl-7' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                                          <div className="testimonial__text">
+                                             <h4>{event.title}</h4>
+                                             <p>{event.location}</p>
                                           </div>
-                                          <div className='col-7' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
-                                             <div className="testimonial__text">
-                                                <h4>{testimonial.title}</h4>
-                                                <p>{testimonial.location}</p>
-                                             </div>
-                                             {/* <Link href="/">
+                                          {/* <Link href="/">
                                                 <a className="tp-btn-primary" style={{ marginRight: '5%', width: '80%' }}>Learn more <i className="fa-regular fa-arrow-right fa-ri">
                                                 </i></a>
                                              </Link> */}
-                                          </div>
                                        </div>
                                     </div>
-                                 </SwiperSlide>
+                                 </div>
                               })
                            }
 
-                        </Swiper>
+                        </Slider>
                      </div>
                   </div>
                </div>

@@ -643,7 +643,7 @@ const CourseDetails = (props) => {
                                     {
                                         expanded === 'AN' &&
                                         <div className='col-lg-4 col-3'>
-                                            <a className='syll-download' href="/assets/downloads/syllabus/Geography_Optional_Syllabus.pdf" target="_blank" rel="noopener noreferrer">
+                                            <a className='syll-download' href="/assets/downloads/syllabus/Anthropology_Optional_Syllabus.pdf" target="_blank" rel="noopener noreferrer">
                                                 <h3 className='syll-download-text'>Download Syllabus</h3>
                                                 <FiDownload color='#ffffff' size={30} />
                                             </a>

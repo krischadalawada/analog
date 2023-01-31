@@ -18,7 +18,7 @@ export default function Home() {
         <meta name="description" content="IAS Academy" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      
       <Header />
       <div style={{ backgroundColor: '#E4F2F8' }}>
         <HeroHome />

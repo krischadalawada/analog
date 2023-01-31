@@ -3,7 +3,7 @@ import { TopperList } from '../../data/ToppersData';
 
 const Toppers = () => {
 
-   const Toppers = TopperList.slice(0,4)
+   const Toppers = TopperList.slice(0, 4)
 
    return (
       <>
@@ -26,13 +26,12 @@ const Toppers = () => {
                               </div>
                               <div className="research__content">
                                  <h3 className="research__title-topper">{item.title}</h3>
-                                 <p className="t-rank">AIR {item.rank}</p>
                                  <div className="row">
-                                    <div className="col-5">
-                                       <p className="t-year">Year {item.year}</p>
+                                    <div className="col-6">
+                                       <p className="t-rank">AIR {item.rank}</p>
                                     </div>
-                                    <div className="col-7">
-                                       <p className="t-ht">HT No. {item.ht_no}</p>
+                                    <div className="col-6">
+                                       <p className="t-year">Year {item.year}</p>
                                     </div>
                                  </div>
                               </div>
