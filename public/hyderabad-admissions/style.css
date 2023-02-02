@@ -341,6 +341,7 @@ padding:40px 0px;
 }
 .courses-sec p{
 font-size: 16px;
+height: 80px;
 color: #fff;
 font-weight: 400;
 margin-bottom:20px;
@@ -358,6 +359,7 @@ font-weight: 700;
 .courses-sec .headline{
 font-weight:700 !important;
 font-size:18px;
+height: 40px;
 margin-top: 15px;
 margin-bottom: 10px;
 }
@@ -555,6 +557,14 @@ margin-top:30px !important;
 .banner-sec .banner-text {
   margin-top: 395px;
   margin-left: 60px;
+}
+.courses-sec p{
+  height: 88px;
+  font-size: 11px;
+}
+.courses-sec .headline{
+  height: 80px;
+  font-size: 15px;
 }
 }
 
