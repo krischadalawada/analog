@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+html{
+    scroll-behavior: smooth!important;
+	overflow-x:hidden!important;
+}
+body{
+ font-family: 'Montserrat', sans-serif !important;
+    scroll-behavior: smooth!important;
+	overflow-x:hidden!important;
+}
+.main-navbar{
+position: fixed;
+width: 100%;
+background: #fff;
+z-index: 1;
+}
+.main-navbar .menu-media {
+  float: right;
+  margin-top: -62px;
+  z-index: 1;
+position: relative;
+}
+.menu-media a {
+  display: inline-block !important;
+  padding-right: 10px;
+  font-size: 14px;
+  color:#2E3192;
+}
+.main-navbar ul li a{
+font-size: 16px;
+  color:#000 !important;
+  font-weight:600;
+  padding: 2px 10px;
+ margin-left: 7px;
+}
+.main-navbar .navbar-brand img{
+width:200px;
+}
+.main-navbar .upsc{
+color: #fff !important;
+background:#DA2128;
+border-radius: 5px;
+padding:2px 10px;
+}
+.banner-sec{
+background: url("images/cover.png");
+background-position:center;
+background-size: cover;
+min-height:700px;
+margin-top: 100px;
+}
+.banner-sec h1{
+color: #DA2128;
+font-size: 40px;
+font-weight: 700;
+line-height: 36px;
+}
+.banner-sec p{
+font-size: 22px;
+color: #2E3192;
+font-weight: 600;
+margin-bottom: 0px;
+line-height: 26px;
+}
+.banner-sec .banner-text{
+margin-top:80px;
+}
+.banner-sec2 form{
+width:380px;
+margin-left: auto;
+background: #fff;
+border-radius: 8px;
+padding:20px;
+margin-top: 50px;
+right: 10px;
+}
+#btn-bn {
+  bottom: 0px;
+  right: 10px;
+  position: fixed;
+}
+.banner-sec2 form p{
+font-size:20px;
+color: #2E3192;
+font-weight: 600;
+margin-bottom: 20px;
+line-height: 20px;
+
+}
+.banner-sec p{
+    text-align:center;
+}
+.banner-sec2 form input{
+border: 1px solid #DA2128;
+margin-top:10px;
+padding: 5px !important;
+
+}
+.banner-sec2 .btn{
+font-size: 15px;
+color: #fff;
+font-weight: 500;
+background:#DA2128;
+padding:3px 20px;
+border-radius: 5px;
+font-weight: 700;
+text-align:center;
+margin-top: 20px;
+
+}
+
+.banner-sec2 .spam{
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.faculty-sec{
+background-color:#2E3192;
+padding:40px 0px;
+}
+.faculty-sec img{
+width: 200px;
+}
+.faculty-sec p{
+color:#fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 0px;
+
+}
+.faculty-sec .faculty-col{
+text-align:center;
+}
+.faculty-sec .india-col h4{
+color: #fff;
+font-size: 33px;
+font-weight: 700;
+line-height: 38px;
+
+}
+.coaching-sec{
+background-color:#DA2128;
+padding:40px 0px;
+}
+.coaching-sec img{
+width:200px;
+}
+.coaching-sec h2{
+
+color: #fff;
+font-size: 34px;
+font-weight: 700;
+}
+.coaching-sec p{
+font-size: 21px;
+color: #fff;
+font-weight: 500;
+}
+.rankers-sec{
+padding:40px 0px;
+}
+.rankers-sec h2{
+color: #DA2128;
+font-size: 34px;
+font-weight: 700;
+}
+.rankers-sec p{
+font-size: 15px;
+margin-top: 18px;
+color: #2E3192;
+font-weight: 500;
+text-align: center;
+}
+
+.rankers-sec .enroll-row a{
+font-size: 18px;
+color: #fff;
+font-weight: 500;
+background:#DA2128;
+padding:5px 40px;
+border-radius: 5px;
+font-weight: 700;
+}
+.rankers-sec .enroll-row{
+margin-top: 40px !important;
+text-align: center;
+}
+.batch-sec{
+background: #DE3C42;
+padding:40px 0px;
+}
+.batch-sec h2, .courses-sec h2{
+color: #fff;
+font-size: 34px;
+font-weight: 700;
+}
+.batch-sec  p {
+font-size: 24px;
+color: #fff;
+font-weight: 600;
+margin-bottom:0px;
+}
+.ias-sec h2{
+color: #DE3C42;
+font-size: 34px;
+font-weight: 700;
+
+}
+
+ .ias-sec .course{
+font-size: 20px;
+color: #2E3192;
+font-weight: 600;
+margin-bottom: 15px;
+}
+.ias-sec .ias-text{
+padding: 40px 0px;
+}
+.ias-sec ul li, .ias-sec p{
+font-size: 18px;
+color: #2E3192;
+font-weight: 400;
+}
+.ias-sec p{
+margin-bottom:0px;
+}
+.ias-sec a{
+font-size: 16px;
+color: #fff;
+font-weight: 500;
+background:#DA2128;
+padding:5px 30px;
+border-radius: 5px;
+}
+.ias-sec .ias-img img{
+margin-top: -20px;
+}
+.abhyasa-sec{
+background:#F5F5F5;
+padding:40px 0px;
+}
+.abhyasa-sec h3{
+color: #DE3C42;
+font-size: 24px;
+font-weight: 600;
+margin-top: 25px;
+
+}
+
+.abhyasa-sec p{
+font-size: 16px;
+color: #2E3192;
+font-weight: 400;
+margin-bottom:20px;
+}
+.abhyasa-sec a{
+font-size: 16px;
+color: #fff;
+font-weight: 500;
+background:#DA2128;
+padding:5px 30px;
+border-radius: 5px;
+font-weight: 700;
+}
+.abhyasa-sec .slick-slider .slick-list, .courses-sec .slick-slider .slick-list {
+padding: 50px 0px;
+
+}
+.abhyasa-sec .test{
+color: #DE3C42 !important;
+font-weight: 700;
+margin-bottom:0px;
+
+}
+.slick-prev::before,  .slick-next::before {
+font-size: 23px;
+}
+
+.abhyasa-sec  .slick-prev::before, .abhyasa-sec  .slick-next::before, .demo-sec  .slick-prev::before, .demo-sec  .slick-next::before {
+font-size: 23px;
+color: #2E3192;
+}
+.abhyasa-sec   .slick-prev, .courses-sec   .slick-prev{
+left: -38px;
+}
+.abhyasa-sec  .slick-next, .courses-sec  .slick-next{
+right: -15px;
+}
+.demo-sec   .slick-prev,.topper-sec   .slick-prev{
+left: -38px;
+}
+ .demo-sec .slick-next,.topper-sec  .slick-next{
+right: 20px;
+}
+.abhyasa-sec .slick-slide img, .courses-sec  .slick-slide img {
+  padding-right: 20px;
+}
+.courses-sec {
+background:#2E3192;
+padding:40px 0px;
+}
+.courses-sec p{
+font-size: 16px;
+color: #fff;
+font-weight: 400;
+margin-bottom:20px;
+padding-right:20px;
+}
+.courses-sec a{
+font-size: 16px;
+color: #fff;
+font-weight: 500;
+background:#DA2128;
+padding:5px 30px;
+border-radius: 5px;
+font-weight: 700;
+}
+.courses-sec .headline{
+font-weight:700 !important;
+font-size:18px;
+margin-top: 15px;
+margin-bottom: 10px;
+}
+.abhyasa-sec button, .courses-sec button{
+
+border:none !important;
+background: transparent !important;
+}
+.whyanalog-sec h2{
+color: #DA2128;
+font-size: 34px;
+font-weight: 700;
+margin-bottom:30px;
+text-transform:uppercase;
+}
+.whyanalog-sec {
+padding:40px 0px;
+}
+.whyanalog-sec p{
+font-size: 16px;
+color: #2E3192;
+font-weight: 400;
+line-height:22px;
+}
+
+.whyanalog-sec .heading{
+font-weight: 600 !important;
+line-height: 19px;
+margin-bottom:0px;
+}
+
+ .whyanalog-sec .col-shadow{
+box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px;
+}
+.demo-sec h2{
+color: #DA2128;
+font-size: 34px;
+font-weight: 700;
+margin-bottom:30px;
+}
+.demo-sec{
+background:#F5F5F5;
+padding:40px 0px;
+}
+
+.demo-sec .slick-slide {
+min-height:330px !important;
+}
+
+.demo-sec  p{
+font-size: 16px;
+color: #2E3192;
+font-weight: 400;
+margin-bottom:0px;
+}
+.demo-sec .headname{
+font-weight:600 !important;
+font-size:18px;
+margin-bottom: 20px;
+color: #DA2128;
+}
+
+.topper-sec{
+
+background:#DA2128;
+padding:40px 0px;
+
+}
+.topper-sec h2{
+color: #fff;
+font-size: 34px;
+font-weight: 700;
+margin-bottom:30px;
+}
+.topper-sec p{
+font-size: 16px;
+color: #fff;
+font-weight: 600;
+margin-bottom:20px;
+}
+.footer-sec{
+background:#F5F5F5;
+padding: 40px 0px;
+color:#000;
+
+}
+.footer-sec p{
+font-size: 14px;
+font-weight: 400;
+margin-bottom:0px;
+}
+.footer-sec .place{
+font-weight:600;
+margin-bottom:10px;
+margin-top:10px;
+
+}
+.footer-sec p a{
+font-size: 14px;
+font-weight: 400;
+color:#000 !important;
+}
+.thankyou-sec{
+padding:150px 0px;
+text-align:center !important;
+}
+.thankyou-sec h2{
+color: #000;
+font-size: 28px;
+font-weight: 700;
+}
+.thankyou-sec p{
+color: #000;
+font-size: 23px;
+font-weight: 500;
+}
+/*---------------------------------- mobile version -----------------------------*/
+@media(max-width: 780px) {
+
+.menu-media a {
+  padding-right: 0px;
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+.main-navbar .menu-media {
+  float: unset;
+  margin-top: 0px;
+}
+.main-navbar .upsc{
+width: 178px;
+padding: 0px 10px !important;
+}
+.banner-sec h1 {
+  
+  font-size: 27px;
+  line-height: 31px;
+}
+.banner-sec p {
+  font-size: 22px;
+  }
+  .coaching-sec h2,  .rankers-sec h2, .batch-sec h2, .courses-sec h2, .whyanalog-sec h2, .demo-sec h2, .topper-sec h2{
+  font-size: 28px;
+  }
+  .coaching-sec p {
+  font-size: 19px;
+  }
+  .batch-sec p {
+  font-size: 21px;
+  }
+  .ias-sec {
+  padding:0px 20px;
+  }
+  .abhyasa-sec h3 {
+  font-size: 17px;
+  padding-right:10px;
+  }
+  .abhyasa-sec p {
+  font-size: 14px;
+    padding-right:10px;
+
+  }
+  .slick-prev,  .slick-next {
+display:none !important;}
+#btn-bn {
+  
+  position: relative !important;
+}
+.faculty-sec p {
+line-height: 24px;}
+.faculty-col {
+margin-top:30px !important;
+}
+.ias-sec .ias-img img {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.rankers-sec p {
+font-size: 13px;
+line-height:15px;
+}
+.abhyasa-sec .abhyasa-mob{
+margin-top:30px !important;
+}
+.thankyou-sec p {
+  font-size: 20px;
+  line-height: 23px;
+}
+.thankyou-sec h2 {
+  font-size: 25px;
+}
+.banner-sec .banner-text {
+  margin-top: 95px;
+  margin-left: 60px;
+}
+}
+
+
+
