@@ -132,10 +132,11 @@
 				<div class="col-md-6">
 				</div>
 				<div class="col-md-6 banner-text">
-					<h1>IAS 2023 goal set?</h1>
+					<h1>IAS 2024 goal set?</h1>
 					<h1>Join ANALOG IAS to get it!</h1>
 					<p>Win the UPSC race </p>
-					<p>with expert guidance. </p>
+					<p>with expert guidance. </p><br>
+					<a href="#banner-sec2" class="home-btn">Register</a>
 
 
 					<!---------------form---------------------
@@ -195,7 +196,7 @@
 
 	<!--------------------------------------------------------------------------------------------------------------------->
 
-	<section class="banner-sec2">
+	<section class="banner-sec2" id ="banner-sec2">
 
 		<div id="btn-bn">
 			<div class="form form-section " id="form-sec">
@@ -917,7 +918,7 @@
 		var mybutton = document.getElementById("btn-bn");
 		window.onscroll = function () { scrollFunction() };
 		function scrollFunction() {
-			if (document.body.scrollTop > 200) {
+			if (document.body.scrollTop < 200) {
 				mybutton.style.position = "fixed";
 			} else {
 				mybutton.style.position = "relative";
