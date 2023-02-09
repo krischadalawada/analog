@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Provider } from 'react-redux';
+import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
 import 'swiper/css/bundle';
 import 'react-responsive-modal/styles.css';
 import { coursesData } from '../../redux/features/coursesSlice';
@@ -16,7 +17,6 @@ import { getTotal } from '../../redux/features/cartSlice';
 if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
 }
-
 
 const firebaseConfig = {
   apiKey: "AIzaSyBcOqjiLRsrVl0AGy9iLZHz8B08qqmb6Mc",
@@ -41,10 +41,14 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <React.Fragment>
-      <Provider store={store}>
-        <Component {...pageProps} />
-        <ToastContainer />
-      </Provider>
+      <GoogleReCaptchaProvider 
+      reCaptchaKey={"6LfUxmAkAAAAACIcicxRBn4WK2LjIh3BhNcrRKQ4"}
+      >
+        <Provider store={store}>
+          <Component {...pageProps} />
+          <ToastContainer />
+        </Provider>
+      </GoogleReCaptchaProvider>
     </React.Fragment>
   )
 }

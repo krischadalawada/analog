@@ -52,7 +52,7 @@ const JoinAnalog = () => {
             timings: '10:30 AM - 01:00 PM'
         },
         {
-            id: '282b0fff',
+            id: '282b0mmm',
             control: 'courseThr',
             target: '#courseThr',
             location: 'Ashok Nagar, HYD',
@@ -63,7 +63,7 @@ const JoinAnalog = () => {
             timings: '10:30 AM - 01:00 PM'
         },
         {
-            id: 'fee30c00',
+            id: 'fee30d11',
             control: 'courseSix',
             target: '#courseSix',
             location: 'Ashok Nagar, HYD',
@@ -215,8 +215,8 @@ const JoinAnalog = () => {
                                                             id="enrollNow"
                                                             offset={-120}
                                                         >
-                                                            <a className="tp-btn-secondary pointer">ENROLL NOW <i className="fa-regular fa-arrow-right fa-ri">
-                                                            </i></a>
+                                                            <p className="tp-btn-secondary pointer">ENROLL NOW <i className="fa-regular fa-arrow-right fa-ri">
+                                                            </i></p>
                                                         </ScrollLink>
                                                     </div>
                                                 </div>

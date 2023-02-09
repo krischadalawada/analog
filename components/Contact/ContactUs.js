@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import Link from "next/link";
 import { useRouter } from 'next/router';
 import { Spinner } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
+import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
 
 const ContactUs = () => {
+
+    const { executeRecaptcha } = useGoogleReCaptcha();
 
     const router = useRouter()
     const [loading, setLoading] = useState(false)
@@ -21,8 +24,8 @@ const ContactUs = () => {
     const validateEmail = (email) => {
         var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
         if (email) {
-            return  email.match(mailformat);
-        }        
+            return email.match(mailformat);
+        }
     };
 
     const onChangeText = (event) => {
@@ -39,32 +42,52 @@ const ContactUs = () => {
         }
     }
 
-    const onSubmit = () => {
+    const onVerify = () => {
 
+        setAlert(false)
+        setClickedSubmit(true)
+        setLoading(true)
+        setSuccess(false)
+        setFailure(false)
+
+        emailjs.send("service_frj3va9", "template_p3h2j35", {
+            from_name: name,
+            phone: phone,
+            email: email,
+            message: message,
+        }, "vE-Cc658AKOCommhp")
+            .then((result) => {
+                setLoading(false)
+                setSuccess(true)
+                setAlert(false)
+            }, (error) => {
+                setLoading(false)
+                setFailure(true)
+            });
+
+    }
+
+    const onSubmit = useCallback(async () => {
+
+        console.log('Submitting form...');
         if (name.length > 1 && phone.length === 10 && validateEmail(email)) {
-            setAlert(false)
-            setClickedSubmit(true)
-            setLoading(true)
-            emailjs.send("service_frj3va9", "template_p3h2j35", {
-                from_name: name,
-                phone: phone,
-                email: email,
-                message: message,
-            }, "vE-Cc658AKOCommhp")
-                .then((result) => {
-                    setLoading(false)
-                    setSuccess(true)
-                    setAlert(false)
-                }, (error) => {
-                    setLoading(false)
-                    setFailure(true)
-                });
+            if (!executeRecaptcha) {
+                setClickedSubmit(true)
+                setFailure(true)
+                return;
+            }
 
+            const token = await executeRecaptcha('SubmitForm');
+            if (token) {
+                setFailure(true)
+                onVerify()
+            }
         } else {
             setClickedSubmit(false)
             setAlert(true)
         }
-    }
+
+    }, [executeRecaptcha]);
 
     return (
         <>
@@ -89,7 +112,7 @@ const ContactUs = () => {
                                             </div>
                                             :
                                             clickedSubmit && success ?
-                                                <div className="col-xxl-12">
+                                                <div className="col-xxl-12" style={{ caretColor: 'transparent' }}>
                                                     <div className="contact__form-input">
                                                         <h2>Request submitted successfully! <br />You'll hear from us soon.</h2>
                                                     </div>
@@ -118,14 +141,14 @@ const ContactUs = () => {
                                                     </div>
                                                     {
                                                         clickedSubmit && failure ?
-                                                            <div className="col-xxl-12">
+                                                            <div className="col-xxl-12"  style={{ caretColor: 'transparent' }}>
                                                                 <div className="contact__form-input">
                                                                     <h3>We couldn't process your request at this time. Please try again after some time.</h3>
                                                                 </div>
                                                             </div>
                                                             :
                                                             alert ?
-                                                                <div className="col-xxl-12">
+                                                                <div className="col-xxl-12"  style={{ caretColor: 'transparent' }}>
                                                                     <div className="contact__form-input">
                                                                         <h3>*Please submit valid details and try again.</h3>
                                                                     </div>
@@ -134,7 +157,7 @@ const ContactUs = () => {
                                                                 <></>
                                                     }
                                                     <div className="col-12" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', caretColor: 'transparent' }}>
-                                                        <a className="tp-btn-secondary pointer" onClick={() => onSubmit()}>Submit <i className="fa-regular fa-arrow-right fa-ri">
+                                                        <a className="tp-btn-secondary pointer" onClick={onSubmit}>Submit <i className="fa-regular fa-arrow-right fa-ri">
                                                         </i></a>
                                                     </div>
                                                 </div>
