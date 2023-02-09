@@ -3,11 +3,9 @@ import Link from "next/link";
 import { useRouter } from 'next/router';
 import { Spinner } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
-import { useGoogleReCaptcha } from 'react-google-recaptcha-v3';
+import { GoogleReCaptcha } from 'react-google-recaptcha-v3';
 
 const ContactUs = () => {
-
-    const { executeRecaptcha } = useGoogleReCaptcha();
 
     const router = useRouter()
     const [loading, setLoading] = useState(false)
@@ -20,6 +18,8 @@ const ContactUs = () => {
     const [email, setEmail] = useState('')
     const [phone, setPhone] = useState('')
     const [message, setMessage] = useState('')
+    const [token, setToken] = useState();
+    const [refreshReCaptcha, setRefreshReCaptcha] = useState(false);
 
     const validateEmail = (email) => {
         var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -42,52 +42,44 @@ const ContactUs = () => {
         }
     }
 
-    const onVerify = () => {
+    const onVerify = useCallback((tkn) => {
+        console.log('TRIGGERING');
+        setToken(tkn);
+    }, [alertMsg]);
 
-        setAlert(false)
-        setClickedSubmit(true)
-        setLoading(true)
-        setSuccess(false)
-        setFailure(false)
+    const onSubmit = () => {
 
-        emailjs.send("service_frj3va9", "template_p3h2j35", {
-            from_name: name,
-            phone: phone,
-            email: email,
-            message: message,
-        }, "vE-Cc658AKOCommhp")
-            .then((result) => {
-                setLoading(false)
-                setSuccess(true)
-                setAlert(false)
-            }, (error) => {
-                setLoading(false)
-                setFailure(true)
-            });
-
-    }
-
-    const onSubmit = useCallback(async () => {
-
-        console.log('Submitting form...');
         if (name.length > 1 && phone.length === 10 && validateEmail(email)) {
-            if (!executeRecaptcha) {
-                setClickedSubmit(true)
-                setFailure(true)
-                return;
-            }
 
-            const token = await executeRecaptcha('SubmitForm');
             if (token) {
-                setFailure(true)
-                onVerify()
+                setAlert(false)
+                setClickedSubmit(true)
+                setLoading(true)
+                setSuccess(false)
+                setFailure(false)
+
+                emailjs.send("service_frj3va9", "template_p3h2j35", {
+                    from_name: name,
+                    phone: phone,
+                    email: email,
+                    message: message,
+                }, "vE-Cc658AKOCommhp")
+                    .then((result) => {
+                        setLoading(false)
+                        setSuccess(true)
+                        setAlert(false)
+                        setRefreshReCaptcha(r => !r);
+                    }, (error) => {
+                        setLoading(false)
+                        setFailure(true)
+                    });
             }
         } else {
             setClickedSubmit(false)
             setAlert(true)
         }
 
-    }, [executeRecaptcha]);
+    };
 
     return (
         <>
@@ -141,14 +133,14 @@ const ContactUs = () => {
                                                     </div>
                                                     {
                                                         clickedSubmit && failure ?
-                                                            <div className="col-xxl-12"  style={{ caretColor: 'transparent' }}>
+                                                            <div className="col-xxl-12" style={{ caretColor: 'transparent' }}>
                                                                 <div className="contact__form-input">
                                                                     <h3>We couldn't process your request at this time. Please try again after some time.</h3>
                                                                 </div>
                                                             </div>
                                                             :
                                                             alert ?
-                                                                <div className="col-xxl-12"  style={{ caretColor: 'transparent' }}>
+                                                                <div className="col-xxl-12" style={{ caretColor: 'transparent' }}>
                                                                     <div className="contact__form-input">
                                                                         <h3>*Please submit valid details and try again.</h3>
                                                                     </div>
@@ -156,8 +148,12 @@ const ContactUs = () => {
                                                                 :
                                                                 <></>
                                                     }
+                                                    <GoogleReCaptcha
+                                                        onVerify={onVerify}
+                                                        refreshReCaptcha={refreshReCaptcha}
+                                                    />
                                                     <div className="col-12" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', caretColor: 'transparent' }}>
-                                                        <a className="tp-btn-secondary pointer" onClick={onSubmit}>Submit <i className="fa-regular fa-arrow-right fa-ri">
+                                                        <a className="tp-btn-secondary pointer" onClick={() => onSubmit()}>Submit <i className="fa-regular fa-arrow-right fa-ri">
                                                         </i></a>
                                                     </div>
                                                 </div>

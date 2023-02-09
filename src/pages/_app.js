@@ -41,9 +41,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <React.Fragment>
-      <GoogleReCaptchaProvider 
-      reCaptchaKey={"6LfUxmAkAAAAACIcicxRBn4WK2LjIh3BhNcrRKQ4"}
-      >
+      <GoogleReCaptchaProvider reCaptchaKey={"6LfUxmAkAAAAACIcicxRBn4WK2LjIh3BhNcrRKQ4"}>
         <Provider store={store}>
           <Component {...pageProps} />
           <ToastContainer />
