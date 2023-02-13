@@ -1,12 +1,14 @@
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useRef } from "react";
 import Link from "next/link";
 import { useRouter } from 'next/router';
 import { Spinner } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
-import { GoogleReCaptcha } from 'react-google-recaptcha-v3';
+import ReCAPTCHA from "react-google-recaptcha";
+import useWindowSize from "../Common-A/Window";
 
 const ContactUs = () => {
 
+    const { width, height } = useWindowSize()
     const router = useRouter()
     const [loading, setLoading] = useState(false)
     const [clickedSubmit, setClickedSubmit] = useState(false)
@@ -18,8 +20,9 @@ const ContactUs = () => {
     const [email, setEmail] = useState('')
     const [phone, setPhone] = useState('')
     const [message, setMessage] = useState('')
-    const [token, setToken] = useState();
-    const [refreshReCaptcha, setRefreshReCaptcha] = useState(false);
+    const [reCaptchaAlert, setReCaptchaAlert] = useState(false);
+
+    const captchaRef = useRef(null)
 
     const validateEmail = (email) => {
         var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -42,18 +45,16 @@ const ContactUs = () => {
         }
     }
 
-    const onVerify = useCallback((tkn) => {
-        console.log('TRIGGERING');
-        setToken(tkn);
-    }, [alertMsg]);
+    const onSubmit = (e) => {
 
-    const onSubmit = () => {
+        const token = captchaRef.current.getValue();
 
         if (name.length > 1 && phone.length === 10 && validateEmail(email)) {
 
+            setAlert(false)
+            setClickedSubmit(true)
+
             if (token) {
-                setAlert(false)
-                setClickedSubmit(true)
                 setLoading(true)
                 setSuccess(false)
                 setFailure(false)
@@ -68,11 +69,13 @@ const ContactUs = () => {
                         setLoading(false)
                         setSuccess(true)
                         setAlert(false)
-                        setRefreshReCaptcha(r => !r);
                     }, (error) => {
                         setLoading(false)
                         setFailure(true)
                     });
+            } else {
+                setReCaptchaAlert(true)
+                setClickedSubmit(false)
             }
         } else {
             setClickedSubmit(false)
@@ -146,16 +149,38 @@ const ContactUs = () => {
                                                                     </div>
                                                                 </div>
                                                                 :
+                                                                reCaptchaAlert ?
+                                                                <div className="col-xxl-12" style={{ caretColor: 'transparent' }}>
+                                                                    <div className="contact__form-input">
+                                                                        <h3>*Please confirm that you are not a robot.</h3>
+                                                                    </div>
+                                                                </div>
+                                                                :
                                                                 <></>
                                                     }
-                                                    <GoogleReCaptcha
-                                                        onVerify={onVerify}
-                                                        refreshReCaptcha={refreshReCaptcha}
-                                                    />
-                                                    <div className="col-12" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', caretColor: 'transparent' }}>
-                                                        <a className="tp-btn-secondary pointer" onClick={() => onSubmit()}>Submit <i className="fa-regular fa-arrow-right fa-ri">
-                                                        </i></a>
-                                                    </div>
+                                                    {
+                                                        width > 510 ?
+                                                            <div className="col-12" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', caretColor: 'transparent' }}>
+                                                                <ReCAPTCHA
+                                                                    sitekey={process.env.NEXT_PUBLIC_SITE_KEY}
+                                                                    ref={captchaRef}
+                                                                />
+                                                                <a className="tp-btn-secondary pointer" onClick={() => onSubmit()}>Submit <i className="fa-regular fa-arrow-right fa-ri">
+                                                                </i></a>
+                                                            </div>
+                                                            :
+                                                            <>
+                                                                <ReCAPTCHA
+                                                                    sitekey={process.env.NEXT_PUBLIC_SITE_KEY}
+                                                                    ref={captchaRef}
+                                                                />
+                                                                <div className="col-12" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', caretColor: 'transparent', marginTop: 10 }}>
+
+                                                                    <a className="tp-btn-secondary pointer" onClick={onSubmit}>Submit <i className="fa-regular fa-arrow-right fa-ri">
+                                                                    </i></a>
+                                                                </div>
+                                                            </>
+                                                    }
                                                 </div>
                                     }
                                 </form>

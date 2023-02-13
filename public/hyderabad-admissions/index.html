@@ -142,9 +142,7 @@
 					<!---------------form---------------------
 		   <div id="btn-bn">
 		    <div class="form form-section " id="form-sec"  >
-
         <div id="register" class="container ">
-
             <div class="form-container">
                 <form action="#" name="enquire-form"  id="enquire-form" method="post" enctype="multipart/form-data" >
 					<div class="col-md-12 "><p> Fill-in to register interest in any UPSC Civil Services Examination (CSE) course</p></div>
@@ -195,14 +193,51 @@
 	</section>
 
 	<!--------------------------------------------------------------------------------------------------------------------->
-
-	<section class="banner-sec2" id ="banner-sec2">
+<section class="banner-sec2">
 
 		<div id="btn-bn">
+				   <div class="form form-section " id="form-sec"  >
+	   
+			   <div id="register" class="container ">
+	   
+				   <div class="form-container">
+					   <form id="myform" style="text-align:center;">
+						   <p > Fill-in to register interest in any UPSC Civil Services
+							   Examination (CSE) course</p>
+						   <input type="text"  class="form-control" name="name" placeholder='Name *'>
+						   <input type="email" class="form-control" name="email" placeholder='Email ID *'>
+						   <input type="tel" class="form-control" name="phone" placeholder='Phone No. *'>
+						   <input type="submit" class="btn btn-default" id="sub" value="Enroll Now">
+					   </form>
+					   <script>
+						   let form = document.querySelector("#myform");
+						   form.addEventListener('submit', (e) => {
+							   e.preventDefault();
+							   document.querySelector("#sub").value = "Submitted";
+							   let data = new FormData(form);
+							   fetch('https://script.google.com/macros/s/AKfycbzJOt9Koq9p4yLlxWrSzW2Mj4isyIo4dc43TV6tHCLkh1NvaRp1E-E9XAsYS4SykUB-/exec', {
+									   method: "POST",
+									   body: data
+								   })
+								   .then(res => res.text())
+								   .then(data => {
+									   document.querySelector("#msg").innerHTML = data;
+									   document.querySelector("#sub").value = "Submit"
+								   });
+						   })
+					   </script>
+				   </div>
+			   </div>
+		   </div>
+				  
+			   </div> 
+	   
+	   
+	   </section>
+<!-- 	<section class="banner-sec2" id ="banner-sec2">
+		<div id="btn-bn">
 			<div class="form form-section " id="form-sec">
-
 				<div id="register" class="container ">
-
 					<div class="form-container">
 						<form action="#" name="enquire-form" id="enquire-form" method="post"
 							enctype="multipart/form-data">
@@ -218,17 +253,14 @@
 								<input type="email" class="form-control" id="email" placeholder="Email ID*">
 							</div>
 							<div id="email_error" class="error"> Enter your email id.</div>
-
 							<div class="col-md-12">
 								<input type="text" class="form-control" id="phnum" placeholder="Phone No.*"
 									maxlength="10">
 							</div>
 							<div id="phnum_error" class="error"> Enter your phone number.</div>
-
-							<!-- <div class="col-md-12 ">-->
-							<!--                   <input type="text" class="form-control" id="city" placeholder="City*">-->
-							<!--</div><div id="city_error" class="error"> Enter your city.</div>         -->
-
+							<div class="col-md-12 ">
+							                  <input type="text" class="form-control" id="city" placeholder="City*">
+							</div><div id="city_error" class="error"> Enter your city.</div>      
 							<div id="c_mail_success" class="success">Thank you for contacting us, we will get back to
 								you soon.</div>
 							<div id="c_mail_fail" class="error">Sorry, error occured this time sending your message.
@@ -240,13 +272,9 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
-
-
-
-
 	</section>
+	 -->
 
 
 

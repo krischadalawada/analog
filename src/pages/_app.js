@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { Provider } from 'react-redux';
-import { GoogleReCaptchaProvider } from 'react-google-recaptcha-v3';
 import 'swiper/css/bundle';
 import 'react-responsive-modal/styles.css';
 import { coursesData } from '../../redux/features/coursesSlice';
@@ -41,12 +40,10 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <React.Fragment>
-      <GoogleReCaptchaProvider reCaptchaKey={"6LfUxmAkAAAAACIcicxRBn4WK2LjIh3BhNcrRKQ4"}>
-        <Provider store={store}>
-          <Component {...pageProps} />
-          <ToastContainer />
-        </Provider>
-      </GoogleReCaptchaProvider>
+      <Provider store={store}>
+        <Component {...pageProps} />
+        <ToastContainer />
+      </Provider>
     </React.Fragment>
   )
 }
