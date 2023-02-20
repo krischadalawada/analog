@@ -28,7 +28,7 @@ const HeroMain = () => {
                            <a className="tp-btn-primary-b" style={{ marginRight: '5%', marginBottom: width < 460 ? '3%' : 0 }}>Learn More <i className="fa-regular fa-arrow-right fa-ri">
                            </i></a>
                         </Link>
-                        <Link href="/contact">
+                        <Link href="/contact-us">
                            <a className="tp-btn-secondary">Contact Us <i className="fa-regular fa-arrow-right fa-ri">
                            </i></a>
                         </Link>

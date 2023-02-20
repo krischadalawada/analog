@@ -14,7 +14,7 @@ const links = [
 
     {
         id:3,
-        url:'/about',
+        url:'/about-us',
         name:'About',
     },
 
@@ -32,7 +32,7 @@ const links = [
 
     {
         id:6,
-        url:'/contact',
+        url:'/contact-us',
         name:'Contact'
     },
 ]

@@ -43,7 +43,7 @@ const Toppers = () => {
                <div className="row">
                   <div className="col-xxl-12">
                      <div className="section__title-wrapper mt-30 mb-50 text-center">
-                        <Link href="/toppers">
+                        <Link href="/civil-results">
                            <a className="tp-btn-primary-b" style={{ marginRight: '5%' }}>View More <i className="fa-regular fa-arrow-right fa-ri">
                            </i></a>
                         </Link>

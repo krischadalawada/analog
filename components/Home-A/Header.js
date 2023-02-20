@@ -117,7 +117,7 @@ const Header = () => {
                      </div>
                      <div className="slider__shape">
                         <div className="slider__shape-5 row">
-                           <Link href="/toppers">
+                           <Link href="/civil-results">
                               <a className='upsc pointer'>UPSC Results</a>
                            </Link>
                            {/* <a className='tseries pointer'>Test Series</a> */}

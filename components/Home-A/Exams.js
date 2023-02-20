@@ -36,7 +36,7 @@ const Exams = () => {
                                  <div className="" style={{ width: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                                     <img className='logos' src={feature.icon_img} />
                                     <h3 className="features__title">
-                                       <Link href="/about">
+                                       <Link href="/about-us">
                                           <a>{feature.title}</a>
                                        </Link>
                                     </h3>

@@ -23,7 +23,7 @@ const Footer = ({ white_bg = '' }) => {
                               <div className="footer__widget-content">
                                  <div className="footer__widget-info">
                                     <p>Analog Education Society was established with an aim to impart quality coaching for aspirants preparing for Civil Services and other government services.</p>
-                                    <a target="_blank" rel="noopener noreferrer" href='https://www.google.com/maps/place/ANALOG+IAS+ACADEMY+Ashok+Nagar/@17.410885,78.4847279,16z/data=!4m5!3m4!1s0x3bcb99e8e1c1ecbf:0x11e6fd3ae91626dc!8m2!3d17.4090615!4d78.4893515'>
+                                    <a target="_blank" rel="noopener noreferrer" href='https://www.google.com/maps/search/analog+ias+academy/@17.4112973,78.486235,16z'>
                                        <img className='map pointer' src="/assets/images/footer/map-zoomed.png" alt="" />
                                     </a>
                                  </div>

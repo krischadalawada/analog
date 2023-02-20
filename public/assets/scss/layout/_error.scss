@@ -17,10 +17,11 @@
         }
     }
     &__content{
+        margin-top: 5vh;
         & p{
             font-size: 20px;
             color: var(--tp-text-1);
-            margin-bottom: 45px;
+            margin: 4vh 0;
         }
     }
     &__thumb{
