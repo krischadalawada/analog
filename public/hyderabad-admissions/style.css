@@ -483,6 +483,11 @@ font-weight: 500;
   margin-top: 100px;
 
 }
+.footer-d{
+  bottom: 0px;
+  width: 100%;
+  position: fixed;
+}
 }
 /*---------------------------------- mobile version -----------------------------*/
 @media(max-width: 780px) {

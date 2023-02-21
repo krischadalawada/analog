@@ -191,7 +191,7 @@
 		</div>
 
 	</section>
-
+<div w3-include-html="content.html"></div>
 	<!--------------------------------------------------------------------------------------------------------------------->
 <section class="banner-sec2" id ="banner-sec2">
 
@@ -207,7 +207,7 @@
 						   <input type="text"  name="Name" class="form-control" placeholder='Name *' required >
 						   <input type="email"  class="form-control" name="Email" placeholder='Email ID *' required>
 						   <input type="tel" class="form-control" name="Phone" pattern="[0-9]{1}[0-9]{9}" title="Phone number should have 10 digits" placeholder='Phone No. *' required>
-						   <input type="submit" class="btn btn-default" id="sub" value="Enroll Now">
+						   <input type="submit" class="btn btn-default" id="sub" value="Enroll Now" >
 					   </form>
 					   <script>
 						const scriptURL = 'https://script.google.com/macros/s/AKfycbyQMEqxaTAg8IKtXPcvKA2358J56vJ-KGoEhoCWuz2dGIrDydT0hWW5XyGP-jbDl484OQ/exec'
@@ -215,7 +215,7 @@
 					  
 						form.addEventListener('submit', e => {
 						  e.preventDefault()
-						  document.querySelector("#sub").value = "Submitted";
+						  document.querySelector("#sub").value = location.replace("https://analogeducation.in/hyderabad-admissions/thank-you.html")
 						  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
 						  .then(res => res.text())
 														 .then(data => {
