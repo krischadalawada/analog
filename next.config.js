@@ -6,11 +6,6 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/downloads/:slug*',
-        destination: '/downloads',
-        permanent: true,
-      },
-      {
         source: '/download/:slug*',
         destination: '/downloads',
         permanent: true,
