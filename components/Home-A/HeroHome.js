@@ -12,7 +12,8 @@ const HeroHome = () => {
                <div className="row align-items-center">
                   <div className="col-xxl-6 col-lg-6">
                      <div className="slider__content-2 mt-30">
-                        <h3 className="slider__title-2">Be UPSC Exam-Ready in less than a Year. <br />New Batches for IAS 2024 starting from 11th March 2023”</h3>
+                        <h3 className="slider__title-2">Be UPSC Exam-Ready<br /> in less than a Year.</h3>
+                        <h3 className="slider__title-sub">New Batches for IAS 2024 <br />starting from 11th March 2023</h3>
                         <Link href="/contact-us">
                            <a className="tp-btn-primary" style={{ marginRight: '5%' }}>Register now! <i className="fa-regular fa-arrow-right fa-ri">
                            </i></a>
