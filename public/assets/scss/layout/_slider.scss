@@ -227,11 +227,11 @@
         }
 
         &-2 {
-            font-size: 4.7vh;
+            font-size: 6vh;
             font-weight: 800;
             color: #fff;
             letter-spacing: -0.03em;
-            margin-bottom: 5vh;
+            margin-bottom: 3vh;
 
             @media #{$lg} {
                 font-size: 45px;
@@ -244,6 +244,12 @@
             @media #{$xs} {
                 font-size: 28px;
             }
+        }
+        
+        &-sub {
+            font-size: 3.2vh;
+            color: #fff;
+            margin-bottom: 4vh;
         }
 
         &-3 {
