@@ -120,7 +120,9 @@ const Header = () => {
                            <Link href="/civil-results">
                               <a className='upsc pointer'>UPSC Results</a>
                            </Link>
-                           {/* <a className='tseries pointer'>Test Series</a> */}
+                           <Link href="/test-series/index.html">
+                              <a className='tseries pointer'>Test Series</a>
+                           </Link>  
                         </div>
                      </div>
                   </div>
