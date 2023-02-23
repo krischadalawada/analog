@@ -1,0 +1,39 @@
+.container{
+    border: 6px double black;
+    width:50% !important;
+    font-family: auto;
+    padding: 40px 40px 0px 40px;
+}
+.head-1{
+    text-align: center;
+    color: red;
+    font-family: auto;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+table tr th{
+    background-color: #ff9c04;
+}
+table tr td{
+    background-color: #e0ecd4;
+}
+.footer h6 {
+    background-color: #c8544c;
+    color: #fff;
+}
+.table-border tr th,.table-border tr td{
+    border: 1px solid black;
+}
+.sidebar
+{
+    border: 1px solid;
+    padding: 13px 71px 3px 47px;
+}
+@media (max-width: 768px){
+   .container {
+    width: 100% !important;
+    padding: 10px;
+   }
+}
