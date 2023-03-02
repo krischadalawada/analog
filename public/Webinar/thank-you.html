@@ -30,37 +30,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="stylesheet" type="text/css" href="../hyderabad-admissions/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="../hyderabad-admissions/slick/slick-theme.css"/>
     <style>
+        .error {
+            display: none;
+            margin: 0 0 5px 0;
+            color: #CC0000;
+            font-size: 14px;
+            line-height: 18px;
+            position: relative;
+            top: -3px;
+			padding-left:15px;
+        }
+        .success {
+            clear: both;
+            display: none;
+            color: #009900;
+            font-size: 14px;
+            line-height: 18px;
+        }
+    </style>
+    <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-
-        @media (min-width: 780px)
-    {
-        .footer-d {
-        position: unset
-        }
-        .banner{
-            margin-top: 95px;
-        }
-        .banner img{
-            width: 100%;;
-        }
-        .content-webniar{
-            padding: 100px;
-        }
-
-    }
-    @media (max-width: 780px){
-        .banner{
-            margin-top: 200px;
-            height: 100%;
-        }
-        .banner img{
-            width: 100%;;
-        }
-        .content-webniar{
-            padding: 50px;
-        }
-    }
-    
     </style>
 	<style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
@@ -118,74 +107,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </section>
 
-<section>
-    <div class="banner">
-        <img src="banner.jpg" alt="" >
-    </div>
-    <div class="content-webniar" >
-        <h2><b>A STRATEGIC WAY TO CRACK IAS/IPS:</b></h2>
-        <p>A Webinar by ANALOG IAS Institute</p>
-        <div class="row">
-            <div class="col-md-6">
-                <h4 style="color: #da2128;">5<sup>th</sup> March, 2023 | 11:00 AM - 1:00 PM</h4>
-                <h6 class="mt-5"><b>Strategy is the key to success:</b></h6>
-                <p >UPSC does not need you to be exceptionally intelligent or genius, but a hard worker who prepares with a strategy. To help you stay consistent with your preparation and guide you to perform well in the examination, ANALOG offers comprehensive coaching that equips you with the right knowledge and skill to crack IAS/IPS in less time.</p>
-                <h6><b>Takeaways from the webinar:</b></h6>
-                <ul>
-                    <li>How to prepare for IAS with a plan</li>
-                    <li>Resources & reading list to follow </li>
-                    <li>How to read newspapers</li>
-                    <li>The effective way to make notes</li>
-                </ul>
-                <h5 class="mt-5" style="color: #da2128;">SPEAKERS</h5>
-                <div class="row mt-3">
-                    <div class="col-md-6">
-                        <img src="speaker.jpg" alt="" style="width: 150px; border-radius: 50%;">
-                        <h6 class="mt-2"><b >Mr. Srikanth Vinnakota<br>
-                            Director, ANALOG IAS Institute</b></h6>
-                        <p>An M.Tech by education and a IAS aspirant who was qualified for UPSC interview thrice, <br>
-                            Mr. Srikanth has been making India’s best officers for 25 successful years now. </p>
-                    </div>
-                    <div class="col-md-6">
-                        <!-- <img src="https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg" alt="" style="width: 150px;">
-                        <h6>Lorem Ipsum</h6>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p> -->
-                    </div>
 
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div>
-                    <h3>Register Now</h3>
-                    <p>Fill out this form to register for the webinar</p>
-                    <form name="submit-to-google-sheet">
-                        <input type="text"  name="Name" class="form-control" placeholder='Name *' required > <br>
-                        <input type="email"  class="form-control" name="Email" placeholder='Email ID *' required> <br>
-                        <input type="tel" class="form-control" name="Phone" pattern="[0-9]{1}[0-9]{9}" title="Phone number should have 10 digits" placeholder='Phone No. *' required> <br>
-                        <input type="text"  class="form-control" name="Location" placeholder='City/Town/Village*' required> <br>
-                        <input type="submit" class="btn btn-default" id="sub" value="Register Now" style="    background: #da2128;color: #fff;">
-                    </form>
-                    <script>
-						const scriptURL = 'https://script.google.com/macros/s/AKfycbzl8NGRbFyDVLKD3Ik9SIxOhg0tiNoTgo8NmuwzCOq1he2rN_R6QO71xcqF_dNYRVS0/exec'
-						const form = document.forms['submit-to-google-sheet']
-					  
-						form.addEventListener('submit', e => {
-						  e.preventDefault()
-						  document.querySelector("#sub").value = location.replace("https://analogeducation.in/webinar/thank-you.html")
-						  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-						  .then(res => res.text())
-														 .then(data => {
-															 document.querySelector("#msg").innerHTML = data;
-															 document.querySelector("#sub").value = "Submit"
-														 });
-						})
-					  </script>
-                </div>
-            </div>
 
-        </div>
-    </div>
+<section class="thankyou-sec mt-5">
+
+	<div class="container">
+		<div>
+		<h1><b>Thank you for your interest in the Webinar. </b></h1>
+		<p>You will receive the link soon.</p>
+		
+		</div>
+	
+	
+	
+	</div>
+	
+
 </section>
+
+
+
 
 
 
