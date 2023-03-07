@@ -2839,7 +2839,144 @@ export const DownloadsData = [
     {
         category: 'NCERT Books',
         thumbnail: '/assets/images/downloads/downloads-2@2x.png',
-        url: ''
+        url: '/downloads/ncert-books',
+        list: [
+            {
+              "title": "NCERT Book List",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "1736075053NCERT Books.pdf"
+            },
+            {
+              "title": "Agriculture",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "876892631Agriculture.pdf"
+            },
+            {
+              "title": "Ancient History",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "813664597Ancient History.pdf"
+            },
+            {
+              "title": "Democratic Politics II",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "968497096Democratic Politics II.pdf"
+            },
+            {
+              "title": "Contemporary World Politics",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "1076003837Contemporary World Politics.pdf"
+            },
+            {
+              "title": "Democratic Politics",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "665385291Democratic Politics.pdf"
+            },
+            {
+              "title": "Environment - I",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "61472999Environment - I.pdf"
+            },
+            {
+              "title": "Economy",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "134796829Economy.pdf"
+            },
+            {
+              "title": "Environment - II",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "1254763591Environment - II.pdf"
+            },
+            {
+              "title": "Indian Constitution at Work",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "1493506588Indian Constitution at Work.pdf"
+            },
+            {
+              "title": "Indian Geography",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "1530691723Indian Geographyy.pdf"
+            },
+            {
+              "title": "Medieval History",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "838334917Medieval History.pdf"
+            },
+            {
+              "title": "Modern History",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "1907816969Modern History.pdf"
+            },
+            {
+              "title": "Parliament Handbook",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "86411688Parliament Hadbook.pdf"
+            },
+            {
+              "title": "Physical Geography",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "1567041682Physical Geograpy.pdf"
+            },
+            {
+              "title": "Political Science",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "1842608639Political Science.pdf"
+            },
+            {
+              "title": "Sociology",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "940720657Sociology.pdf"
+            },
+            {
+              "title": "World Human and Economic Geography",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "1359480988World Human and Economic Geography.pdf"
+            },
+            {
+              "title": "NIOS History",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "1927411669NIOS History.pdf"
+            },
+            {
+              "title": "Political Science - II",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "1115663971Political Science II.pdf"
+            },
+            {
+              "title": "GS Schedule 2019 Main Test Series - 1",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "2145700560GS paper 1.pdf"
+            },
+            {
+              "title": "GS Schedule 2019 Main Test Series - 2",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "86537759Gs paper 2_1.pdf"
+            },
+            {
+              "title": "The Story of Civilization - Part 1",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "2048601565The Story of Civilization Part I (Arjun Dev).pdf"
+            },
+            {
+              "title": "The Story of Civilization - Part 2",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "The Story of Civilization Part II (Arjun Dev).pdf"
+            },
+            {
+              "title": "Ancient India(Romila Thapar)",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "Ancient_India(Romila_Thapar).pdf"
+            },
+            {
+              "title": "Ancient India(Makkham - Lal)",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "Ancient India (Makkham-Lal).pdf"
+            },
+            {
+              "title": "About ANALOG",
+              "link": "/assets/downloads/ncert_books/",
+              "path": "645908009About ANALOG.pdf"
+            }
+          ]
     },
     {
         category: 'Monthly Magazine',

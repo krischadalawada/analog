@@ -100,7 +100,7 @@ const Header = () => {
                                     </ul>
                                  </nav>
                               </div>
-                              <a className='focus-trans' href="tel:+918494990066" target="_blank" rel="noopener noreferrer">
+                              <a className='focus-trans' href="tel:+916301529232" target="_blank" rel="noopener noreferrer">
                                  <li className='phone'>
                                     <BsFillTelephoneFill color='#fff' />
                                  </li>
