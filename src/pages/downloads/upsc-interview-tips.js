@@ -31,7 +31,7 @@ const Target = () => {
                                         <tr key={key}>
                                             <td>{key + 1}</td>
                                             <td>{val.title}</td>
-                                            <td><a href={val.link} target="_blank" rel="noopener noreferrer">Download</a></td>
+                                            <td><a href={val.link + val.path} target="_blank" rel="noopener noreferrer">Download</a></td>
                                         </tr>
                                     )
                                 })}

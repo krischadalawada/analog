@@ -1,8 +1,11 @@
 import Link from 'next/link';
 import { DownloadsData } from '../../data/DownloadsData';
 import { FiDownload } from 'react-icons/fi';
+import useWindowSize from '../Common-A/Window';
 
 const DownloadsGrid = () => {
+
+   const { width, height } = useWindowSize()
 
    return (
       <>
@@ -18,7 +21,7 @@ const DownloadsGrid = () => {
                                     <img style={{ width: '100%' }} src={item.thumbnail} alt="" />
                                     <Link href={item.url}>
                                        <i className='download-btn pointer'>
-                                          <FiDownload color='#fff' size={40} />
+                                          <FiDownload color='#fff' size={height / 30} />
                                        </i>
                                     </Link>
                                  </span>

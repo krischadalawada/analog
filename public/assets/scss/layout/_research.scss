@@ -70,7 +70,7 @@
         }
 
         &-topper {
-            font-size: 3.2vh;
+            font-size: 2.7vh;
             line-height: 4vh;
             font-weight: 700;
             color: #011627;
@@ -317,14 +317,14 @@
 ----------------------------------------*/
 .t-rank {
     color: #FF6359;
-    font-size: 3.2vh;
+    font-size: 2.7vh;
     font-weight: 700;
     text-align: center;
 }
 
 .t-year {
     color: #011627;
-    font-size: 2.7vh;
+    font-size: 2.4vh;
     font-weight: 300;
     text-align: center;
 }
@@ -503,4 +503,7 @@
     aspect-ratio: 1 / 1;
     object-fit: contain;
     align-self: center;
+    border-radius: 100%;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.07);
+    -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
 }

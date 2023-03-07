@@ -1632,14 +1632,6 @@ export const TopperList = [
       "img": ""
     },
     {
-      "title": "SUMEET MEHARDA",
-      "rank": 753,
-      "ht_no": 1120900,
-      "year": 2019,
-      "path": "assets/images/toppers/2019/",
-      "img": ""
-    },
-    {
       "title": "K PRATHIMA",
       "rank": 757,
       "ht_no": 1030088,
