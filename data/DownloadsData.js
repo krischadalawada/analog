@@ -2981,11 +2981,580 @@ export const DownloadsData = [
     {
         category: 'Monthly Magazine',
         thumbnail: '/assets/images/downloads/downloads-1@2x.png',
-        url: ''
+        url: '/downloads/monthly-magazine',
+        list: [
+          {
+            "title": "Analog IAS's Samiksha Magazine August Week-02",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine August Week-03.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine August Week-03",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine August Week-02.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine August Week-04",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine August Week-04.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine November Week-01",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine November Week-01.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine November Week-02",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine November Week-02.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine November Week-03",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine November Week-03.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine November Week-04",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine November Week-04.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine November Week-05",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine November Week-05.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine October Week-01",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine October Week-01.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine October Week-02",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine October Week-02.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine October Week-03",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine October Week-03.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine October Week-04",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine October Week-04.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine September Week-01",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine September Week-01.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine September Week-02",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine September Week-02.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine September Week-03",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine September Week-03.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine September Week-04",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine September Week-04.pdf"
+          },
+          {
+            "title": "Analog IAS's Samiksha Magazine September Week-05",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Analog IAS's Samiksha Magazine September Week-05.pdf"
+          },
+          {
+            "title": "April 2021 - Main Magazine",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "1679454054April  Main 2021.pdf"
+          },
+          {
+            "title": "April 2021 - Supplementary",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "372064339April Supplimentary-A1-A49.pdf"
+          },
+          {
+            "title": "February 2021 - Supplementary",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "753614994Feb Supplimentary-A1-A32 (1).pdf"
+          },
+          {
+            "title": "Final Samiksha Mag Week - 2",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Final Samiksha Mag Week - 2.pdf"
+          },
+          {
+            "title": "Final Samiksha Magazine Week - 3",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Final Samiksha Magazine Week - 3.pdf"
+          },
+          {
+            "title": "Jan 2021 - Supplementary",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "704121714Jan 2021 supplimentary.pdf"
+          },
+          {
+            "title": "January 2021 - Main Magazine",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "1972151188Jan Main 2021.pdf"
+          },
+          {
+            "title": "March 2021 - Main Magazine",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "1851950430March Main 2021.pdf"
+          },
+          {
+            "title": "March 2021 - Supplementary",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "1158984400March Supplimentary-A1-A32.pdf"
+          },
+          {
+            "title": "May 2021 - Main Magazine",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "792878065May Main 2021 9 6 2021.pdf"
+          },
+          {
+            "title": "May 2021 - Supplementary",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "1284661751May Supplimentary-A1-A32.pdf"
+          },
+          {
+            "title": "November Main 2020",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "November Main 2020.pdf"
+          },
+          {
+            "title": "November Supplimentary",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "November Supplimentary.pdf"
+          },
+          {
+            "title": "Samikhsa Week 1 December",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samikhsa Week 1 December.pdf"
+          },
+          {
+            "title": "Samiksha  April Week - 2",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha  April Week-2 Mag.pdf"
+          },
+          {
+            "title": "Samiksha April Week - 3",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha April Week - 3.pdf"
+          },
+          {
+            "title": "Samiksha Feb Week - 1",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha Feb Week-1.pdf"
+          },
+          {
+            "title": "Samiksha February Week-02",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha February Week-02.pdf"
+          },
+          {
+            "title": "Samiksha Jan Week - 1",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha Jan Week-1.pdf"
+          },
+          {
+            "title": "Samiksha Jan Week - 2",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha Jan Week -2.pdf"
+          },
+          {
+            "title": "Samiksha Jan Week - 3",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha Jan Week -3.pdf"
+          },
+          {
+            "title": "Samiksha Jan Week - 4",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Jan W4.pdf"
+          },
+          {
+            "title": "Samiksha Magazine Week - 3",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha Magazine Week - 3.pdf"
+          },
+          {
+            "title": "Samiksha March Week - 1 Magazine",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha March Week - 1 Magazine.pdf"
+          },
+          {
+            "title": "Samiksha March Week - 2",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha March Week - 2.pdf"
+          },
+          {
+            "title": "Samiksha May 2019 - Week 2",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "474450370Samiksha May Week - 02 (1).pdf"
+          },
+          {
+            "title": "Samiksha Week - 1",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha Week-1.pdf"
+          },
+          {
+            "title": "Samiksha Week - 3 Magazine",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha Week-3 Magazine.pdf"
+          },
+          {
+            "title": "Samiksha Week - 4 Magazine",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha Week - 4 Magazine.pdf"
+          },
+          {
+            "title": "Samiksha Week - 4 Magazine",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha Week- 4 Magazine.pdf"
+          },
+          {
+            "title": "Samiksha Week - 4 Magazine",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha Week-4 Magazine.pdf"
+          },
+          {
+            "title": "Samiksha Week - 5",
+            "link": "/assets/downloads/monthly_magazine/",
+            "path": "Samiksha Week -5.pdf"
+          }
+        ]
     },
     {
         category: 'GS Previous Papers',
         thumbnail: '/assets/images/downloads/downloads-2@2x.png',
-        url: ''
+        url: '/downloads/gs-previous-papers-prelims-mains',
+        list: [
+          {
+            "title": "2020(Pre) General Studies Paper",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "602309398CSP_2020_GS_Paper-1.pdf"
+          },
+          {
+            "title": "2020(Pre) CSAT Paper",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "503446983CSP_2020_GS_Paper-2-2.pdf"
+          },
+          {
+            "title": "2020(Mains) General Studies - IV",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "1325974388Gen_St_P4_2020.pdf"
+          },
+          {
+            "title": "2020(Mains) General Studies - III",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "359796276Gen_St_P3_2020.pdf"
+          },
+          {
+            "title": "2020(Mains) General Studies - II",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "1387145459Gen_St_P2_2020.pdf"
+          },
+          {
+            "title": "2020(Mains) General Studies - I",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "712218777Gen_St_P1_2020.pdf"
+          },
+          {
+            "title": "2020(Mains) Essay",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "1956242202ESSAY_1_2020.pdf"
+          },
+          {
+            "title": "2019(Pre) General Studies Paper",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "150963269csp-p1_2019.pdf"
+          },
+          {
+            "title": "2019(Pre) CSAT Paper",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "35970417csp-p2_2019.pdf"
+          },
+          {
+            "title": "2019(Mains) General Studies - IV",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "1762103648QP-CSM19-GeneralStudies-IV.pdf"
+          },
+          {
+            "title": "2019(Mains) General Studies - III",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "1374302229QP-CSM19-GeneralStudies-III.pdf"
+          },
+          {
+            "title": "2019(Mains) General Studies - II",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "2069586007QP-CSM19-GeneralStudies-II.pdf"
+          },
+          {
+            "title": "2019(Mains) General Studies - I",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "988918941QP-CSM19-GeneralStudies-I.pdf"
+          },
+          {
+            "title": "2019(Mains) Essay",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "525309821QP-CSM19-Essay.pdf"
+          },
+          {
+            "title": "2018(Pre) General Studies Paper",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "47088498QP-CSP-18-GS-II-C.pdf"
+          },
+          {
+            "title": "2018(Pre) CSAT Paper",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "121169516QP-CSP-18-GS-I-C.pdf"
+          },
+          {
+            "title": "2018(Mains) General Studies - IV",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "1145139947GENERAL-STUDIES-PAPER-IV_2018.pdf"
+          },
+          {
+            "title": "2018(Mains) General Studies - III",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "1682781753GENERAL-STUDIES-PAPER-III_2018.pdf"
+          },
+          {
+            "title": "2018(Mains) General Studies - II",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "2067614600GENERAL-STUDIES-PAPER-II_2018.pdf"
+          },
+          {
+            "title": "2018(Mains) General Studies - I",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "66525923GENERAL-STUDIES-PAPER-I_2018.pdf"
+          },
+          {
+            "title": "2018(Mains) Essay",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "2136912971ESSAY_0_2018.pdf"
+          },
+          {
+            "title": "2017(Pre) General Studies Paper",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "1677885485CSP-17-GS_PAPER-1-C.pdf"
+          },
+          {
+            "title": "2017(Pre) CSAT Paper",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "1956764473CSP-17-GS_PAPER-II-C.pdf"
+          },
+          {
+            "title": "2017(Mains) General Studies - iV",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "626597334GS4_0_2017.pdf"
+          },
+          {
+            "title": "2017(Mains) General Studies - III",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "1935902485GS3_0_2017.pdf"
+          },
+          {
+            "title": "2017(Mains) General Studies - II",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "1743779453GS2_0_2017.pdf"
+          },
+          {
+            "title": "2017(Mains) General Studies - I",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "292624841GS1_1_2017.pdf"
+          },
+          {
+            "title": "2017(Mains) Essay",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "2136912971ESSAY_0_2018.pdf"
+          },
+          {
+            "title": "2017 Pre General Studies (CSAT) - II",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "1956764473CSP-17-GS_PAPER-II-C.pdf"
+          },
+          {
+            "title": "2017 Pre General Studies - I",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "1677885485CSP-17-GS_PAPER-1-C.pdf"
+          },
+          {
+            "title": "2017 (mains) General Studies - IV",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "4866258722017 General Studies - IV.pdf"
+          },
+          {
+            "title": "2017 (mains) General Studies - III",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "6646137882017 General Studies - III.pdf"
+          },
+          {
+            "title": "2017 (mains) General Studies - II",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "19090833612017 General Studies - II.pdf"
+          },
+          {
+            "title": "2017 (mains) General Studies - I",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "809843632017 General Studies - I.pdf"
+          },
+          {
+            "title": "2017 (Mains) Essay",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "16673571612017 ESSAY.pdf"
+          },
+          {
+            "title": "2016(Pre) General Studies Paper",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "4526896542016(Pre) General Studies.pdf"
+          },
+          {
+            "title": "2016(Pre) CSAT paper",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "6221064052016(Pre) CSAT.pdf"
+          },
+          {
+            "title": "2016(mains) General Studies - IV",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "17948242652016 General Studies - IV.pdf"
+          },
+          {
+            "title": "2016(mains) General Studies - III",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "18334644162016 General Sudies - III.pdf"
+          },
+          {
+            "title": "2016(mains) General Studies - II",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "8169114862016 General Studies - II.pdf"
+          },
+          {
+            "title": "2016(mains) General Studies - I",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "19394436792016 General Studies - I.pdf"
+          },
+          {
+            "title": "2016(Mains) Essay",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "12074906622016 EASSY.pdf"
+          },
+          {
+            "title": "2015 Pre General Studies - II",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "6568454772015 Pre General Studies- II.pdf"
+          },
+          {
+            "title": "2015 Pre General Studies - I",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "4626961622015 Pre General Studies- I.pdf"
+          },
+          {
+            "title": "2015 General Studies - IV",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "11094595912015 GENERAL STUDIES-VI.pdf"
+          },
+          {
+            "title": "2015 General Studies - III",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "11046178462015 GENERAL STUDIES-III.pdf"
+          },
+          {
+            "title": "2015 General Studies - II",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "6447355512015 GENERAL STUDIES-II.pdf"
+          },
+          {
+            "title": "2015 General Studies - I",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "8002861452015 GENERAL STUDIES-I.pdf"
+          },
+          {
+            "title": "2014 Pre general Studies - II",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "20764046762014 Pre General Studies-II(CSAT).pdf"
+          },
+          {
+            "title": "2014 Pre general Studies - I",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "6245429202014 Pre General studies-I.pdf"
+          },
+          {
+            "title": "2014 General Studies - IV",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "1000925842014 GENERAL STUDIES-IV.pdf"
+          },
+          {
+            "title": "2014 General Studies - III",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "20186849952014 GENERAL STUDIES-III.pdf"
+          },
+          {
+            "title": "2014 General Studies - II",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "2305714802014 GENERAL STUDIES-II.pdf"
+          },
+          {
+            "title": "2014 General Studies - I",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "13503963972014 GENERAL STUDIES-I.pdf"
+          },
+          {
+            "title": "2014 ESSAY",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "389355822014 EASSY.pdf"
+          },
+          {
+            "title": "2013(Pre) General Studies Paper",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "14232639112013(Pre) GS Paper - I.pdf"
+          },
+          {
+            "title": "2013(Pre) CSAT Paper",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "8933768552013(Pre) CSAT Paper - II.pdf"
+          },
+          {
+            "title": "2013(mains) General Studies - IV",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "1286650792013(Mains) General Studies - IV.pdf"
+          },
+          {
+            "title": "2013(mains) General Studies - III",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "12299511902013(Mains) General Studies - III.pdf"
+          },
+          {
+            "title": "2013(mains) General Studies - II",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "4747014532013(Mains) General Studies - II.pdf"
+          },
+          {
+            "title": "2013(Mains) General Studies - I",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "17312226232013(Mains) General Studies - I.pdf"
+          },
+          {
+            "title": "2013(mains) Essay",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "9445111812013(Mains) Essay.pdf"
+          },
+          {
+            "title": "2012 Pre General Studies - II",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "15628537352012 Pre General Studies - II.pdf"
+          },
+          {
+            "title": "2012 Pre General Studies - I",
+            "link": "/assets/downloads/gs_previous_papers/",
+            "path": "2673116282012 Pre General Studies - I.pdf"
+          }
+        ]
     }
 ]
