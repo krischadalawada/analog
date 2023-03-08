@@ -86,17 +86,27 @@ const ContactUs = () => {
 
     return (
         <>
-            <section className="contact__area pt-60 pb-120" style={{ backgroundColor: '#F4F4F4' }} id="contactForm">
+            <section className="contact__area pt-120 pb-120" style={{ backgroundColor: '#F4F4F4' }} id="contactForm">
                 <div className="container">
                     <div className="col-xxl-10 col-xl-10 col-lg-10 m-auto">
                         <div className="contact__wrapper">
                             {
-                                router.pathname !== '/contact' ?
-                                    <div className="section__title-wrapper mb-40">
-                                        <h2 className="section__title-50 text-center">Contact Us</h2>
-                                    </div>
+                                router.pathname !== '/contact-us' ?
+                                    clickedSubmit && success ?
+                                        <div className="section__title-wrapper mb-40">
+                                            <h2 className="section__title-50 text-center">Thank you for choosing ANALOG.</h2>
+                                        </div>
+                                        :
+                                        <div className="section__title-wrapper mb-40">
+                                            <h2 className="section__title-50 text-center">Contact Us</h2>
+                                        </div>
                                     :
-                                    <></>
+                                    clickedSubmit && success ?
+                                        <div className="section__title-wrapper mb-40">
+                                            <h2 className="section__title-50 text-center">Thank you for choosing ANALOG.</h2>
+                                        </div>
+                                        :
+                                        <></>
                             }
                             <div className={"contact__form" + (router.pathname === '/contact' ? " mt-60" : "")}>
                                 <form action="#">
@@ -109,7 +119,7 @@ const ContactUs = () => {
                                             clickedSubmit && success ?
                                                 <div className="col-xxl-12" style={{ caretColor: 'transparent' }}>
                                                     <div className="contact__form-input">
-                                                        <h2>Request submitted successfully! <br />You'll hear from us soon.</h2>
+                                                        <h2>Let's begin your journey towards success. <br />Our team will reach out to you shortly.</h2>
                                                     </div>
                                                 </div>
                                                 :
@@ -150,13 +160,13 @@ const ContactUs = () => {
                                                                 </div>
                                                                 :
                                                                 reCaptchaAlert ?
-                                                                <div className="col-xxl-12" style={{ caretColor: 'transparent' }}>
-                                                                    <div className="contact__form-input">
-                                                                        <h3>*Please confirm that you are not a robot.</h3>
+                                                                    <div className="col-xxl-12" style={{ caretColor: 'transparent' }}>
+                                                                        <div className="contact__form-input">
+                                                                            <h3>*Please confirm that you are not a robot.</h3>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                                :
-                                                                <></>
+                                                                    :
+                                                                    <></>
                                                     }
                                                     {
                                                         width > 510 ?
