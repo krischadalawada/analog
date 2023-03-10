@@ -24,7 +24,7 @@ const HeroMain = () => {
                            The first initiative was ANALOG IAS INSTITUTE that offers coaching for Civil Service Examination (CSE) aspirants conducted by UPSC. 
                            Since its inception in 2002, ANALOG has earned the reputation of the best IAS coaching centre in Hyderabad by helping several students crack the exam with top ranks. 
                            In a way, the institute has been serving the nation by producing able civil servants.</p>
-                        <Link href="/about">
+                        <Link href="/about-us">
                            <a className="tp-btn-primary-b" style={{ marginRight: '5%', marginBottom: width < 460 ? '3%' : 0 }}>Learn More <i className="fa-regular fa-arrow-right fa-ri">
                            </i></a>
                         </Link>
