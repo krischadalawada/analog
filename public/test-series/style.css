@@ -1,16 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;800&display=swap');
+body{
+    background-color: #FDF9F0 !important;
+}
 .test-section{
     padding: 60px;
 }
-.head-1{
+.head-1 h2{
     text-align: center;
     color: red;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800 !important;
+    font-size: 5.2vh;
+}
+.head-1 h3{
+    text-align: center;
+    color: red;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200 !important; 
+    font-size: 4vh;
+}
+h6{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800 !important; 
+}
+li{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 40px;
 }
 table{
     width: 100%;
     text-align: center;
 }
 table tr th{
-    background-color: #2d3091;
+    background-color: #2D3091;
     color: #fff;
 }
 .footer h6 {
@@ -21,14 +45,40 @@ table tr th{
     /* border: 1px solid black; */
     height: 50px;
 }
+.dropdown-menu.show {
+    display: block;
+    position: relative !important;
+    transform: none !important;
+}
+.sidebar-head{
+    text-align: center;
+    background: #F35F53;
+    padding: 20px;
+    font-weight: 600;
+    color: #fff;
+    border: none !important;
+    outline: none;
+    width: 100%;
+}
+.sidebar-head:focus{
+    border: none !important;
+    outline: none !important;
+}
+.side-table{
+    background: #fff;
+    text-align: inherit;
+}
 .sidebar
-{
-    border: 1px solid;
-    padding: 13px 71px 3px 47px;
+{   color: #fff;
+    padding: 13px 71px 7px 47px;
+    background-color: #F35F53;
 }
 @media (max-width: 768px){
    .container {
     width: 100% !important;
     padding: 10px;
+   }
+   .head-1{
+    margin-top: 120px !important;
    }
 }
