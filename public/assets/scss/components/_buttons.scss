@@ -46,23 +46,16 @@
 
 .tp-btn{
 	display: inline-block;
-	font-size: 15px;
-	font-weight: 500;
-	color: var(--tp-common-white);
-	background-color: var(--tp-theme-1);
-	padding: 0 30px;
-	height: 50px;
-	line-height: 50px;
-	text-transform: capitalize;
+	font-size: 2vh;
+	font-weight: 600;
+	color: #E52322;
 
 	&:hover{
-		color: var(--tp-common-white);
-		background-color: var(--tp-common-black);
+		color: #38308c;
 	}
 
 	&:focus{
-		color: var(--tp-common-white);
-		background-color: var(--tp-common-black);
+		color: #38308c;
 	}
 
 	&-2{

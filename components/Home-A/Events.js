@@ -4,33 +4,75 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import useWindowSize from "../Common-A/Window";
 import { CgChevronRight } from 'react-icons/cg';
+import Link from 'next/link';
+import { Link as ScrollLink } from "react-scroll";
 
 const EventsHome = () => {
 
    const eventsData = [
       {
          id: 1,
-         img: 'assets/images/home/Event-1.png',
+         img: 'assets/images/home/NewEvent.jpg',
          location: '@ Indira Park, ANALOG IAS ACADEMY',
-         title: 'Free workshop for UPSC candidates CSE-2024'
+         title: [
+            {
+               line: 'Free Webinar on Every Alternate Sunday.'
+            },
+            {
+               line: 'Crack IAS/IPS with strategy.'
+            },
+            {
+               line: 'Next on 26.03.2023'
+            }
+         ]
       },
       {
          id: 2,
-         img: 'assets/images/home/Event-2.png',
+         img: 'assets/images/home/NewEvent.jpg',
          location: '@ Ashok Nagar, ANALOG IAS ACADEMY',
-         title: 'Free workshop for UPSC candidates CSE-2024'
+         title: [
+            {
+               line: 'Free Webinar on Every Alternate Sunday.'
+            },
+            {
+               line: 'Crack IAS/IPS with strategy.'
+            },
+            {
+               line: 'Next on 26.03.2023'
+            }
+         ]
       },
       {
          id: 3,
-         img: 'assets/images/home/Event-1.png',
+         img: 'assets/images/home/NewEvent.jpg',
          location: '@ Indira Park, ANALOG IAS ACADEMY',
-         title: 'Free workshop for UPSC candidates CSE-2024'
+         title: [
+            {
+               line: 'Free Webinar on Every Alternate Sunday.'
+            },
+            {
+               line: 'Crack IAS/IPS with strategy.'
+            },
+            {
+               line: 'Next on 26.03.2023'
+            }
+         ]
       },
       {
          id: 4,
-         img: 'assets/images/home/Event-2.png',
+         img: 'assets/images/home/NewEvent.jpg',
          location: '@ Ashok Nagar, ANALOG IAS ACADEMY',
-         title: 'Free workshop for UPSC candidates CSE-2024'
+         title: [
+            {
+               line: 'Free Webinar on Every Alternate Sunday.'
+            },
+            {
+               line: 'Crack IAS/IPS with strategy.'
+            },
+            {
+               line: 'Next on 26.03.2023'
+            }
+         ]
       }
    ]
 
@@ -112,13 +154,22 @@ const EventsHome = () => {
                                        </div>
                                        <div className='col-xl-7' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                                           <div className="testimonial__text">
-                                             <h4>{event.title}</h4>
+                                             {
+                                                event.title.map((item, index) =>
+                                                   <h4>{item.line}</h4>
+                                                )
+                                             }
                                              <p>{event.location}</p>
                                           </div>
-                                          {/* <Link href="/">
-                                                <a className="tp-btn-primary" style={{ marginRight: '5%', width: '80%' }}>Learn more <i className="fa-regular fa-arrow-right fa-ri">
-                                                </i></a>
-                                             </Link> */}
+                                          <ScrollLink
+                                             to="contactForm"
+                                             duration={500}
+                                             id="enrollNow"
+                                             offset={-120}
+                                          >
+                                             <a className="tp-btn-primary pointer" style={{ marginRight: '5%', width: '80%' }}>Register Now <i className="fa-regular fa-arrow-right fa-ri">
+                                             </i></a>
+                                          </ScrollLink>
                                        </div>
                                     </div>
                                  </div>

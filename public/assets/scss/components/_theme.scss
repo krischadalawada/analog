@@ -228,6 +228,21 @@ input[type="color"] {
 	.container-lg {
 		max-width: 1500px;
 	}
+	.container-sm {
+		max-width: 1000px;
+	}
+}
+
+@media(max-width:1399px) {
+	.container-sm {
+		max-width: 800px;
+	}
+}
+
+@media(max-width:1000px) {
+	.container-sm {
+		max-width: 600px;
+	}
 }
 
 .w-img {

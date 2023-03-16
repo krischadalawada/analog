@@ -92,14 +92,14 @@ const Header = () => {
                                              </li>
                                           })
                                        }
-                                       <a className='focus-trans' href="https://wa.me/916301529232" target="_blank" rel="noopener noreferrer">
-                                          <li className='whatsapp'>
-                                             <img className='wa pointer' src="/assets/images/home/whatsapp.png" alt="logo" />
-                                          </li>
-                                       </a>
                                     </ul>
                                  </nav>
                               </div>
+                              <a className='focus-trans' href="https://wa.me/916301529232" target="_blank" rel="noopener noreferrer">
+                                 <li className='whatsapp'>
+                                    <img className='wa pointer' src="/assets/images/home/whatsapp.png" alt="logo" />
+                                 </li>
+                              </a>
                               <a className='focus-trans' href="tel:+916301529232" target="_blank" rel="noopener noreferrer">
                                  <li className='phone'>
                                     <BsFillTelephoneFill color='#fff' />
@@ -122,7 +122,7 @@ const Header = () => {
                            </Link>
                            <Link href="/test-series/index.html">
                               <a className='tseries pointer'>Test Series</a>
-                           </Link>  
+                           </Link>
                         </div>
                      </div>
                   </div>

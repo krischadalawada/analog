@@ -18,7 +18,7 @@ const Target = () => {
             <HeroDownloads title="UPSC Interview Tips" />
             <>
                 <section className="slider__area pt-60 pb-60 include-bg d-flex align-items-center" style={{ caretColor: 'transparent' }}>
-                    <div className="container">
+                    <div className="container-sm">
                         <div className='col-xl-12 col-md-12 col-12 m-auto'>
                             <table className='downloads-table'>
                                 <tr>

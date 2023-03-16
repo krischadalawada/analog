@@ -26,12 +26,18 @@ const links = [
 
     {
         id:5,
+        url:'/blog',
+        name:'Blog',
+    },
+
+    {
+        id:6,
         url:'/FAQ',
         name:'FAQ',
     },
 
     {
-        id:6,
+        id:7,
         url:'/contact-us',
         name:'Contact'
     },

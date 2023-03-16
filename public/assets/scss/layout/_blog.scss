@@ -269,28 +269,20 @@
         }
     }
     &__title{
-        font-size: 30px;
-        margin-bottom: 20px;
-        @media #{$lg}{
-            font-size: 28px;
-        }
-        @media #{$md}{
-            font-size: 33px;
-        }
-        @media #{$sm}{
-            font-size: 30px;
-        }
-        @media #{$xs}{
-            font-size: 25px;
-        }
+        font-size: 4.2vh;
+        font-weight: 600;
+        margin-bottom: 2vh;
         & a{
             &:hover{
-                color: var(--tp-theme-1);
+                color: #38308c;
             }
         }
     }
     &__meta{
-        margin-bottom: 10px;
+        margin-bottom: 2vh;
+        font-size: 2.4vh;
+        color: #212121;
+        opacity: 0.7;
 
         & span{
             font-size: 14px;
@@ -328,7 +320,10 @@
     }
     &__text{
         & p{
-            margin-bottom: 28px;
+            margin-bottom: 2.7vh;
+            font-size: 2vh !important;
+            color: #212121 !important;
+            opacity: 0.9;
         }
         &-single{
             & p{
@@ -593,38 +588,29 @@
 .sidebar{
     &__widget{
         &-title{
-            font-size: 20px;
-            padding-bottom: 7px;
-            border-bottom: 1px solid #f0f0f5;
+            font-size: 2.4vh;
+            font-weight: 600;
+            color: #f0f0f5;
+            background-color: #38308c;
+            padding: 1.7vh 2vh;
         }
         & ul{
             & li{
                 list-style: none;
                 &:not(:last-child){
-                    margin-bottom: 15px;
+                    margin-bottom: 1vh;
+                    padding-bottom: 1vh;
+                    border-bottom: 2px solid #d3d3d3;
                 }
                 & a{
-                    font-size: 16px;
+                    font-size: 2vh;
                     font-weight: 500;
-                    color: var(--tp-text-11);
-                    padding-left: 20px;
+                    color: #212121;
                     position: relative;
-                    &::after{
-                        position: absolute;
-                        content: '';
-                        left: 0;
-                        top: 6px;
-                        width: 6px;
-                        height: 6px;
-                        background: #adaeba;
-                        @include border-radius(50%);
-                    }
-                    &:hover{
-                        color: var(--tp-theme-1);
-                        &::after{
-                            background: var(--tp-theme-1);
-                        }
-                    }
+                }
+                & a:hover{
+                    color: #38308c !important;
+                    cursor: pointer;
                 }
                 & ul{
                     padding-top: 10px;
@@ -698,7 +684,9 @@
 .rc{
     &__post{
         &:not(:last-child){
-            margin-bottom: 30px;
+            margin-bottom: 2vh;
+            padding-bottom: 2vh;
+            border-bottom: 2px solid #d3d3d3;
         }
     }
     &__meta{
@@ -715,7 +703,6 @@
             @include border-radius(6px);
         }
     }
-    &__content{}
     &__title{
         font-size: 18px;
         font-weight: 500;
@@ -818,4 +805,8 @@
             background: var(--tp-theme-1);
         }
     }
+}
+
+.blog-thumb {
+    width: 100%;
 }
