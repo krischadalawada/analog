@@ -45,6 +45,10 @@ const ContactUs = () => {
         }
     }
 
+    const goToThankYou = () => {
+        router.push("/thank-you")
+    }
+
     const onSubmit = (e) => {
 
         const token = captchaRef.current.getValue();
@@ -66,6 +70,7 @@ const ContactUs = () => {
                     message: message,
                 }, "vE-Cc658AKOCommhp")
                     .then((result) => {
+                        goToThankYou()
                         setLoading(false)
                         setSuccess(true)
                         setAlert(false)

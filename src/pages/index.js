@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Analog IAS</title>
-        <meta name="description" content="IAS Academy" />
+        <title>Best IAS Coaching in Hyderabad | UPSC Coaching | ANALOG IAS ACADEMY In Hyderabad</title>
+        <meta name="description" content="Analog IAS Academy in Hyderabad is the Best IAS Coaching Center in Hyderabad. Join UPSC Coaching Institute Today. We Are Leading Civils Coaching Centres in Hyderabad, Helping Several Students Crack The Exam With Top Ranks." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       

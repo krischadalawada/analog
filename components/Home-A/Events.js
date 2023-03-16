@@ -16,7 +16,7 @@ const EventsHome = () => {
          location: '@ Indira Park, ANALOG IAS ACADEMY',
          title: [
             {
-               line: 'Free Webinar on Every Alternate Sunday.'
+               line: 'Free Webinar'
             },
             {
                line: 'Crack IAS/IPS with strategy.'
@@ -32,13 +32,13 @@ const EventsHome = () => {
          location: '@ Ashok Nagar, ANALOG IAS ACADEMY',
          title: [
             {
-               line: 'Free Webinar on Every Alternate Sunday.'
+               line: 'Free Webinar'
             },
             {
                line: 'Crack IAS/IPS with strategy.'
             },
             {
-               line: 'Next on 26.03.2023'
+               line: 'Next on 09.04.2023'
             }
          ]
       },
@@ -48,32 +48,16 @@ const EventsHome = () => {
          location: '@ Indira Park, ANALOG IAS ACADEMY',
          title: [
             {
-               line: 'Free Webinar on Every Alternate Sunday.'
+               line: 'Free Webinar'
             },
             {
                line: 'Crack IAS/IPS with strategy.'
             },
             {
-               line: 'Next on 26.03.2023'
+               line: 'Next on 23.04.2023'
             }
          ]
       },
-      {
-         id: 4,
-         img: 'assets/images/home/NewEvent.jpg',
-         location: '@ Ashok Nagar, ANALOG IAS ACADEMY',
-         title: [
-            {
-               line: 'Free Webinar on Every Alternate Sunday.'
-            },
-            {
-               line: 'Crack IAS/IPS with strategy.'
-            },
-            {
-               line: 'Next on 26.03.2023'
-            }
-         ]
-      }
    ]
 
    function SampleNextArrow(props) {
@@ -159,17 +143,12 @@ const EventsHome = () => {
                                                    <h4>{item.line}</h4>
                                                 )
                                              }
-                                             <p>{event.location}</p>
+                                             <p></p>
                                           </div>
-                                          <ScrollLink
-                                             to="contactForm"
-                                             duration={500}
-                                             id="enrollNow"
-                                             offset={-120}
-                                          >
+                                          <Link href="https://analogeducation.in/webinar/index.html" target="_blank" rel="noopener noreferrer">
                                              <a className="tp-btn-primary pointer" style={{ marginRight: '5%', width: '80%' }}>Register Now <i className="fa-regular fa-arrow-right fa-ri">
                                              </i></a>
-                                          </ScrollLink>
+                                          </Link>
                                        </div>
                                     </div>
                                  </div>
