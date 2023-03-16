@@ -1,7 +1,7 @@
 export const DownloadsData = [
     {
         category: 'Target 2020 Daily Test Series',
-        thumbnail: '/assets/images/downloads/downloads-1@2x.png',
+        thumbnail: '/assets/images/downloads/target-2020.jpg',
         url: '/downloads/target-2020-daily-test-series',
         list: [
             {
@@ -468,7 +468,7 @@ export const DownloadsData = [
     },
     {
         category: 'UPSC Interview Tips',
-        thumbnail: '/assets/images/downloads/downloads-2@2x.png',
+        thumbnail: '/assets/images/downloads/interview-tips.jpg',
         url: '/downloads/upsc-interview-tips',
         list: [
             {
@@ -490,7 +490,7 @@ export const DownloadsData = [
     },
     {
         category: 'The Hindu Hyderabad Edition',
-        thumbnail: '/assets/images/downloads/downloads-1@2x.png',
+        thumbnail: '/assets/images/downloads/the-hindu-hyderabad-edition.jpg',
         url: '/downloads/the-hindu-hyderabad-edition',
         list: [
             {
@@ -1612,7 +1612,7 @@ export const DownloadsData = [
     },
     {
         category: 'The Hindu Bengaluru Edition',
-        thumbnail: '/assets/images/downloads/downloads-2@2x.png',
+        thumbnail: '/assets/images/downloads/the-hindu-bengaluru-edition.jpg',
         url: '/downloads/the-hindu-bengaluru-edition',
         list: [
             {
@@ -2699,7 +2699,7 @@ export const DownloadsData = [
     },
     {
         category: 'UPSC Prelims 2020 Answer Key',
-        thumbnail: '/assets/images/downloads/downloads-1@2x.png',
+        thumbnail: '/assets/images/downloads/upsc-prelims-2020-key.jpg',
         url: '/downloads/upsc-prelims-2020-answer-key',
         list: [
             {
@@ -2711,12 +2711,12 @@ export const DownloadsData = [
     },
     {
         category: 'ASTRA Material',
-        thumbnail: '/assets/images/downloads/downloads-2@2x.png',
+        thumbnail: '/assets/images/downloads/astra-material.jpg',
         url: ''
     },
     {
         category: 'IAS Interviews',
-        thumbnail: '/assets/images/downloads/downloads-1@2x.png',
+        thumbnail: '/assets/images/downloads/ias-interview.jpg',
         url: '/downloads/ias-interview',
         list: [
             {
@@ -2838,7 +2838,7 @@ export const DownloadsData = [
     },
     {
         category: 'NCERT Books',
-        thumbnail: '/assets/images/downloads/downloads-2@2x.png',
+        thumbnail: '/assets/images/downloads/ncert-books.jpg',
         url: '/downloads/ncert-books',
         list: [
             {
@@ -2980,7 +2980,7 @@ export const DownloadsData = [
     },
     {
         category: 'Monthly Magazine',
-        thumbnail: '/assets/images/downloads/downloads-1@2x.png',
+        thumbnail: '/assets/images/downloads/monthly-magazine.jpg',
         url: '/downloads/monthly-magazine',
         list: [
           {
@@ -3232,7 +3232,7 @@ export const DownloadsData = [
     },
     {
         category: 'GS Previous Papers',
-        thumbnail: '/assets/images/downloads/downloads-2@2x.png',
+        thumbnail: '/assets/images/downloads/gs-previous-papers.jpg',
         url: '/downloads/gs-previous-papers-prelims-mains',
         list: [
           {

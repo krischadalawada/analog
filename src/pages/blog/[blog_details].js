@@ -23,10 +23,6 @@ const BlogDetails = () => {
 
    return (
       <>
-         <Head>
-            <title>{blog.blogTitle}</title>
-         </Head>
-
          <Header />
          <HeroBlogDetails />
 
