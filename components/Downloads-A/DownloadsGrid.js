@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { DownloadsData } from '../../data/DownloadsData';
 import { FiDownload } from 'react-icons/fi';
@@ -6,6 +7,17 @@ import useWindowSize from '../Common-A/Window';
 const DownloadsGrid = () => {
 
    const { width, height } = useWindowSize()
+   const [categories, setCategories] = useState()
+   console.log('CATE', categories);
+
+   useEffect(() => {
+     setCategories(DownloadsData.slice(0,9))
+   }, [DownloadsData])
+   
+
+   const onLoadMore = () => {
+      setCategories(DownloadsData)
+   }
 
    return (
       <>
@@ -14,8 +26,8 @@ const DownloadsGrid = () => {
                <div className='col-xl-12 col-md-12 col-12 m-auto'>
                   <div className="row align-items-center">
                      {
-                        DownloadsData.map((item, index) =>
-                           <div key={index} className='col-xl-4 col-md-4 col-6 m-auto'>
+                        categories && categories.length > 0 && categories.map((item, index) =>
+                           <div key={index} className='col-xl-4 col-md-4 col-sm-6 col-12 m-auto'>
                               <div className="slider__thumb-2 mb-60">
                                  <span className="slider__thumb-home p-relative">
                                     <img style={{ width: '100%' }} src={item.thumbnail} alt="" />
@@ -33,16 +45,19 @@ const DownloadsGrid = () => {
                         )
                      }
                   </div>
-                  <div className="row">
-                     <div className="col-xxl-12">
-                        <div className="section__title-wrapper mt-30 mb-50 text-center">
-                           <Link href="/">
-                              <a className="tp-btn-secondary" style={{ marginRight: '5%' }}>Load More <i className="fa-regular fa-arrow-right fa-ri">
-                              </i></a>
-                           </Link>
+                  {
+                     categories && categories.length > 0 && DownloadsData.length !== categories.length ?
+                        <div className="row">
+                           <div className="col-xxl-12">
+                              <div className="section__title-wrapper mt-30 mb-50 text-center">
+                                 <a onClick={() => onLoadMore()} className="tp-btn-secondary pointer" style={{ marginRight: '5%' }}>Load More <i className="fa-regular fa-arrow-right fa-ri">
+                                 </i></a>
+                              </div>
+                           </div>
                         </div>
-                     </div>
-                  </div>
+                        :
+                        <></>
+                  }
                </div>
             </div>
          </section>
