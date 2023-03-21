@@ -11,15 +11,15 @@ const DownloadsGrid = (props) => {
 
    useEffect(() => {
 
-      if (props.filter === 'VIEW ALL') {
+      if (props.filter && props.filter === 'VIEW ALL') {
          var DownloadList = DownloadsData.slice(0, 9)
-      } else if (props.filter === 'TARGET 2022 DAILY TEST SERIES') {
+      } else if (props.filter && props.filter === 'TARGET 2022 DAILY TEST SERIES') {
          var DownloadList = DownloadsData.filter(x => x.category === 'Target')
-      } else if (props.filter === 'SAMIKSHA') {
+      } else if (props.filter && props.filter === 'SAMIKSHA') {
          var DownloadList = DownloadsData.filter(x => x.category === 'Samiksha')
-      } else if (props.filter === 'NEWS TODAY') {
+      } else if (props.filter && props.filter === 'NEWS TODAY') {
          var DownloadList = DownloadsData.filter(x => x.category === 'News')
-      } else if (props.filter === 'UPSC') {
+      } else if (props.filter && props.filter === 'UPSC') {
          var DownloadList = DownloadsData.filter(x => x.category === 'UPSC')
       }
       setCategories(DownloadList)

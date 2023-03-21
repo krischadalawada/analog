@@ -26,7 +26,7 @@ const Target = () => {
                                     <th>Name</th>
                                     <th>Download</th>
                                 </tr>
-                                {DownloadsData[17].list.map((val, key) => {
+                                {DownloadsData[16].list.map((val, key) => {
                                     return (
                                         <tr key={key}>
                                             <td>{key + 1}</td>

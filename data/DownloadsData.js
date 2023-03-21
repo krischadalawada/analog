@@ -1,467 +1,467 @@
 export const DownloadsData = [
   {
-    title: 'Target 2020 Daily Test Series',
+    title: 'Target 2023 Daily Test Series',
     thumbnail: '/assets/images/downloads/target-2020.jpg',
     url: '/downloads/target-2020-daily-test-series',
     category: 'Target',
     list: [
       {
-        title: 'Target 2020 Daily Test Series - 01',
+        title: 'Target 2023 Daily Test Series - 01',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-01.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 02',
+        title: 'Target 2023 Daily Test Series - 02',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-02.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 03',
+        title: 'Target 2023 Daily Test Series - 03',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-03.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 04',
+        title: 'Target 2023 Daily Test Series - 04',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-04.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 05',
+        title: 'Target 2023 Daily Test Series - 05',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-05.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 06',
+        title: 'Target 2023 Daily Test Series - 06',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-06.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 07',
+        title: 'Target 2023 Daily Test Series - 07',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-07.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 08',
+        title: 'Target 2023 Daily Test Series - 08',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-08.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 09',
+        title: 'Target 2023 Daily Test Series - 09',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-09.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 10',
+        title: 'Target 2023 Daily Test Series - 10',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-10.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 11',
+        title: 'Target 2023 Daily Test Series - 11',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-11.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 13',
+        title: 'Target 2023 Daily Test Series - 13',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-13.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 16',
+        title: 'Target 2023 Daily Test Series - 16',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-16.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 17',
+        title: 'Target 2023 Daily Test Series - 17',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-17.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 18',
+        title: 'Target 2023 Daily Test Series - 18',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-18.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 19',
+        title: 'Target 2023 Daily Test Series - 19',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-19.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 20',
+        title: 'Target 2023 Daily Test Series - 20',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-20.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 21',
+        title: 'Target 2023 Daily Test Series - 21',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-21.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 23',
+        title: 'Target 2023 Daily Test Series - 23',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-23.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 24',
+        title: 'Target 2023 Daily Test Series - 24',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-24.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 25',
+        title: 'Target 2023 Daily Test Series - 25',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-25.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 26',
+        title: 'Target 2023 Daily Test Series - 26',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-26.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 27',
+        title: 'Target 2023 Daily Test Series - 27',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-27.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 28',
+        title: 'Target 2023 Daily Test Series - 28',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-28.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 29',
+        title: 'Target 2023 Daily Test Series - 29',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-29.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 30',
+        title: 'Target 2023 Daily Test Series - 30',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-30.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 31',
+        title: 'Target 2023 Daily Test Series - 31',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-31.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 32',
+        title: 'Target 2023 Daily Test Series - 32',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-32.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 33',
+        title: 'Target 2023 Daily Test Series - 33',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-33.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 34',
+        title: 'Target 2023 Daily Test Series - 34',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-34.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 35',
+        title: 'Target 2023 Daily Test Series - 35',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-35.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 37',
+        title: 'Target 2023 Daily Test Series - 37',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-37.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 40',
+        title: 'Target 2023 Daily Test Series - 40',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-40.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 41',
+        title: 'Target 2023 Daily Test Series - 41',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-41.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 42',
+        title: 'Target 2023 Daily Test Series - 42',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-42.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 43',
+        title: 'Target 2023 Daily Test Series - 43',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-43.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 44',
+        title: 'Target 2023 Daily Test Series - 44',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-44.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 45',
+        title: 'Target 2023 Daily Test Series - 45',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-45.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 47',
+        title: 'Target 2023 Daily Test Series - 47',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-47.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 48',
+        title: 'Target 2023 Daily Test Series - 48',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-48.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 49',
+        title: 'Target 2023 Daily Test Series - 49',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-49.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 50',
+        title: 'Target 2023 Daily Test Series - 50',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-50.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 51',
+        title: 'Target 2023 Daily Test Series - 51',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-51.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 52',
+        title: 'Target 2023 Daily Test Series - 52',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-52.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 53',
+        title: 'Target 2023 Daily Test Series - 53',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-53.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 54',
+        title: 'Target 2023 Daily Test Series - 54',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-54.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 55',
+        title: 'Target 2023 Daily Test Series - 55',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-55.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 56',
+        title: 'Target 2023 Daily Test Series - 56',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-56.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 57',
+        title: 'Target 2023 Daily Test Series - 57',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-57.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 59',
+        title: 'Target 2023 Daily Test Series - 59',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-59.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 61',
+        title: 'Target 2023 Daily Test Series - 61',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-61.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 64',
+        title: 'Target 2023 Daily Test Series - 64',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-64.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 65',
+        title: 'Target 2023 Daily Test Series - 65',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-65.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 66',
+        title: 'Target 2023 Daily Test Series - 66',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-66.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 69',
+        title: 'Target 2023 Daily Test Series - 69',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-69.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 71',
+        title: 'Target 2023 Daily Test Series - 71',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-71.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 74',
+        title: 'Target 2023 Daily Test Series - 74',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-74.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 77',
+        title: 'Target 2023 Daily Test Series - 77',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-77.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 79',
+        title: 'Target 2023 Daily Test Series - 79',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-79.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 80',
+        title: 'Target 2023 Daily Test Series - 80',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-80.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 82',
+        title: 'Target 2023 Daily Test Series - 82',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-82.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 83',
+        title: 'Target 2023 Daily Test Series - 83',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-83.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 84',
+        title: 'Target 2023 Daily Test Series - 84',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-84.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 85',
+        title: 'Target 2023 Daily Test Series - 85',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-85.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 86',
+        title: 'Target 2023 Daily Test Series - 86',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-86.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 88',
+        title: 'Target 2023 Daily Test Series - 88',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-88.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 89',
+        title: 'Target 2023 Daily Test Series - 89',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-89.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 91',
+        title: 'Target 2023 Daily Test Series - 91',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-91.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 93',
+        title: 'Target 2023 Daily Test Series - 93',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-93.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 95',
+        title: 'Target 2023 Daily Test Series - 95',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-95.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 98',
+        title: 'Target 2023 Daily Test Series - 98',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-98.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 101',
+        title: 'Target 2023 Daily Test Series - 101',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-101.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 102',
+        title: 'Target 2023 Daily Test Series - 102',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-102.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 103',
+        title: 'Target 2023 Daily Test Series - 103',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-103.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 105',
+        title: 'Target 2023 Daily Test Series - 105',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-105.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 106',
+        title: 'Target 2023 Daily Test Series - 106',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-106.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 107',
+        title: 'Target 2023 Daily Test Series - 107',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-107.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 108',
+        title: 'Target 2023 Daily Test Series - 108',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-108.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 109',
+        title: 'Target 2023 Daily Test Series - 109',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-109.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 110',
+        title: 'Target 2023 Daily Test Series - 110',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-110.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 111',
+        title: 'Target 2023 Daily Test Series - 111',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-111.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 112',
+        title: 'Target 2023 Daily Test Series - 112',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-112.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 113',
+        title: 'Target 2023 Daily Test Series - 113',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-113.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 114',
+        title: 'Target 2023 Daily Test Series - 114',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-114.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 115',
+        title: 'Target 2023 Daily Test Series - 115',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-115.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 116',
+        title: 'Target 2023 Daily Test Series - 116',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-116.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 117',
+        title: 'Target 2023 Daily Test Series - 117',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-117.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 118',
+        title: 'Target 2023 Daily Test Series - 118',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-118.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 119',
+        title: 'Target 2023 Daily Test Series - 119',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-119.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 262',
+        title: 'Target 2023 Daily Test Series - 262',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-262.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 263',
+        title: 'Target 2023 Daily Test Series - 263',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-263.pdf',
       },
       {
-        title: 'Target 2020 Daily Test Series - 264',
+        title: 'Target 2023 Daily Test Series - 264',
         link: '/assets/downloads/target/',
         path: 'Target2020DailyTestSeries-264.pdf',
       }
@@ -1610,1094 +1610,6 @@ export const DownloadsData = [
         "title": "News Articles to Read - 8th October 2021",
         "link": "/assets/downloads/the_hindu_hyderabad_edition/",
         "path": "2143376668[HYD] Artilces to Read - 8th October 2021.pdf"
-      }
-    ]
-  },
-  {
-    title: 'The Hindu Bengaluru Edition',
-    thumbnail: '/assets/images/downloads/the-hindu-bengaluru-edition.jpg',
-    url: '/downloads/the-hindu-bengaluru-edition',
-    category: 'News',
-    list: [
-      {
-        "title": "News Articles to Read -17 December 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "4339726[BLR] Artilces to Read -17 December 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 03 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "8114463[BLR] Artilces to Read - 03 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 24 February 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "9347518[BLR] Artilces to Read - 24 February 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 19 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "10714698[BLR] Artilces to Read - 19 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 18 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "21752583[BLR] Artilces to Read - 18 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 29 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "22356231[BLR] Artilces to Read - 29 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read -18 December 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "28504419[BLR] Artilces to Read -18 December 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 06 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "29182069[BLR] Artilces to Read - 06 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 05 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "36338247[BLR] Artilces to Read - 05 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 28 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "46200185[BLR] Artilces to Read - 28 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 29 July 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "49201087[BLR] Artilces to Read - 29 July 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 22 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "53024825[BLR] Artilces to Read - 22 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 23rd July 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "67169150[HYD] Artilces to Read - 23rd July 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 01 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "78255683[BLR] Artilces to Read - 01 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 21 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "80544698[BLR] Artilces to Read - 21 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 01 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "92664352[BLR] Artilces to Read - 01 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 22 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "93759004[BLR] Artilces to Read - 22 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 01 July 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "94113236[BLR] Artilces to Read - 01 July 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 11 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "99725217[BLR] Artilces to Read - 11 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 25 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "126978473[BLR] Artilces to Read - 25 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 28 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "143883270[BLR] Artilces to Read - 28 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 08 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "173993109[BLR] Artilces to Read - 08 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 03 February 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "181538747[BLR] Artilces to Read - 03 February 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 02 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "185400335[BLR] Artilces to Read - 02 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 21 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "208078674[BLR] Artilces to Read - 21 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 21 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "219260522[BLR] Artilces to Read - 21 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 26 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "234935959[BLR] Artilces to Read - 26 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 03 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "257996269[BLR] Artilces to Read - 03 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 08 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "258957467[BLR] Artilces to Read - 08 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 07 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "261394954[BLR] Artilces to Read - 07 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 20 February 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "276704690[BLR] Artilces to Read - 20 February 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 04 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "286500068[BLR] Artilces to Read - 04 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 16 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "308617485[BLR] Artilces to Read - 16 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 28 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "335769776[BLR] Artilces to Read - 28 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 05 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "359556227[BLR] Artilces to Read - 05 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 19 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "362464909[BLR] Artilces to Read - 19 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 16 February 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "371340467[BLR] Artilces to Read - 16 February 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 08 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "372395612[BLR] Artilces to Read - 08 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 03 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "395260013[BLR] Artilces to Read - 03 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 27 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "395606338[BLR] Artilces to Read - 27 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 15 February 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "411250366[BLR] Artilces to Read - 15 February 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 04 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "426457023[BLR] Artilces to Read - 04 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 11 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "435275999[BLR] Artilces to Read - 11 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 30 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "439711204[BLR] Artilces to Read - 30 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 18 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "478036307[BLR] Artilces to Read - 18 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read -24 December 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "485814943[BLR] Artilces to Read -24 December 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 13 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "499413793[BLR] Artilces to Read - 13 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 21 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "514213103[BLR] Artilces to Read - 21 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 07 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "517064820[HYD] Artilces to Read - 07 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 18 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "531940530[BLR] Artilces to Read - 18 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 24 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "537440875[BLR] Artilces to Read - 24 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 29 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "537728442[BLR] Artilces to Read - 29 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 06 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "538743652[BLR] Artilces to Read - 06 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 25 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "546721113[BLR] Artilces to Read - 25 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 09 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "547711977[BLR] Artilces to Read - 09 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read -15 December 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "551297127[BLR] Artilces to Read -15 December 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 08 October 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "554929995[BLR] Artilces to Read - 08 October 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 25 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "556693165[BLR] Artilces to Read - 25 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 10 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "558667240[BLR] Artilces to Read - 10 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 02 February 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "559943826[BLR] Artilces to Read - 02 February 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 05 October 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "566660077[BLR] Artilces to Read - 05 October 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 09 February 2022 (1)",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "578072211[BLR] Artilces to Read - 09 February 2022 (1).pdf"
-      },
-      {
-        "title": "News Articles to Read - 17 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "588783321[BLR] Artilces to Read - 17 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 28 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "611166964[BLR] Artilces to Read - 28 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 28 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "614520845[BLR] Artilces to Read - 28 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 25 February 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "618967523[BLR] Artilces to Read - 25 February 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 06 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "642416017[BLR] Artilces to Read - 06 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 24 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "648823035[BLR] Artilces to Read - 24 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 20 August 2021 (1)",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "649317995[BLR] Artilces to Read - 20 August 2021 (1).pdf"
-      },
-      {
-        "title": "News Articles to Read - 21 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "663372783[BLR] Artilces to Read - 21 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 18 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "663614987[BLR] Artilces to Read - 18 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 11 February 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "674416638[BLR] Artilces to Read - 11 February 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 26 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "678913809[BLR] Artilces to Read - 26 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 14 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "717728312[BLR] Artilces to Read - 14 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 08 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "722289044[BLR] Artilces to Read - 08 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 19 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "724570632[BLR] Artilces to Read - 19 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 07 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "730747853[BLR] Artilces to Read - 07 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read -25 December 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "748523909[BLR] Artilces to Read -25 December 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 07 October 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "748632961[BLR] Artilces to Read - 07 October 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 06 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "755256054[BLR] Artilces to Read - 06 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 02 October 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "761851380[BLR] Artilces to Read - 02 October 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 15 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "773559550[BLR] Artilces to Read - 15 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 15 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "799012899[BLR] Artilces to Read - 15 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 17 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "814956987[BLR] Artilces to Read - 17 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 17 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "819419890[BLR] Artilces to Read - 17 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 09 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "821718884[BLR] Artilces to Read - 09 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 20 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "823768795[BLR] Artilces to Read - 20 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 07 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "827198461[BLR] Artilces to Read - 07 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 03 July 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "831336167[BLR] Artilces to Read - 03 July 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 28 July 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "837435788[BLR] Artilces to Read - 28 July 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read -22 December 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "851904240[BLR] Artilces to Read -22 December 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 11 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "858164984[BLR] Artilces to Read - 11 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 17 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "867972340[BLR] Artilces to Read - 17 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 04 October 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "869004810[BLR] Artilces to Read - 04 October 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 14 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "876095010[BLR] Artilces to Read - 14 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 01 October 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "886172917[BLR] Artilces to Read - 01 October 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 13 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "890841683[BLR] Artilces to Read - 13 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 15 February 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "901788432[BLR] Artilces to Read - 15 February 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 24th September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "922941602[HYD] Artilces to Read - 24th September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 31 July 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "936634045[BLR] Artilces to Read - 31 July 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 23 February 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "946142907[BLR] Artilces to Read - 23 February 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 02 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "952968170[BLR] Artilces to Read - 02 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 20 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "965250950[BLR] Artilces to Read - 20 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 23 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "976729176[BLR] Artilces to Read - 23 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 13 October 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "982260743[BLR] Artilces to Read - 13 October 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 11 October 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1001915265[BLR] Artilces to Read - 11 October 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 10 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1005237860[BLR] Artilces to Read - 10 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 23 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1005956843[BLR] Artilces to Read - 23 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 26 February 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1033424289[BLR] Artilces to Read - 26 February 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 04 February 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1038003547[BLR] Artilces to Read - 04 February 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 08 February 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1050518039[BLR] Artilces to Read - 08 February 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 22 February 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1059682989[BLR] Artilces to Read - 22 February 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 29 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1084048773[BLR] Artilces to Read - 29 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 17 February 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1091809477[BLR] Artilces to Read - 17 February 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 09 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1092626070[BLR] Artilces to Read - 09 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 26 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1105659445[BLR] Artilces to Read - 26 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 29 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1114226641[BLR] Artilces to Read - 29 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 24 July 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1130971521[BLR] Artilces to Read - 24 July 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 15 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1133505638[BLR] Artilces to Read - 15 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 17 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1140333879[BLR] Artilces to Read - 17 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 09 October 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1149606489[BLR] Artilces to Read - 09 October 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 12 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1151651947[BLR] Artilces to Read - 12 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 05 February 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1164703888[BLR] Artilces to Read - 05 February 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 29 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1192907041[BLR] Artilces to Read - 29 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 01 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1235350181[BLR] Artilces to Read - 01 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 11 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1246224704[BLR] Artilces to Read - 11 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 25 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1248287402[BLR] Artilces to Read - 25 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 19 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1250509412[BLR] Artilces to Read - 19 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 27 February 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1264648727[BLR] Artilces to Read - 27 February 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 10 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1286240878[BLR] Artilces to Read - 10 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 26 July 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1287507594[BLR] Artilces to Read - 26 July 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 02 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1291474308[BLR] Artilces to Read - 02 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 15 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1302285107[BLR] Artilces to Read - 15 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 27 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1308498104[BLR] Artilces to Read - 27 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 06 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1311585133[BLR] Artilces to Read - 06 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 14 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1314990144[BLR] Artilces to Read - 14 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 23 December 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1315777365[BLR] Artilces to Read - 23 December 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 08 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1321320326[BLR] Artilces to Read - 08 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 06 July 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1339597680[BLR] Artilces to Read - 06 July 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 07 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1353656645[BLR] Artilces to Read - 07 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 12 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1355192877[BLR] Artilces to Read - 12 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 06 July 2021 (1)",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1367399526[BLR] Artilces to Read - 06 July 2021 (1).pdf"
-      },
-      {
-        "title": "News Articles to Read - 16 February 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1388708143[BLR] Artilces to Read - 16 February 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 08 January 2022 (1)",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1391837218[BLR] Artilces to Read - 08 January 2022 (1).pdf"
-      },
-      {
-        "title": "News Articles to Read - 13 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1392745011[BLR] Artilces to Read - 13 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 19 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1396969485[BLR] Artilces to Read - 19 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 13 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1404551192[BLR] Artilces to Read - 13 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 22 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1412756344[BLR] Artilces to Read - 22 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 23 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1432762112[BLR] Artilces to Read - 23 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 05 July 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1442189014[BLR] Artilces to Read - 05 July 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 27 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1448611043[BLR] Artilces to Read - 27 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 28 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1451437912[BLR] Artilces to Read - 28 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 04 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1461518455[BLR] Artilces to Read - 04 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 22 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1463485084[BLR] Artilces to Read - 22 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read -16 December 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1482636230[BLR] Artilces to Read -16 December 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 03 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1496553502[BLR] Artilces to Read - 03 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 22 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1503542879[BLR] Artilces to Read - 22 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 27 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1507308628[BLR] Artilces to Read - 27 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 20 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1519812024[BLR] Artilces to Read - 20 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 24 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1530927002[BLR] Artilces to Read - 24 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 16 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1563610891[BLR] Artilces to Read - 16 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 12 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1578478369[BLR] Artilces to Read - 12 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 04 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1596881408[BLR] Artilces to Read - 04 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 01 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1613932517[BLR] Artilces to Read - 01 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 05 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1625054559[BLR] Artilces to Read - 05 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 24 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1629295107[BLR] Artilces to Read - 24 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 10 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1636957537[BLR] Artilces to Read - 10 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 27 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1665667479[BLR] Artilces to Read - 27 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 15 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1666851677[BLR] Artilces to Read - 15 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 24 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1675020166[BLR] Artilces to Read - 24 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 30 July 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1675871465[BLR] Artilces to Read - 30 July 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 02 July 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1698080598[BLR] Artilces to Read - 02 July 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 18 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1705817013[BLR] Artilces to Read - 18 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 17 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1708292318[BLR] Artilces to Read - 17 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 13 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1724037660[BLR] Artilces to Read - 13 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read -21 December 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1735852385[BLR] Artilces to Read -21 December 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 31 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1756573660[BLR] Artilces to Read - 31 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 26 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1765793989[BLR] Artilces to Read - 26 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 13 February 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1767845113[BLR] Artilces to Read - 13 February 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 20 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1780481350[BLR] Artilces to Read - 20 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 10 May 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1812392596[BLR] Artilces to Read - 10 May 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 05 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1817569260[BLR] Artilces to Read - 05 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 11 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1831846051[BLR] Artilces to Read - 11 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 02 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1853515819[BLR] Artilces to Read - 02 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 29 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1870114378[BLR] Artilces to Read - 29 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 30 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1879886766[BLR] Artilces to Read - 30 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 12 October 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1880368645[BLR] Artilces to Read - 12 October 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 12 February 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1881344404[BLR] Artilces to Read - 12 February 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 06 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1893151355[BLR] Artilces to Read - 06 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 18 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1897722307[BLR] Artilces to Read - 18 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 31 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1903329149[BLR] Artilces to Read - 31 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 13 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1916762233[BLR] Artilces to Read - 13 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 05 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1917864163[BLR] Artilces to Read - 05 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 30 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1928422865[BLR] Artilces to Read - 30 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 26 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1928461111[BLR] Artilces to Read - 26 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 16 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1943756143[BLR] Artilces to Read - 16 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 12 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1946624963[BLR] Artilces to Read - 12 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 27 July 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1963792561[BLR] Artilces to Read - 27 July 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 07 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1989157922[BLR] Artilces to Read - 07 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 12 February 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1990951295[BLR] Artilces to Read - 12 February 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 01 February 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "1999767054[BLR] Artilces to Read - 01 February 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 23 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "2002098653[BLR] Artilces to Read - 23 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 23 July 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "2017906827[BLR] Artilces to Read - 23 July 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 30 April 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "2024101083[BLR] Artilces to Read - 30 April 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 10 February 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "2032825530[BLR] Artilces to Read - 10 February 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 18 February 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "2039651726[BLR] Artilces to Read - 18 February 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 09 March 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "2066908566[BLR] Artilces to Read - 09 March 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 17 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "2073034150[BLR] Artilces to Read - 17 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 16 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "2076659430[BLR] Artilces to Read - 16 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 31 January 2022",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "2089518535[BLR] Artilces to Read - 31 January 2022.pdf"
-      },
-      {
-        "title": "News Articles to Read - 30 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "2094886250[BLR] Artilces to Read - 30 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 19 February 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "2102022774[BLR] Artilces to Read - 19 February 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 03 August 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "2102455449[BLR] Artilces to Read - 03 August 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 21 June 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "2114767527[BLR] Artilces to Read - 21 June 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 20 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "2119874370[BLR] Artilces to Read - 20 September 2021.pdf"
-      },
-      {
-        "title": "News Articles to Read - 14 September 2021",
-        "link": "/assets/downloads/the_hindu_bengaluru_edition/",
-        "path": "2130153342[BLR] Artilces to Read - 14 September 2021.pdf"
       }
     ]
   },
