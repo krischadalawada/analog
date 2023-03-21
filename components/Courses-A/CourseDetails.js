@@ -138,7 +138,7 @@ const CourseDetails = (props) => {
                                                                             <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h4>₹ 1,40,000</h4>
+                                                                            <h4>₹&nbsp;1,40,000</h4>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
@@ -272,7 +272,7 @@ const CourseDetails = (props) => {
                                                                             <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h4>₹ 40,000</h4>
+                                                                            <h4>₹&nbsp;40,000</h4>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
@@ -421,7 +421,7 @@ const CourseDetails = (props) => {
                                                                             <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h4>₹ 40,000</h4>
+                                                                            <h4>₹&nbsp;40,000</h4>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
@@ -579,7 +579,7 @@ const CourseDetails = (props) => {
                                                                             <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h4>₹ 40,000</h4>
+                                                                            <h4>₹&nbsp;40,000</h4>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
@@ -745,7 +745,7 @@ const CourseDetails = (props) => {
                                                                             <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h4>₹ 40,000</h4>
+                                                                            <h4>₹&nbsp;40,000</h4>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
@@ -899,7 +899,7 @@ const CourseDetails = (props) => {
                                                                             <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h4>₹ 40,000</h4>
+                                                                            <h4>₹&nbsp;40,000</h4>
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-12 mt-30" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>

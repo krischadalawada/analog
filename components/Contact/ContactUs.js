@@ -184,17 +184,15 @@ const ContactUs = () => {
                                                                 </i></a>
                                                             </div>
                                                             :
-                                                            <>
+                                                            <div className="col-12" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', caretColor: 'transparent' }}>
                                                                 <ReCAPTCHA
                                                                     sitekey={process.env.NEXT_PUBLIC_SITE_KEY}
                                                                     ref={captchaRef}
+                                                                    size="compact"
                                                                 />
-                                                                <div className="col-12" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', caretColor: 'transparent', marginTop: 10 }}>
-
-                                                                    <a className="tp-btn-secondary pointer" onClick={onSubmit}>Submit <i className="fa-regular fa-arrow-right fa-ri">
-                                                                    </i></a>
-                                                                </div>
-                                                            </>
+                                                                <a className="tp-btn-secondary pointer" onClick={() => onSubmit()}>Submit <i className="fa-regular fa-arrow-right fa-ri">
+                                                                </i></a>
+                                                            </div>
                                                     }
                                                 </div>
                                     }

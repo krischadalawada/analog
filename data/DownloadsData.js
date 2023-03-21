@@ -1,8 +1,9 @@
 export const DownloadsData = [
   {
-    category: 'Target 2020 Daily Test Series',
+    title: 'Target 2020 Daily Test Series',
     thumbnail: '/assets/images/downloads/target-2020.jpg',
     url: '/downloads/target-2020-daily-test-series',
+    category: 'Target',
     list: [
       {
         title: 'Target 2020 Daily Test Series - 01',
@@ -467,9 +468,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'UPSC Interview Tips',
+    title: 'UPSC Interview Tips',
     thumbnail: '/assets/images/downloads/interview-tips.jpg',
     url: '/downloads/upsc-interview-tips',
+    category: 'UPSC',
     list: [
       {
         title: 'Interview Booklet',
@@ -489,9 +491,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'The Hindu Hyderabad Edition',
+    title: 'The Hindu Hyderabad Edition',
     thumbnail: '/assets/images/downloads/the-hindu-hyderabad-edition.jpg',
     url: '/downloads/the-hindu-hyderabad-edition',
+    category: 'News',
     list: [
       {
         "title": "News Articles to Read - 4th June 2021",
@@ -1611,9 +1614,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'The Hindu Bengaluru Edition',
+    title: 'The Hindu Bengaluru Edition',
     thumbnail: '/assets/images/downloads/the-hindu-bengaluru-edition.jpg',
     url: '/downloads/the-hindu-bengaluru-edition',
+    category: 'News',
     list: [
       {
         "title": "News Articles to Read -17 December 2021",
@@ -2698,9 +2702,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'UPSC Prelims 2020 Answer Key',
+    title: 'UPSC Prelims 2020 Answer Key',
     thumbnail: '/assets/images/downloads/upsc-prelims-2020-key.jpg',
     url: '/downloads/upsc-prelims-2020-answer-key',
+    category: 'UPSC',
     list: [
       {
         title: 'UPSC Prelims 2020 Answer Key',
@@ -2710,14 +2715,16 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'ASTRA Material',
+    title: 'ASTRA Material',
     thumbnail: '/assets/images/downloads/astra-material.jpg',
-    url: ''
+    url: '',
+    category: 'UPSC',
   },
   {
-    category: 'IAS Interviews',
+    title: 'IAS Interviews',
     thumbnail: '/assets/images/downloads/ias-interview.jpg',
     url: '/downloads/ias-interview',
+    category: 'UPSC',
     list: [
       {
         "title": "Karnataka - Current Affairs for 2016 Interview",
@@ -2837,9 +2844,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'NCERT Books',
+    title: 'NCERT Books',
     thumbnail: '/assets/images/downloads/ncert-books.jpg',
     url: '/downloads/ncert-books',
+    category: 'UPSC',
     list: [
       {
         "title": "NCERT Book List",
@@ -2979,9 +2987,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'Monthly Magazine',
+    title: 'Monthly Magazine',
     thumbnail: '/assets/images/downloads/monthly-magazine.jpg',
     url: '/downloads/monthly-magazine',
+    category: 'Samiksha',
     list: [
       {
         "title": "Analog IAS's Samiksha Magazine August Week-02",
@@ -3231,9 +3240,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'GS Previous Papers',
+    title: 'GS Previous Papers',
     thumbnail: '/assets/images/downloads/gs-previous-papers.jpg',
     url: '/downloads/gs-previous-papers-prelims-mains',
+    category: 'UPSC',
     list: [
       {
         "title": "2020(Pre) General Studies Paper",
@@ -3558,9 +3568,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'UPSC Materials',
+    title: 'UPSC Materials',
     thumbnail: '/assets/images/downloads/upsc-materials.jpg',
     url: '/downloads/upsc-materials',
+    category: 'UPSC',
     list: [
       {
         "title": "India Year Book 2016",
@@ -3645,9 +3656,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'IAS Planner',
+    title: 'IAS Planner',
     thumbnail: '/assets/images/downloads/ias-planner.jpg',
     url: '/downloads/ias-planner',
+    category: 'UPSC',
     list: [
       {
         "title": "Civil Services Mains 2013 Results",
@@ -3752,9 +3764,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'Public Administration (Optional)',
+    title: 'Public Administration (Optional)',
     thumbnail: '/assets/images/downloads/public-administration.jpg',
     url: '/downloads/public-administration-optional-',
+    category: 'UPSC',
     list: [
       {
         "title": "Main Test Series 2020",
@@ -3904,9 +3917,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'Anthropology (Optional)',
+    title: 'Anthropology (Optional)',
     thumbnail: '/assets/images/downloads/anthroplogy.jpg',
     url: '/downloads/anthropology-optional-',
+    category: 'UPSC',
     list: [
       {
         "title": "Mains Test Series 2020 Schedule",
@@ -3981,9 +3995,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'Political Science and International Relations',
+    title: 'Political Science and International Relations',
     thumbnail: '/assets/images/downloads/political-science.jpg',
     url: '/downloads/political-science-and-international-realtions',
+    category: 'UPSC',
     list: [
       {
         "title": "Political Science Mains test Series 2019",
@@ -4173,9 +4188,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'UPSC Sociology (Optional)',
+    title: 'UPSC Sociology (Optional)',
     thumbnail: '/assets/images/downloads/sociology.jpg',
     url: '/downloads/upsc-sociology-optional-',
+    category: 'UPSC',
     list: [
       {
         "title": "Mains Test Series 2020 Schedule",
@@ -4290,9 +4306,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'UPSC Mathematics (Optional)',
+    title: 'UPSC Mathematics (Optional)',
     thumbnail: '/assets/images/downloads/mathematics.jpg',
     url: '/downloads/upsc-mathematics-optional-',
+    category: 'UPSC',
     list: [
       {
         "title": "Solved - Physics Topics Previous Years Questions",
@@ -4427,9 +4444,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'Telugu Literature (Optional)',
+    title: 'Telugu Literature (Optional)',
     thumbnail: '/assets/images/downloads/telugu.jpg',
     url: '/downloads/telugu-literature-optional-',
+    category: 'UPSC',
     list: [
       {
         "title": "Mains Test series 2020 Schedule",
@@ -4439,9 +4457,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: 'Geography (Optional)',
+    title: 'Geography (Optional)',
     thumbnail: '/assets/images/downloads/geography.jpg',
     url: '/downloads/geography-optional-',
+    category: 'UPSC',
     list: [
       {
         "title": "Geography Optional 2020 Schedule",
@@ -4491,9 +4510,10 @@ export const DownloadsData = [
     ]
   },
   {
-    category: '2018-19 Current Affairs - Q & A',
+    title: '2018-19 Current Affairs - Q & A',
     thumbnail: '/assets/images/downloads/current-affairs.jpg',
     url: '/downloads/2018-19-current-affairs-q-a',
+    category: 'UPSC',
     list: [
       {
         "title": "Mains 2020 Test Series Schedule",

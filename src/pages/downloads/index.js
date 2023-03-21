@@ -1,5 +1,5 @@
 
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Head from 'next/head';
 import Footer from '../../../components/Common-A/Footer';
 import Header from '../../../components/Home-A/Header';
@@ -11,7 +11,7 @@ import Link from 'next/link';
 
 const Downloads = () => {
 
-   const [tab, setTab] = useState('ALL')
+   const [selectedTab, setTab] = useState('VIEW ALL')
 
    const featuresData = [
       {
@@ -51,13 +51,11 @@ const Downloads = () => {
                      <div className="row download-menu">
                         {
                            featuresData.map(feature => {
-                              return <div key={feature.id} className={feature.id === 1 ? "col-md-3 col-12" : feature.id === 3 ? "col-md-3 col-12" : "col-md-2 col-12"}>
+                              return <div onClick={() => setTab(feature.title)} key={feature.id} className={feature.id === 1 ? "col-md-3 col-12" : feature.id === 3 ? "col-md-3 col-12" : "col-md-2 col-12"}>
                                  <div className="features__item white-bg" style={{ height: '100%' }}>
                                     <div className="" style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                                        <h3 className="features__title">
-                                          <Link href="#">
-                                             <a>{feature.title}</a>
-                                          </Link>
+                                          <a>{feature.title}</a>
                                        </h3>
                                     </div>
                                  </div>
@@ -70,7 +68,7 @@ const Downloads = () => {
                </div>
             </section>
          </>
-         <DownloadsGrid />
+         <DownloadsGrid filter={selectedTab} />
          <ContactUs />
          <Footer />
       </>

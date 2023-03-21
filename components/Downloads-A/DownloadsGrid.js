@@ -4,16 +4,28 @@ import { DownloadsData } from '../../data/DownloadsData';
 import { FiDownload } from 'react-icons/fi';
 import useWindowSize from '../Common-A/Window';
 
-const DownloadsGrid = () => {
+const DownloadsGrid = (props) => {
 
    const { width, height } = useWindowSize()
    const [categories, setCategories] = useState()
-   console.log('CATE', categories);
 
    useEffect(() => {
-     setCategories(DownloadsData.slice(0,9))
-   }, [DownloadsData])
-   
+
+      if (props.filter === 'VIEW ALL') {
+         var DownloadList = DownloadsData.slice(0, 9)
+      } else if (props.filter === 'TARGET 2022 DAILY TEST SERIES') {
+         var DownloadList = DownloadsData.filter(x => x.category === 'Target')
+      } else if (props.filter === 'SAMIKSHA') {
+         var DownloadList = DownloadsData.filter(x => x.category === 'Samiksha')
+      } else if (props.filter === 'NEWS TODAY') {
+         var DownloadList = DownloadsData.filter(x => x.category === 'News')
+      } else if (props.filter === 'UPSC') {
+         var DownloadList = DownloadsData.filter(x => x.category === 'UPSC')
+      }
+      setCategories(DownloadList)
+
+   }, [DownloadsData, props.filter])
+
 
    const onLoadMore = () => {
       setCategories(DownloadsData)
@@ -38,7 +50,7 @@ const DownloadsGrid = () => {
                                     </Link>
                                  </span>
                                  <div className='download-title'>
-                                    <h3 className='text-center'>{item.category}</h3>
+                                    <h3 className='text-center'>{item.title}</h3>
                                  </div>
                               </div>
                            </div>
@@ -46,7 +58,7 @@ const DownloadsGrid = () => {
                      }
                   </div>
                   {
-                     categories && categories.length > 0 && DownloadsData.length !== categories.length ?
+                     categories && categories.length > 0 && props.filter && props.filter === 'VIEW ALL' && DownloadsData.length !== categories.length ?
                         <div className="row">
                            <div className="col-xxl-12">
                               <div className="section__title-wrapper mt-30 mb-50 text-center">

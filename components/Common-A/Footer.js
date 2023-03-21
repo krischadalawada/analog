@@ -48,6 +48,7 @@ const Footer = ({ white_bg = '' }) => {
                                     <li><a href="https://www.facebook.com/analogias.academy/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-facebook-f"></i></a></li>
                                     <li><a href="https://twitter.com/analog_ias?lang=en" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-twitter"></i></a></li>
                                     <li><a href="https://in.linkedin.com/in/analogias-academy" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://instagram.com/analogiasacademy?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-instagram"></i></a></li>
                                  </ul>
                               </div>
                            </div>
