@@ -73,6 +73,10 @@ table tr th{
     padding: 13px 71px 7px 47px;
     background-color: #F35F53;
 }
+.highlightrow{
+    background: antiquewhite;
+    color: #9b0808;
+}
 @media (max-width: 768px){
    .container {
     width: 100% !important;
