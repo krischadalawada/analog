@@ -52,7 +52,7 @@ const Downloads = () => {
                         {
                            featuresData.map(feature => {
                               return <div onClick={() => setTab(feature.title)} key={feature.id} className={feature.id === 1 ? "col-md-3 col-12" : feature.id === 3 ? "col-md-3 col-12" : "col-md-2 col-12"}>
-                                 <div className="features__item white-bg" style={{ height: '100%' }}>
+                                 <div className="features__item white-bg" style={{ height: '100%', backgroundColor: selectedTab === feature.title ? '#FAE4BA' : '' }}>
                                     <div className="" style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                                        <h3 className="features__title">
                                           <a>{feature.title}</a>

@@ -58,7 +58,6 @@
     }
 
     &__title {
-        font-size: 20px;
         font-weight: 600;
         color: var(--tp-common-black-2);
 
@@ -106,8 +105,22 @@
             text-align: left;
         }
 
+        &-sub-title {
+            font-size: 2.2vh;
+            font-weight: 400;
+            color: #011627;
+            text-align: left;
+        }
+
         &-batch {
             font-size: 2.7vh;
+            font-weight: 700;
+            color: #fff;
+            text-align: left;
+        }
+
+        &-particulars {
+            font-size: 2.4vh;
             font-weight: 700;
             color: #fff;
             text-align: left;
@@ -368,7 +381,7 @@
 }
 
 /*---------------------------------------
-    Course Styles
+    Course & Test Series Styles
 ----------------------------------------*/
 .course-area {
     background: #FAE4BA 0% 0% no-repeat padding-box;
@@ -385,7 +398,7 @@
     padding: 2vh;
 
     & h3 {
-        font-size: 2vh;
+        font-size: 2.4vh;
         font-weight: bolder;
         color: #011627;
     }
@@ -412,6 +425,38 @@
     }
 }
 
+.course-body .red-subview {
+    padding: 2vh;
+    background-color: #FF6359;
+
+    & h3 {
+        font-size: 2.4vh;
+        font-weight: bolder;
+        color: #fff;
+    }
+
+    & p {
+        font-size: 2vh;
+        font-weight: 300;
+        color: #fff;
+        text-align: justify;
+    }
+
+    & b {
+        font-weight: 500;
+    }
+
+    & ul {
+        list-style-position: inside;
+    }
+
+    & li {
+        font-size: 2vh;
+        font-weight: 300;
+        color: #fff;
+    }
+}
+
 .course-body .batchview {
     padding: 2vh;
 
@@ -428,14 +473,48 @@
     }
 
     & h5 {
-        font-size: 2.7vh;
+        font-size: 2.4vh;
         font-weight: 300;
         color: #011627;
         margin-bottom: 0 !important;
     }
 
     & h4 {
-        font-size: 4vh;
+        font-size: 3.7vh;
+        font-weight: 400;
+        color: #011627;
+    }
+
+    & b {
+        font-weight: 500;
+    }
+}
+
+.course-body .particulars-view {
+    padding: 2vh;
+
+    &-heading {
+        font-size: 2.7vh;
+        font-weight: 700;
+        color: #011627 !important;
+    }
+
+    & h3 {
+        font-size: 2.4vh;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    & h5 {
+        font-size: 2.2vh;
+        font-weight: 300;
+        color: #011627;
+        margin-bottom: 0 !important;
+        line-height: 2.7vh;
+    }
+
+    & h4 {
+        font-size: 3.7vh;
         font-weight: 400;
         color: #011627;
     }

@@ -135,7 +135,7 @@ const CourseDetails = (props) => {
                                                                     <hr />
                                                                     <div className='row'>
                                                                         <div className='col-lg-5 col-5'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
+                                                                            <h5 style={{ lineHeight: '270%' }}>Course&nbsp;Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
                                                                             <h4>₹&nbsp;1,40,000</h4>
@@ -269,7 +269,7 @@ const CourseDetails = (props) => {
                                                                     <hr />
                                                                     <div className='row'>
                                                                         <div className='col-lg-5 col-5'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
+                                                                            <h5 style={{ lineHeight: '270%' }}>Course&nbsp;Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
                                                                             <h4>₹&nbsp;40,000</h4>
@@ -418,7 +418,7 @@ const CourseDetails = (props) => {
                                                                     <hr />
                                                                     <div className='row'>
                                                                         <div className='col-lg-5 col-5'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
+                                                                            <h5 style={{ lineHeight: '270%' }}>Course&nbsp;Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
                                                                             <h4>₹&nbsp;40,000</h4>
@@ -576,7 +576,7 @@ const CourseDetails = (props) => {
                                                                     <hr />
                                                                     <div className='row'>
                                                                         <div className='col-lg-5 col-5'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
+                                                                            <h5 style={{ lineHeight: '270%' }}>Course&nbsp;Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
                                                                             <h4>₹&nbsp;40,000</h4>
@@ -742,7 +742,7 @@ const CourseDetails = (props) => {
                                                                     <hr />
                                                                     <div className='row'>
                                                                         <div className='col-lg-5 col-5'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
+                                                                            <h5 style={{ lineHeight: '270%' }}>Course&nbsp;Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
                                                                             <h4>₹&nbsp;40,000</h4>
@@ -896,7 +896,7 @@ const CourseDetails = (props) => {
                                                                     <hr />
                                                                     <div className='row'>
                                                                         <div className='col-lg-5 col-5'>
-                                                                            <h5 style={{ lineHeight: '270%' }}>Course Fee:</h5>
+                                                                            <h5 style={{ lineHeight: '270%' }}>Course&nbsp;Fee:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
                                                                             <h4>₹&nbsp;40,000</h4>
