@@ -2945,7 +2945,7 @@ export const DownloadsData = [
       {
         "title": "Comparative Government and Politics - VI",
         "link": "/assets/downloads/political_science_international_relations/",
-        "path": "842679879Comparative Government and Politics - VI.pdf"
+        "path": "1979344060Comparative Government and Politics - VI.pdf"
       },
       {
         "title": "Globalisation Environment and Development",
