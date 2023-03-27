@@ -944,6 +944,15 @@
             color: #5D5DB5;
         }
     }
+
+    & .date {
+        white-space: nowrap;
+    }
+
+    & .highlight {
+        background-color: #FF6359;
+        color: #fff;
+    }
 }
 
 .player {

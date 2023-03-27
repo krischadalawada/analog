@@ -192,12 +192,12 @@ const TestDetails = (props) => {
                                             </div>
                                         </div>
                                         <>
-                                            <section className="slider__area pt-30 pb-30 include-bg d-flex align-items-center" style={{ caretColor: 'transparent' }}>
-                                                <div className="container-sm">
+                                            <section className="slider__area pt-30 pb-30 include-bg align-items-center" style={{ caretColor: 'transparent' }}>
+                                                <div style={{ marginLeft: '1%', marginRight: '1%' }}>
                                                     <div className='col-xl-12 col-md-12 col-12 m-auto'>
                                                         <table className='testseries-table'>
                                                             <tr>
-                                                                <th>Test #</th>
+                                                                <th>Test&nbsp;#</th>
                                                                 <th>Date</th>
                                                                 <th>Day</th>
                                                                 <th>Subject</th>
@@ -205,10 +205,10 @@ const TestDetails = (props) => {
                                                             {TestSeriesData[0].list.map((val, key) => {
                                                                 return (
                                                                     <tr key={key}>
-                                                                        <td>{val.test}</td>
-                                                                        <td>{val.date}</td>
-                                                                        <td>{val.day}</td>
-                                                                        <td>{val.subject}</td>
+                                                                        <td className={val.subject?.includes("CSAT") ? 'highlight' : ''}>{val.test}</td>
+                                                                        <td className={val.subject?.includes("CSAT") ? 'highlight date' : 'date'}>{val.date}</td>
+                                                                        <td className={val.subject?.includes("CSAT") ? 'highlight' : ''}>{val.day}&nbsp;</td>
+                                                                        <td className={val.subject?.includes("CSAT") ? 'highlight' : ''}>{val.subject}</td>
                                                                     </tr>
                                                                 )
                                                             })}
