@@ -225,9 +225,11 @@ input[type="color"] {
 	.container {
 		max-width: 1300px;
 	}
+
 	.container-lg {
 		max-width: 1500px;
 	}
+
 	.container-sm {
 		max-width: 1000px;
 	}
@@ -429,4 +431,8 @@ input[type="color"] {
 
 .bg-contact {
 	background: transparent linear-gradient(180deg, #8ED8F7 0%, #3772FF 100%) 0% 0% no-repeat padding-box;
+}
+
+.bg-awards {
+	background: #212121 0% 0% no-repeat padding-box;
 }

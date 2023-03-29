@@ -16,7 +16,7 @@ const Downloads = () => {
    const featuresData = [
       {
          id: 1,
-         title: 'TARGET 2022 DAILY TEST SERIES',
+         title: 'TARGET 2023 DAILY TEST SERIES',
       },
       {
          id: 2,

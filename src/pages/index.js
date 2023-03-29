@@ -9,6 +9,7 @@ import JoinAnalog from '../../components/Home-A/JoinAnalog';
 import EventsHome from '../../components/Home-A/Events';
 import Testimonials from '../../components/Home-A/Testimonials';
 import ContactUs from '../../components/Contact/ContactUs';
+import Awards from '../../components/Home-A/Awards';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Header />
       <div style={{ backgroundColor: '#E4F2F8' }}>
         <HeroHome />
+        <Awards />
         <Exams />
         <HeroMain />
       </div>

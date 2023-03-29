@@ -13,7 +13,7 @@ const DownloadsGrid = (props) => {
 
       if (props.filter && props.filter === 'VIEW ALL') {
          var DownloadList = DownloadsData.slice(0, 9)
-      } else if (props.filter && props.filter === 'TARGET 2022 DAILY TEST SERIES') {
+      } else if (props.filter && props.filter === 'TARGET 2023 DAILY TEST SERIES') {
          var DownloadList = DownloadsData.filter(x => x.category === 'Target')
       } else if (props.filter && props.filter === 'SAMIKSHA') {
          var DownloadList = DownloadsData.filter(x => x.category === 'Samiksha')

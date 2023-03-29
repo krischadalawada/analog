@@ -11,11 +11,11 @@ const Target = () => {
     return (
         <>
             <Head>
-                <title>Target 2020 Daily Test Series</title>
+                <title>Target 2023 Daily Test Series</title>
             </Head>
 
             <Header />
-            <HeroDownloads title="Target 2020 Daily Test Series" />
+            <HeroDownloads title="Target 2023 Daily Test Series" />
             <>
                 <section className="slider__area pt-60 pb-60 include-bg d-flex align-items-center" style={{ caretColor: 'transparent' }}>
                     <div className="container-sm">

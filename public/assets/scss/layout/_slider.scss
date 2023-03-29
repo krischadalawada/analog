@@ -232,18 +232,6 @@
             color: #fff;
             letter-spacing: -0.03em;
             margin-bottom: 3vh;
-
-            @media #{$lg} {
-                font-size: 45px;
-            }
-
-            @media #{$sm} {
-                font-size: 45px;
-            }
-
-            @media #{$xs} {
-                font-size: 28px;
-            }
         }
         
         &-sub {
@@ -254,18 +242,10 @@
         }
 
         &-3 {
-            font-size: 60px;
-            font-weight: 800;
+            font-size: 4vh;
+            font-weight: 400;
             color: var(--tp-common-white);
-            margin-bottom: 24px;
-
-            @media #{$sm} {
-                font-size: 45px;
-            }
-
-            @media #{$xs} {
-                font-size: 28px;
-            }
+            margin-bottom: 3vh;
         }
 
         &-home {
