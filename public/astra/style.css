@@ -13,7 +13,7 @@ a{
     width: 100%;
 }
 .topfromtop{
-    margin-top: 24px;
+    margin-top: 30px;
 }
 .icon-header,.text-header{
     margin-top: 30px;
@@ -43,7 +43,7 @@ a{
     font-weight: 600;
     background-color: #DA2128;
     padding: 9px 20px 9px 20px  ;
-    width: 55%;
+    width: 59%;
     border-radius: 15px;
 }
 .register h1{
@@ -63,16 +63,21 @@ a{
 .third-part h1{
     font-size: 87px;
     font-weight: 600;
+    line-height: 75px;
     padding-left: 10px;
 }
 .third-part h3{
     font-size: 35px;
     font-weight: 600;
+    line-height: 18px;
     padding-left: 10px;
+}
+.third-part h4{
+    font-size: 15px;
 }
 .third-part h2 {
     padding-left: 10px;
-    font-size: 30px;
+    font-size: 25px;
 }
 .third-part sub{
     font-size: 45px;
@@ -123,7 +128,7 @@ a{
 
 .nine-part h1,.sixth-part h1{
     margin-top: 150px;
-    font-size: 45px;
+    font-size: 41px;
     font-weight: 600;
 }
 .nine-part p{
@@ -131,7 +136,7 @@ a{
     font-weight: 400;
 }
 .nine-part h6{
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 400;
     margin-bottom: 280px;
 }
@@ -179,7 +184,7 @@ a{
         background: white;
     }
     .wid10{
-        width: 10% !important;
+        width: 12% !important;
     }
     .second-part{
         background-image: url(images/banner.png);
@@ -208,11 +213,26 @@ a{
         background-size: cover;
         color: white;
     }
+    .nine-2{
+        background-image: url(images/award-2.jpg) !important;
+    }
+    .left-paddding{
+        padding-left: 60px !important;
+    }
+    .carousel-control-next-icon{
+        margin-left: 90px !important;
+    }
+    .carousel-control-prev-icon{
+        margin-right: 90px !important;
+    }
     
 }
 
 /* media screens for mobile  */
 @media screen and (max-width:768px) {
+    body{
+        overflow-x: hidden !important;
+    }
     .second-part{
         background-image: url(images/mobile-banner.jpg);
         background-position: center;
@@ -234,7 +254,7 @@ a{
     }
     .register {
         margin-bottom: 10px;
-        width: 70%;
+        width: 55%;
         font-size: 12px;
     }
     .register h1 sub {
@@ -255,6 +275,9 @@ a{
         background-position: center;
         background-size: cover;
         color: white;
+    }
+    .nine-2{
+        background-image: url(images/mobile-award-2.jpg) !important;
     }
     .nine-part h1,.sixth-part h1{
         margin-top: 47px;
@@ -298,6 +321,7 @@ a{
     #btn-bn {
       bottom: 0px;
       right: 10px;
+      z-index: 1030;
       position: fixed;
     }
     
