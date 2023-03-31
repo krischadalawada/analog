@@ -85,11 +85,10 @@ a{
 .fourth-part ,.fifth-part,.seventh-part,.ten-part,.eleven-part,.twelve-part{
     padding: 40px 40px 9px 40px;
 }
-.fourth-part h1,.fifth-part h1{
+.fourth-part h1,.fifth-part h1,.eight-part h1{
     font-size: 40px;
     font-weight: 800;
     color: #2E3192;
-    border-bottom: 1px solid #dee2e6;
 }
 .fourth-part td ,.fifth-part td{
     font-size: 20px;
@@ -118,6 +117,7 @@ a{
 .eight-part img{
     width: 100%;
 }
+
 .eight-part p{
     font-size: 21px;
     font-weight: 500;
@@ -173,6 +173,9 @@ a{
     background-color: #F5F5F5;
     padding: 40px;
 }
+.font-sub-1{
+    font-size: 30px;
+}
 /* media screens for desktop  */
 @media screen and (min-width:768px) {
     .padding11{
@@ -182,6 +185,10 @@ a{
         left: 0;
         z-index: 1030;
         background: white;
+    }
+    .eight-part h1{
+        font-size: 36px;
+        text-align: center;
     }
     .wid10{
         width: 12% !important;
@@ -225,7 +232,9 @@ a{
     .carousel-control-prev-icon{
         margin-right: 90px !important;
     }
-    
+    .font-sub{
+        font-size: 25px;
+    }
 }
 
 /* media screens for mobile  */
@@ -308,6 +317,13 @@ a{
   
         position: relative !important;
       }
+      .font-sub{
+        font-size: 17px;
+    }
+    .fourth-part h1,.fifth-part h1,.eight-part h1{
+        font-size: 27px;
+    }
+    
 }
 .banner-sec2 form{
     width:380px;
