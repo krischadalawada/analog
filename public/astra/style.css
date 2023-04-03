@@ -240,7 +240,11 @@ a{
     .font-sub{
         font-size: 25px;
     }
+    .third-part .col-md-4{
+        width: 29% !important;
+    }
 }
+
 
 /* media screens for mobile  */
 @media screen and (max-width:768px) {
