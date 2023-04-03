@@ -28,9 +28,14 @@ a{
 .right-algin{
     text-align: end;
 }
-.second-part img{
+.second-part .logo-main{
     width: 70%;
     margin-top: 173px;
+
+}
+.second-part .price{
+    width: 60%;
+    margin-bottom: 173px;
 
 }
 .second-h4{
@@ -247,10 +252,14 @@ a{
         background-position: center;
         background-size: cover;
     }
-    .second-part img {
+    .second-part .logo-main {
         width: 70%;
         margin-top: 159px;
         padding-top: 390px;
+    }
+    .second-part .price{
+        margin-bottom: 0px;
+        width: 50%;
     }
     .second-h4{
         font-size: 17px;
@@ -311,7 +320,7 @@ a{
         padding: 10px;
     }
     .third-part h1{
-        font-size: 9vh;
+        font-size: 14vh;
     }
     #btn-bn {
   
