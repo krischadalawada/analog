@@ -39,7 +39,8 @@ const Downloads = () => {
    return (
       <>
          <Head>
-            <title>Downloads</title>
+            <title>Downloads - Analog IAS Academy - IAS Coaching Institutes in Hyderabad.</title>
+            <meta name="description" content="Analog IAS Academy - We Provide the Best UPSC Coaching center in Hyderabad to clear the Civil Service exam UPSC syllabus, free study materials, tests, etc" />
          </Head>
 
          <Header />

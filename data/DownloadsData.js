@@ -4,6 +4,7 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/target-2020.jpg',
     url: '/downloads/target-2020-daily-test-series',
     category: 'Target',
+    alt: 'Analog IAS Academy Target 2023 Daily Test Series Thumbnail',
     list: [
       {
         title: 'Target 2023 Daily Test Series - 01',
@@ -472,6 +473,7 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/interview-tips.jpg',
     url: '/downloads/upsc-interview-tips',
     category: 'UPSC',
+    alt: 'Analog IAS Academy UPSC Interview Tips Thumbnail',
     list: [
       {
         title: 'Interview Booklet',
@@ -495,6 +497,7 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/the-hindu-hyderabad-edition.jpg',
     url: '/downloads/the-hindu-hyderabad-edition',
     category: 'News',
+    alt: 'Analog IAS Academy The Hindu Hyderabad Edition Thumbnail',
     list: [
       {
         "title": "News Articles to Read - 4th June 2021",
@@ -1618,6 +1621,7 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/upsc-prelims-2020-key.jpg',
     url: '/downloads/upsc-prelims-2020-answer-key',
     category: 'UPSC',
+    alt: 'Analog IAS Academy UPSC Prelims 2020 Answer Key Thumbnail',
     list: [
       {
         title: 'UPSC Prelims 2020 Answer Key',
@@ -1631,12 +1635,14 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/astra-material.jpg',
     url: '',
     category: 'UPSC',
+    alt: 'Analog IAS Academy ASTRA Material Thumbnail',
   },
   {
     title: 'IAS Interviews',
     thumbnail: '/assets/images/downloads/ias-interview.jpg',
     url: '/downloads/ias-interview',
     category: 'UPSC',
+    alt: 'Analog IAS Academy IAS Interviews Thumbnail',
     list: [
       {
         "title": "Karnataka - Current Affairs for 2016 Interview",
@@ -1760,6 +1766,7 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/ncert-books.jpg',
     url: '/downloads/ncert-books',
     category: 'UPSC',
+    alt: 'Analog IAS Academy NCERT Books Thumbnail',
     list: [
       {
         "title": "NCERT Book List",
@@ -1903,6 +1910,7 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/monthly-magazine.jpg',
     url: '/downloads/monthly-magazine',
     category: 'Samiksha',
+    alt: 'Analog IAS Academy Monthly Magazine Thumbnail',
     list: [
       {
         "title": "Analog IAS's Samiksha Magazine August Week-02",
@@ -2154,8 +2162,9 @@ export const DownloadsData = [
   {
     title: 'GS Previous Papers',
     thumbnail: '/assets/images/downloads/gs-previous-papers.jpg',
-    url: '/downloads/gs-previous-papers-prelims-mains',
+    url: '/downloads/gs-previous-papers-prelims-mains-',
     category: 'UPSC',
+    alt: 'Analog IAS Academy GS Previous Papers Thumbnail',
     list: [
       {
         "title": "2020(Pre) General Studies Paper",
@@ -2484,6 +2493,7 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/upsc-materials.jpg',
     url: '/downloads/upsc-materials',
     category: 'UPSC',
+    alt: 'Analog IAS Academy UPSC Materials Thumbnail',
     list: [
       {
         "title": "India Year Book 2016",
@@ -2572,6 +2582,7 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/ias-planner.jpg',
     url: '/downloads/ias-planner',
     category: 'UPSC',
+    alt: 'Analog IAS Academy IAS Planner Thumbnail',
     list: [
       {
         "title": "Civil Services Mains 2013 Results",
@@ -2680,6 +2691,7 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/public-administration.jpg',
     url: '/downloads/public-administration-optional-',
     category: 'UPSC',
+    alt: 'Analog IAS Academy Public Administration Thumbnail',
     list: [
       {
         "title": "Main Test Series 2020",
@@ -2833,6 +2845,7 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/anthroplogy.jpg',
     url: '/downloads/anthropology-optional-',
     category: 'UPSC',
+    alt: 'Analog IAS Academy Anthropology Thumbnail',
     list: [
       {
         "title": "Mains Test Series 2020 Schedule",
@@ -2909,8 +2922,9 @@ export const DownloadsData = [
   {
     title: 'Political Science and International Relations',
     thumbnail: '/assets/images/downloads/political-science.jpg',
-    url: '/downloads/political-science-and-international-realtions',
+    url: '/downloads/political-science-and-international-realtionAnalog IAS Academy Thumbnails',
     category: 'UPSC',
+    alt: 'Analog IAS Academy Political Science and International Relations Thumbnail',
     list: [
       {
         "title": "Political Science Mains test Series 2019",
@@ -3104,6 +3118,7 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/sociology.jpg',
     url: '/downloads/upsc-sociology-optional-',
     category: 'UPSC',
+    alt: 'Analog IAS Academy UPSC Sociology Thumbnail',
     list: [
       {
         "title": "Mains Test Series 2020 Schedule",
@@ -3222,6 +3237,7 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/mathematics.jpg',
     url: '/downloads/upsc-mathematics-optional-',
     category: 'UPSC',
+    alt: 'Analog IAS Academy UPSC Mathematics Thumbnail',
     list: [
       {
         "title": "Solved - Physics Topics Previous Years Questions",
@@ -3360,6 +3376,7 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/telugu.jpg',
     url: '/downloads/telugu-literature-optional-',
     category: 'UPSC',
+    alt: 'Analog IAS Academy Telugu Literature Thumbnail',
     list: [
       {
         "title": "Mains Test series 2020 Schedule",
@@ -3373,6 +3390,7 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/geography.jpg',
     url: '/downloads/geography-optional-',
     category: 'UPSC',
+    alt: 'Analog IAS Academy Geography Thumbnail',
     list: [
       {
         "title": "Geography Optional 2020 Schedule",
@@ -3426,6 +3444,7 @@ export const DownloadsData = [
     thumbnail: '/assets/images/downloads/current-affairs.jpg',
     url: '/downloads/2018-19-current-affairs-q-a',
     category: 'UPSC',
+    alt: 'Analog IAS Academy 2018-19 Current Affairs - Q & A Thumbnail',
     list: [
       {
         "title": "Mains 2020 Test Series Schedule",

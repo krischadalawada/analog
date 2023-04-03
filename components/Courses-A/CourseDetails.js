@@ -300,7 +300,7 @@ const CourseDetails = (props) => {
                                                 <div className="col-xxl-4 col-lg-4 col-sm-6">
                                                     <div className="slider__thumb-2 p-relative">
                                                         <span className="slider__thumb-home">
-                                                            <img style={{ width: '100%' }} src="assets/images/faculty/Srinivas.jpg" alt="" />
+                                                            <img style={{ width: '100%' }} src="assets/images/faculty/Srinivas.jpg" alt="Analog IAS Academy Faculty  Mr. S. Srinivas" />
                                                         </span>
                                                     </div>
                                                 </div>
@@ -449,7 +449,7 @@ const CourseDetails = (props) => {
                                                 <div className="col-xxl-4 col-lg-4 col-sm-6">
                                                     <div className="slider__thumb-2 p-relative">
                                                         <span className="slider__thumb-home">
-                                                            <img style={{ width: '100%' }} src="assets/images/about/Srikanth@2x.png" alt="" />
+                                                            <img style={{ width: '100%' }} src="assets/images/about/Srikanth@2x.png" alt="Analog IAS Academy Director  Mr. Srikanth Vinnakota" />
                                                         </span>
                                                     </div>
                                                 </div>
@@ -607,7 +607,7 @@ const CourseDetails = (props) => {
                                                 <div className="col-xxl-4 col-lg-4 col-sm-6">
                                                     <div className="slider__thumb-2 p-relative">
                                                         <span className="slider__thumb-home">
-                                                            <img style={{ width: '100%' }} src="assets/images/faculty/RaviKumar.jpg" alt="" />
+                                                            <img style={{ width: '100%' }} src="assets/images/faculty/RaviKumar.jpg" alt="Analog IAS Academy Faculty  Mr. D. M. Ravi Kumar" />
                                                         </span>
                                                     </div>
                                                 </div>
@@ -773,7 +773,7 @@ const CourseDetails = (props) => {
                                                 <div className="col-xxl-4 col-lg-4 col-sm-6">
                                                     <div className="slider__thumb-2 p-relative">
                                                         <span className="slider__thumb-home">
-                                                            <img style={{ width: '100%' }} src="assets/images/faculty/RavindharReddy.jpg" alt="" />
+                                                            <img style={{ width: '100%' }} src="assets/images/faculty/RavindharReddy.jpg" alt="Analog IAS Academy Faculty  Dr. Ravindra Reddy" />
                                                         </span>
                                                     </div>
                                                 </div>
@@ -927,7 +927,7 @@ const CourseDetails = (props) => {
                                                 <div className="col-xxl-4 col-lg-4 col-sm-6">
                                                     <div className="slider__thumb-2 p-relative">
                                                         <span className="slider__thumb-home">
-                                                            <img style={{ width: '100%' }} src="assets/images/faculty/Amit_Bose.jpg" alt="" />
+                                                            <img style={{ width: '100%' }} src="assets/images/faculty/Amit_Bose.jpg" alt="Analog IAS Academy Faculty  Mr. Amit Bose" />
                                                         </span>
                                                     </div>
                                                 </div>

@@ -13,7 +13,7 @@ const ToppersMain = () => {
     return (
         <>
             <Head>
-                <title>Toppers</title>
+                <title>Toppers - Analog IAS Academy</title>
             </Head>
 
             <Header />

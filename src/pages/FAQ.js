@@ -15,7 +15,7 @@ const FAQPage = () => {
     return (
         <>
             <Head>
-                <title>FAQs</title>
+                <title>FAQs - Analog IAS Academy</title>
             </Head>
 
             <Header />

@@ -15,7 +15,7 @@ const Footer = ({ white_bg = '' }) => {
                                  <div className="logo-white">
                                     <Link href="/">
                                        <a>
-                                          <img src="/assets/images/logo/logo-white.png" alt="" />
+                                          <img src="/assets/images/logo/logo-white.png" alt="Analog IAS Academy footer logo" />
                                        </a>
                                     </Link>
                                  </div>
@@ -24,7 +24,7 @@ const Footer = ({ white_bg = '' }) => {
                                  <div className="footer__widget-info">
                                     <p>Analog Education Society was established with an aim to impart quality coaching for aspirants preparing for Civil Services and other government services.</p>
                                     <a target="_blank" rel="noopener noreferrer" href='https://www.google.com/maps/search/analog+ias+academy/@17.4112973,78.486235,16z'>
-                                       <img className='map pointer' src="/assets/images/footer/map-zoomed.png" alt="" />
+                                       <img className='map pointer' src="/assets/images/footer/map-zoomed.png" alt="Analog IAS Academy footer Maps" />
                                     </a>
                                  </div>
                               </div>

@@ -7,7 +7,7 @@ const ThankYou = () => {
     return (
         <>
             <Head>
-                <title>Thank You</title>
+                <title>Thank You - Analog IAS Academy</title>
             </Head>
 
             <Header />

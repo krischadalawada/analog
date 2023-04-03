@@ -42,7 +42,7 @@ const DownloadsGrid = (props) => {
                            <div key={index} className='col-xl-4 col-md-4 col-sm-6 col-12 m-auto'>
                               <div className="slider__thumb-2 mb-60">
                                  <span className="slider__thumb-home p-relative">
-                                    <img style={{ width: '100%' }} src={item.thumbnail} alt="" />
+                                    <img style={{ width: '100%' }} src={item.thumbnail} alt={item.alt} />
                                     <Link href={item.url}>
                                        <i className='download-btn pointer'>
                                           <FiDownload color='#fff' size={height / 30} />

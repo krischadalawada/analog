@@ -17,7 +17,7 @@ const Faculty = () => {
                                  <div className="col-xxl-4 col-lg-4 col-sm-6">
                                     <div className="slider__thumb-2 p-relative">
                                        <span className="slider__thumb-home">
-                                          <img className="toppers" style={{ width: '100%' }} src={item.image} alt="" />
+                                          <img className="toppers" style={{ width: '100%' }} src={item.image} alt={item.alt} />
                                        </span>
                                     </div>
                                  </div>

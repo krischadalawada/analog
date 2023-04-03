@@ -2,22 +2,19 @@ import Head from 'next/head';
 import Footer from '../../../components/Common-A/Footer';
 import Header from '../../../components/Home-A/Header';
 import ComingSoon from '../../../components/Common-A/ComingSoon';
-import HeroBlog from '../../../components/Blog-A/HeroBlog';
-import BlogArea from '../../../components/Blog-A/BlogArea';
 
-const Blogs = () => {
+const Testimonial = () => {
    return (
       <>
          <Head>
-            <title>Blogs - Analog IAS Academy</title>
+            <title>Testimonial - Analog IAS Academy</title>
          </Head>
 
          <Header />
-         <HeroBlog />
-         <BlogArea />
+         <ComingSoon />
          <Footer />
       </>
    );
 };
 
-export default Blogs;
+export default Testimonial;

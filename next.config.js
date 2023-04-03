@@ -11,9 +11,34 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/about-civil-services-examination',
-        destination: '/about-us',
+        source: '/batches',
+        destination: '/courses',
         permanent: true,
+      },
+      {
+        source: '/about-civil-services-examination',
+        destination: '/courses',
+        permanent: true,
+      },
+      {
+        source: '/courses/civil-services/kapu-corporation',
+        destination: '/courses',
+        permanent: true,
+      },
+      {
+        source: '/civil-services-public-administration-optional',
+        destination: '/courses',
+        permanent: true,
+      },
+      {
+        source: '/analog-courses/index.php',
+        destination: '/courses',
+        permanent: true,
+      },
+      {
+        source: '/courses/civil-services/political-science-optional-',
+        destination: '/courses',
+        permanent: true
       },
       {
         source: '/gallery-images',
@@ -21,22 +46,7 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/videos',
-        destination: '/about-us',
-        permanent: true,
-      },
-      {
-        source: '/test-categories',
-        destination: '/about-us',
-        permanent: true,
-      },
-      {
         source: '/faculty',
-        destination: '/about-us',
-        permanent: true,
-      },
-      {
-        source: '/testimonial',
         destination: '/about-us',
         permanent: true,
       },
@@ -66,32 +76,53 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/batches',
+        source: '/correspondence-course-civil-services',
         destination: '/',
         permanent: true,
       },
       {
-        source: '/events',
-        destination: '/',
-        permanent: true,
+        source: '/downloads/the-hindu-bengaluru-edition',
+        destination: '/downloads',
+        permanent: true
+      },
+      {
+        source: '/downloads/astra-material',
+        destination: '/downloads',
+        permanent: false
       },
       {
         source: '/events/free-workshop-for-upsc-aspirants',
-        destination: '/',
+        destination: '/events',
         permanent: true,
       },
       {
         source: '/events/free-workshop-for-upsc-civils-aspirants-2020',
-        destination: '/',
+        destination: '/events',
         permanent: true,
       },
       {
         source: '/events/abhyasa-screening-test-for-the-cse2019',
-        destination: '/',
+        destination: '/events',
         permanent: true,
-      },{
+      },
+      {
         source: '/events/free-workshop-for-upsc-aspirants-2020-vizag',
-        destination: '/',
+        destination: '/events',
+        permanent: true,
+      },
+      {
+        source: '/events/free-workshop-for-upsc-aspirants-2020-indira-park',
+        destination: '/events',
+        permanent: true,
+      },
+      {
+        source: '/events/how-to-crack-civils-in-first-attempt-seminar-at-vizag',
+        destination: '/events',
+        permanent: true,
+      },
+      {
+        source: '/work-shop-madhapur/index.php',
+        destination: '/events',
         permanent: true,
       },
       {
@@ -101,13 +132,8 @@ const nextConfig = {
       },
       {
         source: '/test-categories/upsc-civil-services',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/disclaimer',
-        destination: '/',
-        permanent: true,
+        destination: '/test-categories',
+        permanent: false,
       },
       {
         source: '/news-updates',
@@ -116,22 +142,7 @@ const nextConfig = {
       },
       {
         source: '/analog-ias-test-series/index.html',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/blog/page/2/',
-        destination: '/blog',
-        permanent: true,
-      },
-      {
-        source: '/blog/page/8',
-        destination: '/blog',
-        permanent: true,
-      },
-      {
-        source: '/blog/page/14/',
-        destination: '/blog',
+        destination: '/test-series',
         permanent: true,
       },
       {
@@ -169,6 +180,71 @@ const nextConfig = {
         destination: '/articles',
         permanent: true,
       },
+      {
+        source: '/articles/ias-coaching-centres-in-delhi',
+        destination: '/articles',
+        permanent: true,
+      },
+      {
+        source: '/articles/ias-coaching-in-hyderabad',
+        destination: '/articles',
+        permanent: true,
+      },
+      {
+        source: '/videos/https-www-youtube-com-watch-v-xc-vzmzofsw-t-130s',
+        destination: '/videos',
+        permanent: true,
+      },
+      {
+        source: '/videos/https-www-youtube-com-watch-v-dynbexu0qwo',
+        destination: '/videos',
+        permanent: true,
+      },
+      {
+        source: '/videos/https-www-youtube-com-watch-v-nqv6dp9czzy-t-1356s',
+        destination: '/videos',
+        permanent: true,
+      },
+      {
+        source: '/blog/category/:slug*',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog/page/:slug*',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog/author/:slug*',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog/wp-includes/ID3/slot-kakek-petir',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog/wp-admin/js/mahjong-ways',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/mock-interview2021/index2.html',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/al-major/uploads/1198364037uploads_download_1421657725B06',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/civil-results/2010',
+        destination: '/civil-results',
+        permanent: true,
+      }
     ]
   },
 }

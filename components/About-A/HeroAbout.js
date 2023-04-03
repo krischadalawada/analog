@@ -10,7 +10,7 @@ const HeroAbout = () => {
                   <div className="col-xxl-5 col-lg-5 col-sm-6">
                      <div className="slider__thumb-2 p-relative">
                         <span className="slider__thumb-home">
-                           <img style={{ width: '100%' }} src="assets/images/about/AboutBannerPic@2x.png" alt="" />
+                           <img style={{ width: '100%' }} src="assets/images/about/AboutBannerPic@2x.png" alt="Analog IAS Academy About-us banner" />
                         </span>
                      </div>
                   </div>

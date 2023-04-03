@@ -7,7 +7,7 @@ const Articles = () => {
    return (
       <>
          <Head>
-            <title>Articles</title>
+            <title>Articles - Analog IAS Academy</title>
          </Head>
 
          <Header />

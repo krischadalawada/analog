@@ -19,7 +19,7 @@ const Leadership = () => {
                   <div className="col-xxl-5 col-lg-5 col-sm-6">
                      <div className="p-relative mt-40">
                         <span className="slider__thumb-home">
-                           <img style={{ width: '100%' }} src="assets/images/about/Srikanth@2x.png" alt="" />
+                           <img style={{ width: '100%' }} src="assets/images/about/Srikanth@2x.png" alt="Analog IAS Academy Director  Mr. Srikanth Vinnakota" />
                         </span>
                         <div className='slider__thumb-about'>
                            <div>

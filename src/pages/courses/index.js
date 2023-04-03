@@ -15,7 +15,8 @@ const Courses = () => {
    return (
       <>
        <Head>
-         <title>Courses</title>
+         <title>Course -  Analog IAS Academy - Best IAS Coaching Centres in Hyderabad.</title>
+         <meta name="description" content="ANALOG IAS ACADEMY - We provide the Best UPSC Coaching in Hyderabad with Low Fees Structure for Civil Services Exam Preparation. Join Our Best UPSC/IAS Online Course offering IAS , UPSC and CSE Coaching  and mains exam coaching classes Center  for students in Hyderabad." />
        </Head>
 
          <Header />
