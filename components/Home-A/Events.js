@@ -10,24 +10,24 @@ import { Link as ScrollLink } from "react-scroll";
 const EventsHome = () => {
 
    const eventsData = [
+      // {
+      //    id: 1,
+      //    img: 'assets/images/home/NewEvent.jpg',
+      //    location: '@ Indira Park, ANALOG IAS ACADEMY',
+      //    title: [
+      //       {
+      //          line: 'Free Webinar'
+      //       },
+      //       {
+      //          line: 'Crack IAS/IPS with strategy.'
+      //       },
+      //       {
+      //          line: 'Next on 26.03.2023'
+      //       }
+      //    ]
+      // },
       {
          id: 1,
-         img: 'assets/images/home/NewEvent.jpg',
-         location: '@ Indira Park, ANALOG IAS ACADEMY',
-         title: [
-            {
-               line: 'Free Webinar'
-            },
-            {
-               line: 'Crack IAS/IPS with strategy.'
-            },
-            {
-               line: 'Next on 26.03.2023'
-            }
-         ]
-      },
-      {
-         id: 2,
          img: 'assets/images/home/NewEvent.jpg',
          location: '@ Ashok Nagar, ANALOG IAS ACADEMY',
          title: [
@@ -43,7 +43,7 @@ const EventsHome = () => {
          ]
       },
       {
-         id: 3,
+         id: 2,
          img: 'assets/images/home/NewEvent.jpg',
          location: '@ Indira Park, ANALOG IAS ACADEMY',
          title: [
