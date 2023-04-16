@@ -180,6 +180,7 @@ a{
 }
 .font-sub-1{
     font-size: 30px;
+    line-height: 10px;
 }
 /* media screens for desktop  */
 @media screen and (min-width:768px) {

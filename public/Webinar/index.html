@@ -59,7 +59,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
     @media (max-width: 780px){
         .banner{
-            margin-top: 200px;
+            margin-top: 148px;
             height: 100%;
         }
         .banner img{
@@ -191,6 +191,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						})
                         form.addEventListener('submit', e => {
 						  e.preventDefault()
+                          document.forms['submit-to-google-sheet'].reset();
 						  window.location.href="thank-you.html"
 						})
 					  </script>
