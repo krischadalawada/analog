@@ -38,7 +38,7 @@ const EventsHome = () => {
                line: 'Crack IAS/IPS with strategy.'
             },
             {
-               line: 'Next on 23.04.2023'
+               line: 'Next on 07.05.2023'
             }
          ]
       },
@@ -54,7 +54,7 @@ const EventsHome = () => {
                line: 'Crack IAS/IPS with strategy.'
             },
             {
-               line: 'Next on 07.05.2023'
+               line: 'Next on 21.05.2023'
             }
          ]
       },
