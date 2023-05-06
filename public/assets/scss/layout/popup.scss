@@ -1,0 +1,25 @@
+.ReactModal__Overlay {
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+  
+  .ReactModal__Content {
+    z-index: 1001;
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: 0 !important;
+    inset: 0px !important;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    width: 410px;
+  }
+  .popup-image {
+    width: 400px;
+  }  
+  
+  

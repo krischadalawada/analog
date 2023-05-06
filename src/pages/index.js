@@ -10,6 +10,8 @@ import EventsHome from '../../components/Home-A/Events';
 import Testimonials from '../../components/Home-A/Testimonials';
 import ContactUs from '../../components/Contact/ContactUs';
 import Awards from '../../components/Home-A/Awards';
+import ImagePopup from '../../components/popup/image';
+
 
 export default function Home() {
   return (
@@ -21,6 +23,7 @@ export default function Home() {
       </Head>
       
       <Header />
+      <ImagePopup/>
       <div style={{ backgroundColor: '#E4F2F8' }}>
         <HeroHome />
         <Awards />
