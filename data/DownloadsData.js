@@ -1,8 +1,8 @@
 export const DownloadsData = [
   {
     title: 'Target 2023 Daily Test Series',
-    thumbnail: '/assets/images/downloads/target-2020.jpg',
-    url: '/downloads/target-2020-daily-test-series',
+    thumbnail: '/assets/images/downloads/target 2023.jpg',
+    url: '/downloads/target-2023-daily-test-series',
     category: 'Target',
     alt: 'Analog IAS Academy Target 2023 Daily Test Series Thumbnail',
     list: [
@@ -470,7 +470,7 @@ export const DownloadsData = [
   },
   {
     title: 'UPSC Interview Tips',
-    thumbnail: '/assets/images/downloads/interview-tips.jpg',
+    thumbnail: '/assets/images/downloads/INTERVIEW TIPS.jpg',
     url: '/downloads/upsc-interview-tips',
     category: 'UPSC',
     alt: 'Analog IAS Academy UPSC Interview Tips Thumbnail',
@@ -494,7 +494,7 @@ export const DownloadsData = [
   },
   {
     title: 'The Hindu Hyderabad Edition',
-    thumbnail: '/assets/images/downloads/the-hindu-hyderabad-edition.jpg',
+    thumbnail: '/assets/images/downloads/the hindu hyd.jpg',
     url: '/downloads/the-hindu-hyderabad-edition',
     category: 'News',
     alt: 'Analog IAS Academy The Hindu Hyderabad Edition Thumbnail',
@@ -1617,20 +1617,6 @@ export const DownloadsData = [
     ]
   },
   {
-    title: 'UPSC Prelims 2020 Answer Key',
-    thumbnail: '/assets/images/downloads/upsc-prelims-2020-key.jpg',
-    url: '/downloads/upsc-prelims-2020-answer-key',
-    category: 'UPSC',
-    alt: 'Analog IAS Academy UPSC Prelims 2020 Answer Key Thumbnail',
-    list: [
-      {
-        title: 'UPSC Prelims 2020 Answer Key',
-        link: '/assets/downloads/upsc_prelims_2020_answer_key/',
-        path: 'UPSC-prelims-questions-paper-2020-GS-paper-1.pdf',
-      },
-    ]
-  },
-  {
     title: 'ASTRA Material',
     thumbnail: '/assets/images/downloads/astra-material.jpg',
     url: '',
@@ -1639,7 +1625,7 @@ export const DownloadsData = [
   },
   {
     title: 'IAS Interviews',
-    thumbnail: '/assets/images/downloads/ias-interview.jpg',
+    thumbnail: '/assets/images/downloads/IAS INTERVIEWS.jpg',
     url: '/downloads/ias-interview',
     category: 'UPSC',
     alt: 'Analog IAS Academy IAS Interviews Thumbnail',
@@ -1763,7 +1749,7 @@ export const DownloadsData = [
   },
   {
     title: 'NCERT Books',
-    thumbnail: '/assets/images/downloads/ncert-books.jpg',
+    thumbnail: '/assets/images/downloads/ncert books.jpg',
     url: '/downloads/ncert-books',
     category: 'UPSC',
     alt: 'Analog IAS Academy NCERT Books Thumbnail',
@@ -2161,7 +2147,7 @@ export const DownloadsData = [
   },
   {
     title: 'GS Previous Papers',
-    thumbnail: '/assets/images/downloads/gs-previous-papers.jpg',
+    thumbnail: '/assets/images/downloads/gs previous papers.jpg',
     url: '/downloads/gs-previous-papers-prelims-mains-',
     category: 'UPSC',
     alt: 'Analog IAS Academy GS Previous Papers Thumbnail',
@@ -2490,7 +2476,7 @@ export const DownloadsData = [
   },
   {
     title: 'UPSC Materials',
-    thumbnail: '/assets/images/downloads/upsc-materials.jpg',
+    thumbnail: '/assets/images/downloads/upsc materials.jpg',
     url: '/downloads/upsc-materials',
     category: 'UPSC',
     alt: 'Analog IAS Academy UPSC Materials Thumbnail',
@@ -2579,7 +2565,7 @@ export const DownloadsData = [
   },
   {
     title: 'IAS Planner',
-    thumbnail: '/assets/images/downloads/ias-planner.jpg',
+    thumbnail: '/assets/images/downloads/IAS planner.jpg',
     url: '/downloads/ias-planner',
     category: 'UPSC',
     alt: 'Analog IAS Academy IAS Planner Thumbnail',
@@ -2688,7 +2674,7 @@ export const DownloadsData = [
   },
   {
     title: 'Public Administration (Optional)',
-    thumbnail: '/assets/images/downloads/public-administration.jpg',
+    thumbnail: '/assets/images/downloads/Public Administration.jpg',
     url: '/downloads/public-administration-optional-',
     category: 'UPSC',
     alt: 'Analog IAS Academy Public Administration Thumbnail',
@@ -2842,7 +2828,7 @@ export const DownloadsData = [
   },
   {
     title: 'Anthropology (Optional)',
-    thumbnail: '/assets/images/downloads/anthroplogy.jpg',
+    thumbnail: '/assets/images/downloads/Anthropology.jpg',
     url: '/downloads/anthropology-optional-',
     category: 'UPSC',
     alt: 'Analog IAS Academy Anthropology Thumbnail',
@@ -2921,8 +2907,8 @@ export const DownloadsData = [
   },
   {
     title: 'Political Science and International Relations',
-    thumbnail: '/assets/images/downloads/political-science.jpg',
-    url: '/downloads/political-science-and-international-realtionAnalog IAS Academy Thumbnails',
+    thumbnail: '/assets/images/downloads/Political science & International Relation.jpg',
+    url: '/downloads/political-science-and-international-realtions',
     category: 'UPSC',
     alt: 'Analog IAS Academy Political Science and International Relations Thumbnail',
     list: [
@@ -3115,7 +3101,7 @@ export const DownloadsData = [
   },
   {
     title: 'UPSC Sociology (Optional)',
-    thumbnail: '/assets/images/downloads/sociology.jpg',
+    thumbnail: '/assets/images/downloads/UPSC Sociology.jpg',
     url: '/downloads/upsc-sociology-optional-',
     category: 'UPSC',
     alt: 'Analog IAS Academy UPSC Sociology Thumbnail',
@@ -3234,7 +3220,7 @@ export const DownloadsData = [
   },
   {
     title: 'UPSC Mathematics (Optional)',
-    thumbnail: '/assets/images/downloads/mathematics.jpg',
+    thumbnail: '/assets/images/downloads/UPSC Mathematics.jpg',
     url: '/downloads/upsc-mathematics-optional-',
     category: 'UPSC',
     alt: 'Analog IAS Academy UPSC Mathematics Thumbnail',
@@ -3373,7 +3359,7 @@ export const DownloadsData = [
   },
   {
     title: 'Telugu Literature (Optional)',
-    thumbnail: '/assets/images/downloads/telugu.jpg',
+    thumbnail: '/assets/images/downloads/Telugu Liteature.jpg',
     url: '/downloads/telugu-literature-optional-',
     category: 'UPSC',
     alt: 'Analog IAS Academy Telugu Literature Thumbnail',
@@ -3387,7 +3373,7 @@ export const DownloadsData = [
   },
   {
     title: 'Geography (Optional)',
-    thumbnail: '/assets/images/downloads/geography.jpg',
+    thumbnail: '/assets/images/downloads/Geography.jpg',
     url: '/downloads/geography-optional-',
     category: 'UPSC',
     alt: 'Analog IAS Academy Geography Thumbnail',
@@ -3436,145 +3422,6 @@ export const DownloadsData = [
         "title": "Optional DEMO",
         "link": "/assets/downloads/geography/",
         "path": "1560229269Optional.pdf"
-      }
-    ]
-  },
-  {
-    title: '2018-19 Current Affairs - Q & A',
-    thumbnail: '/assets/images/downloads/current-affairs.jpg',
-    url: '/downloads/2018-19-current-affairs-q-a',
-    category: 'UPSC',
-    alt: 'Analog IAS Academy 2018-19 Current Affairs - Q & A Thumbnail',
-    list: [
-      {
-        "title": "Mains 2020 Test Series Schedule",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "859274708Mains 2020 Schedule.pdf"
-      },
-      {
-        "title": "Prelims 2020 Test Series Schedule",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "414031949Prelims 2020 Schedule.pdf"
-      },
-      {
-        "title": "June Month - Questions",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "865007414JUNE-Q.P.pdf"
-      },
-      {
-        "title": "June Month - Key and Explanation",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "2126958543JUNE-KEY.pdf"
-      },
-      {
-        "title": "July Month - Questions",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "353716823JULY-Q.P.pdf"
-      },
-      {
-        "title": "July Month - Key and Explanation",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "162214864JULY-KEY.pdf"
-      },
-      {
-        "title": "August Month - Questions",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "2127289272AUGUEST Q.P.pdf"
-      },
-      {
-        "title": "August Month - Key and Explanation",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "1541387145AUGUEST-KEY.pdf"
-      },
-      {
-        "title": "September Month - Questions",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "2066206925SEPTEMBER Q.P.pdf"
-      },
-      {
-        "title": "September Month - Key and Explanation",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "782617249SEPTEMBER-KEY.pdf"
-      },
-      {
-        "title": "October Month - Questions",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "810860521OCTOBER Q.P.pdf"
-      },
-      {
-        "title": "October Month - Key and Explanation",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "1647963979OCTOBER-KEY.pdf"
-      },
-      {
-        "title": "November Month - Questions",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "1993090725NOVEMBER Q.P.pdf"
-      },
-      {
-        "title": "November Month - Key and Explanation",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "1943468700NOVEMBER-KEY.pdf"
-      },
-      {
-        "title": "December Month - Questions",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "183820450December  Q.P.pdf"
-      },
-      {
-        "title": "December Month - Key and Explanation",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "1949328898December. Key.pdf"
-      },
-      {
-        "title": "January Month - Questions",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "410819000Janyary Q.P.pdf"
-      },
-      {
-        "title": "January Month - Key and Explanation",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "1932012444January. Key.pdf"
-      },
-      {
-        "title": "February Month - Questions",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "388944996February Q.P.pdf"
-      },
-      {
-        "title": "February Month - Key and Explanation",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "345569771February. Key.pdf"
-      },
-      {
-        "title": "March Month - Questions",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "1976629651March Q.P.pdf"
-      },
-      {
-        "title": "March Month - Key and Explanation",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "896520462March. Key.pdf"
-      },
-      {
-        "title": "April Month - Questions",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "1505285149APRIL Q.P.pdf"
-      },
-      {
-        "title": "April Month - Key and Explanation",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "154164111APRIL-KEY.pdf"
-      },
-      {
-        "title": "May Month - Questions",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "1105200748MAY Q.P.pdf"
-      },
-      {
-        "title": "May Month - Key and Explanation",
-        "link": "/assets/downloads/current_affairs_q_a/",
-        "path": "1976401809MAY-KEY.pdf"
       }
     ]
   }

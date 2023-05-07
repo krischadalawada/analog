@@ -26,7 +26,7 @@ const Target = () => {
                                     <th>Name</th>
                                     <th>Download</th>
                                 </tr>
-                                {DownloadsData[15].list.map((val, key) => {
+                                {DownloadsData.filter(x => x.title === 'UPSC Mathematics (Optional)')[0].list.map((val, key) => {
                                     return (
                                         <tr key={key}>
                                             <td>{key + 1}</td>

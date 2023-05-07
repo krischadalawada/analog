@@ -26,7 +26,7 @@ const HinduHyd = () => {
                                     <th>Name</th>
                                     <th>Download</th>
                                 </tr>
-                                {DownloadsData[2].list.map((val, key) => {
+                                {DownloadsData.filter(x => x.title === 'The Hindu Hyderabad Edition')[0].list.map((val, key) => {
                                     return (
                                         <tr key={key}>
                                             <td>{key + 1}</td>

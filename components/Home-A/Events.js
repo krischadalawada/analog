@@ -10,26 +10,11 @@ import { Link as ScrollLink } from "react-scroll";
 const EventsHome = () => {
 
    const eventsData = [
-      // {
-      //    id: 1,
-      //    img: 'assets/images/home/NewEvent.jpg',
-      //    location: '@ Indira Park, ANALOG IAS ACADEMY',
-      //    title: [
-      //       {
-      //          line: 'Free Webinar'
-      //       },
-      //       {
-      //          line: 'Crack IAS/IPS with strategy.'
-      //       },
-      //       {
-      //          line: 'Next on 26.03.2023'
-      //       }
-      //    ]
-      // },
       {
          id: 1,
-         img: 'assets/images/home/NewEvent.jpg',
+         img: '/assets/images/home/NewEvent.jpg',
          location: '@ Ashok Nagar, ANALOG IAS ACADEMY',
+         url: 'https://analogeducation.in/webinar/index.html',
          title: [
             {
                line: 'Free Webinar'
@@ -44,14 +29,15 @@ const EventsHome = () => {
       },
       {
          id: 2,
-         img: 'assets/images/home/NewEvent.jpg',
+         img: '/assets/images/home/NewEvent.jpg',
          location: '@ Indira Park, ANALOG IAS ACADEMY',
+         url: 'https://astra.analogeducation.in/ofl-civils-prep-with-astra?utm_source=Analog_Website&utm_medium=Online&utm_campaign=Astra',
          title: [
             {
-               line: 'Free Webinar'
+               line: 'ASTRA'
             },
             {
-               line: 'Crack IAS/IPS with strategy.'
+               line: 'Scholarship Test'
             },
             {
                line: 'Next on 21.05.2023'
@@ -145,7 +131,7 @@ const EventsHome = () => {
                                              }
                                              <p></p>
                                           </div>
-                                          <Link href="https://analogeducation.in/webinar/index.html" target="_blank" rel="noopener noreferrer">
+                                          <Link href={event.url} target="_blank" rel="noopener noreferrer">
                                              <a className="tp-btn-primary pointer" style={{ marginRight: '5%', width: '80%' }}>Register Now <i className="fa-regular fa-arrow-right fa-ri">
                                              </i></a>
                                           </Link>

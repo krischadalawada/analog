@@ -26,7 +26,7 @@ const IASInt = () => {
                                     <th>Name</th>
                                     <th>Download</th>
                                 </tr>
-                                {DownloadsData[5].list.map((val, key) => {
+                                {DownloadsData.filter(x => x.title === 'IAS Interviews')[0].list.map((val, key) => {
                                     return (
                                         <tr key={key}>
                                             <td>{key + 1}</td>

@@ -11,11 +11,11 @@ const Target = () => {
     return (
         <>
             <Head>
-                <title>Monthly Magazine</title>
+                <title>Target 2023 Daily Test Series</title>
             </Head>
 
             <Header />
-            <HeroDownloads title="Monthly Magazine" />
+            <HeroDownloads title="Target 2023 Daily Test Series" />
             <>
                 <section className="slider__area pt-60 pb-60 include-bg d-flex align-items-center" style={{ caretColor: 'transparent' }}>
                     <div className="container-sm">
@@ -26,7 +26,7 @@ const Target = () => {
                                     <th>Name</th>
                                     <th>Download</th>
                                 </tr>
-                                {DownloadsData.filter(x => x.title === 'Monthly Magazine')[0].list.map((val, key) => {
+                                {DownloadsData.filter(x => x.title === 'Target 2023 Daily Test Series')[0].list.map((val, key) => {
                                     return (
                                         <tr key={key}>
                                             <td>{key + 1}</td>
