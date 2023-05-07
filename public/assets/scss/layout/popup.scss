@@ -1,27 +1,36 @@
-
 .ReactModal__Overlay {
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-  }
-  
-  .ReactModal__Content {
-    z-index: 1001;
-    background-color: transparent !important;
-    border: none !important;
-    padding: 0 !important;
-    box-shadow: 0 !important;
-    inset: 0px !important;
-    margin: auto;
-    text-align: center;
-    margin-top: 5%;
-    width: 410px;
-    height: 400px;
-  }
-  .popup-image {
-    width: 400px;
-  }  
-  
-  
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($color: #000000, $alpha: 0.5) !important;
+  backdrop-filter: blur(5px) !important;
+}
+
+.ReactModal__Content {
+  z-index: 1001;
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  box-shadow: 0 !important;
+  inset: 0px !important;
+  margin: auto;
+  text-align: center;
+  margin-top: 20vh;
+  position: relative;
+}
+
+.popup-image {
+  height: 50vh;
+  position: relative;
+}
+
+.modal_close {
+  padding: 2px 5%;
+  background-color: #e52322;
+  color: #fff;
+  font-size: 1.7vh;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
