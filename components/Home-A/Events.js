@@ -10,23 +10,23 @@ import { Link as ScrollLink } from "react-scroll";
 const EventsHome = () => {
 
    const eventsData = [
-      // {
-      //    id: 1,
-      //    img: '/assets/images/home/NewEvent.jpg',
-      //    location: '@ Ashok Nagar, ANALOG IAS ACADEMY',
-      //    url: 'https://analogeducation.in/webinar/index.html',
-      //    title: [
-      //       {
-      //          line: 'Free Webinar'
-      //       },
-      //       {
-      //          line: 'Crack IAS/IPS with strategy.'
-      //       },
-      //       {
-      //          line: 'Next on 14.05.2023'
-      //       }
-      //    ]
-      // },
+      {
+         id: 1,
+         img: '/assets/images/home/NewEvent.jpg',
+         location: '@ Ashok Nagar, ANALOG IAS ACADEMY',
+         url: 'https://analogeducation.in/webinar/index.html',
+         title: [
+            {
+               line: 'Free Webinar'
+            },
+            {
+               line: 'Crack IAS/IPS with strategy.'
+            },
+            {
+               line: 'Next on 14.05.2023'
+            }
+         ]
+      },
       {
          id: 2,
          img: '/assets/images/home/Astra.jpg',
@@ -40,7 +40,7 @@ const EventsHome = () => {
                line: 'Scholarship Test'
             },
             {
-               line: 'Next on 14.05.2023'
+               line: 'Next on 21.05.2023'
             }
          ]
       },
@@ -69,7 +69,7 @@ const EventsHome = () => {
    const settings = {
       infinite: true,
       speed: 500,
-      slidesToShow: 1,
+      slidesToShow: 2,
       slidesToScroll: 1,
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
@@ -77,7 +77,7 @@ const EventsHome = () => {
          {
             breakpoint: 992,
             settings: {
-               slidesToShow: 1,
+               slidesToShow: 2,
                slidesToScroll: 1
             }
          },
@@ -119,10 +119,10 @@ const EventsHome = () => {
                               eventsData.map(event => {
                                  return <div key={event.id} className="testimonial__event transition-3 text-left">
                                     <div className='row'>
-                                       <div className='col-xl-2'>
+                                       <div className='col-xl-5'>
                                           <img src={event.img} alt="" />
                                        </div>
-                                       <div className='col-xl-4' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                                       <div className='col-xl-7' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                                           <div className="testimonial__text">
                                              {
                                                 event.title.map((item, index) =>
