@@ -14,7 +14,7 @@ export default function privacy() {
             </Head>
 
             <Header />
-            <div class="container pt-115 pb-35">
+            <div class="container pt-170 pb-35">
         <h1 style={centertext} ><strong >Privacy Policy</strong></h1>
         <p>Your privacy is important to us. It is the policy of ANALOG IAS Academy to respect your privacy and comply with any applicable laws and regulations regarding any personal information we may collect about you, including on our website, <a href="https://analogeducation.in/">https://analogeducation.in/</a>, and other sites we own and operate.</p>
         <h3>Information We Collect</h3>
