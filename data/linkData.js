@@ -41,6 +41,11 @@ const links = [
         url:'/contact-us',
         name:'Contact'
     },
+    {
+        id:8,
+        url:'/privacy-page',
+        name:'Privacy'
+    },
 ]
 
 export default links;
