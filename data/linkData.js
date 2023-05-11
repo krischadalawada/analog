@@ -43,7 +43,7 @@ const links = [
     },
     {
         id:8,
-        url:'/privacy-page',
+        url:'/privacy-policy',
         name:'Privacy'
     },
 ]
