@@ -23,7 +23,7 @@ const EventsHome = () => {
                line: 'Crack IAS/IPS with strategy.'
             },
             {
-               line: 'Next on 14.05.2023'
+               line: 'Date to be Announced'
             }
          ]
       },
