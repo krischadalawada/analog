@@ -57,12 +57,12 @@ const Footer = ({ white_bg = '' }) => {
                            <div className="footer__widget footer-col-4 mb-50">
                               <h3 className="footer__widget-title">Hyderabad: Indira Park</h3>
                               <div className="footer__subscribe">
-                                 <p>House No: 1-2-288/32, 1st Floor, Indira Park ‘X’ Road, Domalguda, Hyderabad - 500029.<br /><br /> Ph: 6301529232 <br />Email: info@analogeducation.in</p>
+                                 <p>House No: 1-2-288/32, 1st Floor, Indira Park ‘X’ Road, Domalguda, Hyderabad - 500029.<br /><br /> Ph: 8494990066 <br />Email: info@analogeducation.in</p>
                               </div>
 
                               <h3 className="footer__widget-title" style={{ marginTop: 50 }}>Hyderabad: Ashok Nagar</h3>
                               <div className="footer__subscribe">
-                                 <p>3rd Floor, Kamala Towers, Above OBC Bank, Ashoknagar X Road, Telangana - 500020.<br /><br /> Ph: 6301529232 <br />Email: info@analogeducation.in</p>
+                                 <p>3rd Floor, Kamala Towers, Above OBC Bank, Ashoknagar X Road, Telangana - 500020.<br /><br /> Ph: 8494990066 <br />Email: info@analogeducation.in</p>
                               </div>
                            </div>
                         </div>
