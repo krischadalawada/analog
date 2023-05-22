@@ -40,7 +40,7 @@ const EventsHome = () => {
                line: 'Scholarship Test'
             },
             {
-               line: 'Next on 21.05.2023'
+               line: 'Next on 10.06.2023'
             }
          ]
       },
