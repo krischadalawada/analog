@@ -17,13 +17,13 @@ const EventsHome = () => {
          url: 'https://analogeducation.in/webinar/index.html',
          title: [
             {
-               line: 'Free Webinar'
+               line: 'Free Webinar on IAS/IPS Strategy'
             },
             {
-               line: 'Crack IAS/IPS with strategy.'
+               line: '(For ASTRA registered candidates only)'
             },
             {
-               line: 'Date to be Announced'
+               line: 'Next on 04.06.2023'
             }
          ]
       },
