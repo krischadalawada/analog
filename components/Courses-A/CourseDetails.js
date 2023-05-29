@@ -102,7 +102,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Start:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>15/04/2023</h5>
+                                                                            <h5>29/05/2023</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
