@@ -15,7 +15,7 @@ const JoinAnalog = () => {
             course: 'General Studies (PCM)',
             startDate: '29/05/2023',
             endDate: '29/03/2024',
-            demoDate: '15/04/2023',
+            demoDate: '29/05/2023',
             timings: '06:30 AM - 09:00 AM'
         },
         {
