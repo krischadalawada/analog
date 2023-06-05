@@ -23,7 +23,7 @@ const EventsHome = () => {
                line: '(For ASTRA registered candidates only)'
             },
             {
-               line: 'Next on 04.06.2023'
+               line: 'Next on 11.06.2023'
             }
          ]
       },
