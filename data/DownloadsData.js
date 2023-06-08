@@ -1619,7 +1619,7 @@ export const DownloadsData = [
   {
     title: 'ASTRA Material',
     thumbnail: '/assets/images/downloads/astra-material.jpg',
-    url: '',
+    url: 'assets/downloads/astra-material/Astra-Brochure.pdf',
     category: 'UPSC',
     alt: 'Analog IAS Academy ASTRA Material Thumbnail',
   },
@@ -3357,23 +3357,10 @@ export const DownloadsData = [
       }
     ]
   },
-  {
-    title: 'Telugu Literature (Optional)',
-    thumbnail: '/assets/images/downloads/Telugu Liteature.jpg',
-    url: '/downloads/telugu-literature-optional-',
-    category: 'UPSC',
-    alt: 'Analog IAS Academy Telugu Literature Thumbnail',
-    list: [
-      {
-        "title": "Mains Test series 2020 Schedule",
-        "link": "/assets/downloads/telugu_literature/",
-        "path": "192567551Telugu Literature 2020 Schedule.pdf"
-      }
-    ]
-  },
+
   {
     title: 'Geography (Optional)',
-    thumbnail: '/assets/images/downloads/Geography.jpg',
+    thumbnail: '/assets/images/downloads/geography.jpg',
     url: '/downloads/geography-optional-',
     category: 'UPSC',
     alt: 'Analog IAS Academy Geography Thumbnail',
