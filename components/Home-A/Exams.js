@@ -2,21 +2,21 @@ import Link from 'next/link';
 
 const Exams = () => {
    const featuresData = [
-      {
-         id: 1,
-         icon_img: 'assets/images/home/CS.png',
-         title: 'CIVIL SERVICES',
-      },
-      {
-         id: 2,
-         icon_img: 'assets/images/home/APPSC.png',
-         title: 'APPSC',
-      },
-      {
-         id: 3,
-         icon_img: 'assets/images/home/TSPSC.png',
-         title: 'TSPSC',
-      },
+      // {
+      //    id: 1,
+      //    icon_img: 'assets/images/home/CS.png',
+      //    title: 'CIVIL SERVICES',
+      // },
+      // {
+      //    id: 2,
+      //    icon_img: 'assets/images/home/APPSC.png',
+      //    title: 'APPSC',
+      // },
+      // {
+      //    id: 3,
+      //    icon_img: 'assets/images/home/TSPSC.png',
+      //    title: 'TSPSC',
+      // },
       // {
       //    id: 4,
       //    icon_img: 'assets/images/home/KPSC.png',
@@ -31,7 +31,7 @@ const Exams = () => {
                   <div className="row">
                      {
                         featuresData.map(feature => {
-                           return <div key={feature.id} className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                           return <div key={feature.id} className="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
                               <div className="features__item white-bg">
                                  <div className="" style={{ width: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                                     <img className='logos' src={feature.icon_img} />

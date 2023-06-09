@@ -102,7 +102,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Start:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>29/05/2023</h5>
+                                                                            <h5>26/06/2023</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -236,7 +236,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Start:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>06/06/2023</h5>
+                                                                            <h5>03/07/2023</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -245,7 +245,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Duration:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>4 Months</h5>
+                                                                            <h5>3 Months</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -254,7 +254,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Timings:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-8'>
-                                                                            <h5>10:30 AM - 01:00 PM</h5>
+                                                                            <h5>02:00 PM - 04:30 PM</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -385,7 +385,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Start:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>06/06/2023</h5>
+                                                                            <h5>07/03/2023</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -403,7 +403,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Timings:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-8'>
-                                                                            <h5>10:30 AM - 01:00 PM</h5>
+                                                                            <h5>02:00 PM - 04:30 PM</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -543,7 +543,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Start:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>06/06/2023</h5>
+                                                                            <h5>03/07/2023</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -552,7 +552,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Duration:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>3.5 Months</h5>
+                                                                            <h5>3 Months</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -561,7 +561,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Timings:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-8'>
-                                                                            <h5>10:30 AM - 01:00 PM</h5>
+                                                                            <h5>02:00 PM - 04:30 PM</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -709,7 +709,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Start:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>06/06/2023</h5>
+                                                                            <h5>03/07/2023</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -727,7 +727,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Timings:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-8'>
-                                                                            <h5>10:30 AM - 01:00 PM</h5>
+                                                                            <h5>02:00 PM - 04:30 PM</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -863,7 +863,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Start:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-7'>
-                                                                            <h5>06/06/2023</h5>
+                                                                            <h5>03/07/2023</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />
@@ -881,7 +881,7 @@ const CourseDetails = (props) => {
                                                                             <h5>Timings:</h5>
                                                                         </div>
                                                                         <div className='col-lg-7 col-8'>
-                                                                            <h5>10:30 AM - 01:00 PM</h5>
+                                                                            <h5>02:00 PM - 04:30 PM</h5>
                                                                         </div>
                                                                     </div>
                                                                     <hr />

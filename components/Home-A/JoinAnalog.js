@@ -13,9 +13,9 @@ const JoinAnalog = () => {
             target: '#courseOne',
             location: 'Ashok Nagar, HYD',
             course: 'General Studies (PCM)',
-            startDate: '29/05/2023',
-            endDate: '29/03/2024',
-            demoDate: '29/05/2023',
+            startDate: '26/06/2023',
+            endDate: '26/04/2024',
+            demoDate: '26/06/2023',
             timings: '06:30 AM - 09:00 AM'
         },
         {
@@ -24,10 +24,10 @@ const JoinAnalog = () => {
             target: '#courseTwo',
             location: 'Ashok Nagar, HYD',
             course: 'Political Science',
-            startDate: '06/06/2023',
-            endDate: '06/10/2023',
-            demoDate: '06/06/2023',
-            timings: '10:30 AM - 01:00 PM'
+            startDate: '03/07/2023',
+            endDate: '18/10/2023',
+            demoDate: '26/06/2023',
+            timings: '02:00 PM - 04:30 PM'
         },
         {
             id: '282b0fff',
@@ -35,10 +35,10 @@ const JoinAnalog = () => {
             target: '#courseFour',
             location: 'Ashok Nagar, HYD',
             course: 'Mathematics',
-            startDate: '06/06/2023',
-            endDate: '06/11/2023',
-            demoDate: '06/06/2023',
-            timings: '10:30 AM - 01:00 PM'
+            startDate: '03/07/2023',
+            endDate: '03/12/2023',
+            demoDate: '27/06/2023',
+            timings: '02:00 PM - 04:30 PM'
         },
         {
             id: 'fee30c00',
@@ -46,10 +46,10 @@ const JoinAnalog = () => {
             target: '#courseFive',
             location: 'Ashok Nagar, HYD',
             course: 'Public Administration',
-            startDate: '06/06/2023',
-            endDate: '06/10/2023',
-            demoDate: '06/06/2023',
-            timings: '10:30 AM - 01:00 PM'
+            startDate: '03/07/2023',
+            endDate: '18/10/2023',
+            demoDate: '28/06/2023',
+            timings: '02:00 PM - 04:30 PM'
         },
         {
             id: '282b0mmm',
@@ -57,10 +57,10 @@ const JoinAnalog = () => {
             target: '#courseThr',
             location: 'Ashok Nagar, HYD',
             course: 'Anthropology',
-            startDate: '06/06/2023',
-            endDate: '06/11/2023',
-            demoDate: '06/06/2023',
-            timings: '10:30 AM - 01:00 PM'
+            startDate: '03/07/2023',
+            endDate: '18/11/2023',
+            demoDate: '29/06/2023',
+            timings: '02:00 PM - 04:30 PM'
         },
         {
             id: 'fee30d11',
@@ -68,10 +68,10 @@ const JoinAnalog = () => {
             target: '#courseSix',
             location: 'Ashok Nagar, HYD',
             course: 'Sociology',
-            startDate: '06/06/2023',
-            endDate: '06/11/2023',
-            demoDate: '06/06/2023',
-            timings: '10:30 AM - 01:00 PM'
+            startDate: '03/07/2023',
+            endDate: '03/11/2023',
+            demoDate: '30/06/2023',
+            timings: '02:00 PM - 04:30 PM'
         }
     ]
 
