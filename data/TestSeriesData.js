@@ -150,5 +150,83 @@ export const TestSeriesData = [
               "category": ""
             }
           ]
-    }
+    },
+
+    {
+      title: 'MATHEMATICS',
+      list: [
+          {
+            "test": 1,
+            "date": "25-06-2023",
+            "subject": "Paper - 1 - Section A",
+            "category": ""
+          },
+          {
+            "test": 2,
+            "date": "02-07-2023",
+            "subject": "Paper - 1 - Section B",
+            "category": ""
+          },
+          {
+            "test": 3,
+            "date": "09-07-2023",
+            "subject": "Paper - 2 - Section A",
+            "category": ""
+          },
+          {
+            "test": 4,
+            "date": "16-07-2023",
+            "subject": "Paper - 2 - Section B",
+            "category": ""
+          },
+          {
+            "test": 5,
+            "date": "23-07-2023",
+            "subject": "Paper - 1 - Section A",
+            "category": ""
+          },
+          {
+            "test": 6,
+            "date": "30-07-2023",
+            "subject": "Paper - 1 - Section B",
+            "category": ""
+          },
+          {
+            "test": 7,
+            "date": "06-07-2023",
+            "subject": "Paper - 2 - Section A",
+            "category": ""
+          },
+          {
+            "test": 8,
+            "date": "13-08-2023",
+            "subject": "Paper - 2 - Section B",
+            "category": ""
+          },
+          {
+            "test": 9,
+            "date": "20-08-2023",
+            "subject": "Paper -1",
+            "category": ""
+          },
+          {
+            "test": 10,
+            "date": "27-08-2023",
+            "subject": "Paper -2",
+            "category": ""
+          },
+          {
+            "test": '11 & 12',
+            "date": "03-08-2023",
+            "subject": "Grand Test (P-I &   P-II)",
+            "category": ""
+          },
+          {
+            "test": '13 & 14',
+            "date": "10-09-2023",
+            "subject": "Grand Test (P-I &   P-II",
+            "category": ""
+          },
+        ]
+      }
 ]
