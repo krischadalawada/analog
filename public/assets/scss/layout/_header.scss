@@ -3,7 +3,9 @@
 /*----------------------------------------*/
 /*  02. HEADER CSS START
 /*----------------------------------------*/
-
+body{
+    overflow-x: hidden;
+}
 .header {
     &__transparent {
         position: fixed !important;

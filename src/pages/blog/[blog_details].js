@@ -70,7 +70,7 @@ const BlogDetails = () => {
                                        blogs.slice(0, 5).map(blog => {
                                           return <div key={blog?.id} className="rc__post d-flex align-items-start">
                                              <div className="rc__thumb mr-20">
-                                                <Link href={`/blog-details/${blog?.id}`}>
+                                                <Link href={`/blog/${blog?.id}`}>
                                                    <a >
                                                       <img src={blog?.img} alt="" style={{ objectFit: 'cover' }} />
                                                    </a>
@@ -78,7 +78,7 @@ const BlogDetails = () => {
                                              </div>
                                              <div className="rc__content">
                                                 <h6 className="rc__title">
-                                                   <Link href={`/blog-details/${blog?.id}`}>
+                                                   <Link href={`/blog/${blog?.id}`}>
                                                       <a>{blog?.blogTitle}</a>
                                                    </Link>
                                                 </h6>

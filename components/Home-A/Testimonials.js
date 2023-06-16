@@ -80,7 +80,7 @@ const Testimonials = () => {
                </div>
                <div className="row">
                   <div className="col-xxl-12">
-                     <div className='testimonial__slider'>
+                     <div className='testimonial__slider second-slider'>
                         <Slider className='testimonial__container' {...settings}>
                            {
                               TestimonialsList.map(testimonial =>

@@ -3,7 +3,10 @@
 /*----------------------------------------*/
 /*  18. TESTIMONIAL CSS START
 /*----------------------------------------*/
-
+.second-slider .slick-list{
+    background-color: #E4F2F8 !important;
+    border-radius: 15px;
+}
 .testimonial {
     &__slider {
         min-height: 100%;
@@ -32,7 +35,7 @@
     &__item {
         padding: 3vh;
         margin: 2vh 0;
-        background: #FFFFFF 0% 0% no-repeat padding-box;
+        background: #E4F2F8;
         min-height: 100%;
         width: 100%;
     }
