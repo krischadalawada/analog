@@ -14,9 +14,16 @@ export default function privacy() {
             </Head>
 
             <Header />
-            <div class="container pt-170 pb-35">
-        <h1 style={centertext} ><strong >Privacy Policy</strong></h1>
-        <p>Your privacy is important to us. It is the policy of ANALOG IAS Academy to respect your privacy and comply with any applicable laws and regulations regarding any personal information we may collect about you, including on our website, <a href="https://analogeducation.in/">https://analogeducation.in/</a>, and other sites we own and operate.</p>
+            <section className="slider__area pt-160 include-bg d-flex align-items-center bg-about ">
+            <div className="container">
+               <div className="row align-items-center mb-40" style={{ padding: 80 }}>
+                  <h1 className="section__title-50 f-50" style={{ color: '#fff', textAlign: 'center' }}>Privacy Policy</h1>
+               </div>
+            </div>
+         </section>
+            <div class="container  pb-35">
+           
+        <p className='pt-20'>Your privacy is important to us. It is the policy of ANALOG IAS Academy to respect your privacy and comply with any applicable laws and regulations regarding any personal information we may collect about you, including on our website, <a href="https://analogeducation.in/">https://analogeducation.in/</a>, and other sites we own and operate.</p>
         <h3>Information We Collect</h3>
         <p>We collect information that includes both data you knowingly and actively provide us when using or participating in any of our services and promotions and any data automatically sent by your devices while accessing our products and services.</p>
         <h3>Log Data</h3>
