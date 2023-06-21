@@ -236,7 +236,7 @@ const TestDetails = (props) => {
                             <div class="accordion-item mb-30">
                                 <h2 class="accordion-header row" id="headingOne">
                                     <div className='col-lg-12 col-sm-12 col-12'>
-                                        <button class="course-area" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne" onClick={() => { expanded === 'GS' ? setExpanded('') : setExpanded('GS') }}>
+                                        <button class="course-area" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" onClick={() => { expanded === 'GS' ? setExpanded('') : setExpanded('GS') }}>
                                             <div className="row">
                                                 <div className="col-md-11 col-10">
                                                     <div className={`text-left mt-2`}>
@@ -250,7 +250,7 @@ const TestDetails = (props) => {
                                         </button>
                                     </div>
                                 </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionCourses">
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionCourses">
                                     <div class="accordion-body course-body">
                                         <div className='row'>
                                             <div className='col-lg-7 col-12'>
@@ -283,7 +283,7 @@ const TestDetails = (props) => {
                                                     <div class="accordion accordion-flush" id="accordionBatches">
                                                         <div class="accordion-item mb-20">
                                                             <h2 class="accordion-header batch-area" id="batchOne">
-                                                                <button class="w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBThree" aria-expanded="true" aria-controls="collapseBOne">
+                                                                <button class="w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBOne" aria-expanded="true" aria-controls="collapseBOne">
                                                                     <div className="row">
                                                                         <div className="col-md-11 col-10">
                                                                             <div className={`text-left mt-2`}>
@@ -296,7 +296,7 @@ const TestDetails = (props) => {
                                                                     </div>
                                                                 </button>
                                                             </h2>
-                                                            <div id="collapseBThree" class="accordion-collapse collapse show" aria-labelledby="batchOne" data-bs-parent="#accordionBatches">
+                                                            <div id="collapseBOne" class="accordion-collapse collapse show" aria-labelledby="batchOne" data-bs-parent="#accordionBatches">
                                                                 <div class="accordion-body">
                                                                     <div className='row'>
                                                                         <div className='col-sm-6 col-12' style={{ marginBottom: width < 575 ? 10 : 0 }}>
@@ -358,7 +358,7 @@ const TestDetails = (props) => {
                                                         </div>
                                                         <div class="accordion-item mb-20">
                                                             <h2 class="accordion-header batch-area" id="batchTwo">
-                                                                <button class="w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBFour" aria-expanded="true" aria-controls="collapseBTwo">
+                                                                <button class="w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBTwo" aria-expanded="true" aria-controls="collapseBTwo">
                                                                     <div className="row">
                                                                         <div className="col-md-11 col-10">
                                                                             <div className={`text-left mt-2`}>
@@ -371,7 +371,7 @@ const TestDetails = (props) => {
                                                                     </div>
                                                                 </button>
                                                             </h2>
-                                                            <div id="collapseBFour" class="accordion-collapse collapse" aria-labelledby="batchTwo" data-bs-parent="#accordionBatches">
+                                                            <div id="collapseBTwo" class="accordion-collapse collapse" aria-labelledby="batchTwo" data-bs-parent="#accordionBatches">
                                                                 <div class="accordion-body">
                                                                     <div className='row'>
                                                                         <div className='col-sm-9 col-12' style={{ marginBottom: width < 575 ? 10 : 0 }}>
@@ -449,7 +449,7 @@ const TestDetails = (props) => {
                 </div>
             </section>
 
-            {/* <section className="research__area research__border pt-10 pb-60 p-relative z-index-1">
+            <section className="research__area research__border pt-10 pb-60 p-relative z-index-1">
                 <div className="container-lg">
                     <div className="col-12 m-auto">
                         <div class="accordion accordion-flush" id="accordionCourses">
@@ -533,7 +533,7 @@ const TestDetails = (props) => {
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
 
             <section className="research__area research__border pt-10 pb-60 p-relative z-index-1">
                 <div className="container-lg">
@@ -542,7 +542,7 @@ const TestDetails = (props) => {
                             <div class="accordion-item mb-30">
                                 <h2 class="accordion-header row" id="headingOne">
                                     <div className='col-lg-12 col-sm-12 col-12'>
-                                        <button class="course-area" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne" onClick={() => { expanded === 'GS' ? setExpanded('') : setExpanded('GS') }}>
+                                        <button class="course-area" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" onClick={() => { expanded === 'GS' ? setExpanded('') : setExpanded('GS') }}>
                                             <div className="row">
                                                 <div className="col-md-11 col-10">
                                                     <div className={`text-left mt-2`}>
@@ -558,7 +558,7 @@ const TestDetails = (props) => {
                                         </button>
                                     </div>
                                 </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionCourses">
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionCourses">
                                     <div class="accordion-body course-body">
                                         <div className='row'>
                                             <div className='col-lg-7 col-12'>
@@ -588,7 +588,7 @@ const TestDetails = (props) => {
                                                     <div class="accordion accordion-flush" id="accordionBatches">
                                                         <div class="accordion-item mb-20">
                                                             <h2 class="accordion-header batch-area" id="batchOne">
-                                                                <button class="w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBFive" aria-expanded="true" aria-controls="collapseBOne">
+                                                                <button class="w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBOne" aria-expanded="true" aria-controls="collapseBOne">
                                                                     <div className="row">
                                                                         <div className="col-md-11 col-10">
                                                                             <div className={`text-left mt-2`}>
@@ -601,7 +601,7 @@ const TestDetails = (props) => {
                                                                     </div>
                                                                 </button>
                                                             </h2>
-                                                            <div id="collapseBFive" class="accordion-collapse collapse show" aria-labelledby="batchOne" data-bs-parent="#accordionBatches">
+                                                            <div id="collapseBOne" class="accordion-collapse collapse show" aria-labelledby="batchOne" data-bs-parent="#accordionBatches">
                                                                 <div class="accordion-body">
                                                                     <div className='row'>
                                                                         <div className='col-sm-6 col-12' style={{ marginBottom: width < 575 ? 10 : 0 }}>
@@ -648,7 +648,7 @@ const TestDetails = (props) => {
                                                         </div>
                                                         <div class="accordion-item mb-20">
                                                             <h2 class="accordion-header batch-area" id="batchTwo">
-                                                                <button class="w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBSix" aria-expanded="true" aria-controls="collapseBTwo">
+                                                                <button class="w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBTwo" aria-expanded="true" aria-controls="collapseBTwo">
                                                                     <div className="row">
                                                                         <div className="col-md-11 col-10">
                                                                             <div className={`text-left mt-2`}>
@@ -661,7 +661,7 @@ const TestDetails = (props) => {
                                                                     </div>
                                                                 </button>
                                                             </h2>
-                                                            <div id="collapseBSix" class="accordion-collapse collapse" aria-labelledby="batchTwo" data-bs-parent="#accordionBatches">
+                                                            <div id="collapseBTwo" class="accordion-collapse collapse" aria-labelledby="batchTwo" data-bs-parent="#accordionBatches">
                                                                 <div class="accordion-body">
                                                                     <div className='row'>
                                                                         <div className='col-sm-9 col-12' style={{ marginBottom: width < 575 ? 10 : 0 }}>
