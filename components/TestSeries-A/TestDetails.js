@@ -449,14 +449,14 @@ const TestDetails = (props) => {
                 </div>
             </section>
 
-            {/* <section className="research__area research__border pt-10 pb-60 p-relative z-index-1">
+            <section className="research__area research__border pt-10 pb-60 p-relative z-index-1">
                 <div className="container-lg">
                     <div className="col-12 m-auto">
                         <div class="accordion accordion-flush" id="accordionCourses">
                             <div class="accordion-item mb-30">
                                 <h2 class="accordion-header row" id="headingOne">
                                     <div className='col-lg-12 col-sm-12 col-12'>
-                                        <button class="course-area" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" onClick={() => { expanded === 'GS' ? setExpanded('') : setExpanded('GS') }}>
+                                        <button class="course-area" type="button" data-bs-toggle="collapse" data-bs-target="#collapsean" aria-expanded="true" aria-controls="collapseOne" onClick={() => { expanded === 'GS' ? setExpanded('') : setExpanded('GS') }}>
                                             <div className="row">
                                                 <div className="col-md-11 col-10">
                                                     <div className={`text-left mt-2`}>
@@ -472,7 +472,7 @@ const TestDetails = (props) => {
                                         </button>
                                     </div>
                                 </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionCourses">
+                                <div id="collapsean" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionCourses">
                                     <div class="accordion-body course-body">
                                         <div className='row'>
                                             <div className='col-lg-7 col-12'>
@@ -533,7 +533,7 @@ const TestDetails = (props) => {
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
 
             <section className="research__area research__border pt-10 pb-60 p-relative z-index-1">
                 <div className="container-lg">
