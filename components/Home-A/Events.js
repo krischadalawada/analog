@@ -23,7 +23,7 @@ const EventsHome = () => {
                line: '(For ASTRA registered candidates only)'
             },
             {
-               line: 'Next on 11.06.2023'
+               line: ''
             }
          ]
       },
@@ -40,7 +40,7 @@ const EventsHome = () => {
                line: 'Scholarship Test'
             },
             {
-               line: 'Next on 18.06.2023'
+               line: ''
             }
          ]
       },
