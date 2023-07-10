@@ -20,7 +20,7 @@ const EventsHome = () => {
                line: 'Free Webinar on IAS/IPS Strategy'
             },
             {
-               line: '(For ASTRA registered candidates only)'
+               line: ''
             },
             {
                line: ''
