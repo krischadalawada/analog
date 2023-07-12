@@ -13,8 +13,9 @@ const ImagePopup = () => {
       isOpen={modalIsOpen}
       onRequestClose={closeModal}
     >
-      <img className="popup-image" src="assets/images/popup/popupimg.png" alt="Astra Popup Image" />
-      
+      <a href='https://analogeducation.in/webinar/index.html'>
+      <img className="popup-image" src="assets/images/popup/popupimg.jpg" alt="Astra Popup Image" />
+        </a>      
       <p onClick={() => closeModal()} className='modal_close pointer'>Hide</p>
     </Modal>
   );
