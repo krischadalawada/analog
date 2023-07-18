@@ -10,7 +10,7 @@ import EventsHome from '../../components/Home-A/Events';
 import Testimonials from '../../components/Home-A/Testimonials';
 import ContactUs from '../../components/Contact/ContactUs';
 import Awards from '../../components/Home-A/Awards';
-import ImagePopup from '../../components/popup/image';
+// import ImagePopup from '../../components/popup/image';
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
       
       <Header />
       <div style={{ backgroundColor: '#E4F2F8' }}>
-       <ImagePopup/>
+       {/* <ImagePopup/> */}
         <HeroHome />
         <Awards />
         <Exams />
