@@ -13,7 +13,7 @@ const JoinAnalog = () => {
             target: '#courseOne',
             location: 'Ashok Nagar, HYD',
             course: 'General Studies (PCM)',
-            startDate: '31/07/2023',
+            startDate: '30/07/2023',
             endDate: '26/04/2024',
             demoDate: '30/07/2023',
             timings: '06:30 AM - 09:00 AM'
