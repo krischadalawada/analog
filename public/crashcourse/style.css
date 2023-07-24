@@ -32,11 +32,19 @@
     color: #DA2128;
 }
 .form-sec{
-    margin: auto;
+    border-radius: 20px;
+    background-color: #197DAF;
+    padding: 20px;
+    color: #fff;
 }
 .form-sec input,.form-sec textarea{
     width: 100%;
     outline: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #2F8AB7 ;
+    border: none;
+    padding: 10px;
 }
 .form-sec input{
     border-top: none;
@@ -58,7 +66,13 @@ footer{
 
 @media only screen and (min-width: 992px) {
     .col-border{
-        height: 400px;
+        height: 98%;
+    }
+    .form-sec{
+        bottom: -40px;
+    position: fixed;
+    width: 31%;
+    right: 15px;
     }
 }  
 

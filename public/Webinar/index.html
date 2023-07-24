@@ -184,34 +184,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="col-md-5 mt-3">
                 <div class="webinar-form desksticky">
                     <h5 style="color: white; font-weight: bold;">Fill in the form to register!</h5><br>
-                    <form name="submit-to-google-sheet">
-                        <input type="text"  name="Name" class="form-control" placeholder='Name *' required > <br>
-                        <input type="email"  class="form-control" name="Email" placeholder='Email ID *' required> <br>
-                        <input type="tel" class="form-control" name="Phone" pattern="[0-9]{1}[0-9]{9}" title="Phone number should have 10 digits" placeholder='Whatsapp Phone No. *' required> <br>
-                        <input type="text"  class="form-control" name="Location" placeholder='City/Town/Village*' required> <br>
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSc8ukzdzFae31WsfqH4xQwurJgJgFUjavleH_VZWMLRVzgWNA/formResponse">
+                        <input type="text"  name="entry.1844004015" class="form-control" placeholder='Name *' required > <br>
+                        <input type="email"  class="form-control" name="entry.778131187" placeholder='Email ID *' required> <br>
+                        <input type="tel" class="form-control" name="entry.1762044178" pattern="[0-9]{1}[0-9]{9}" title="Phone number should have 10 digits" placeholder='Whatsapp Phone No. *' required> <br>
+                        <input type="text"  class="form-control" name="entry.1254285273" placeholder='City/Town/Village*' required> <br>
                         <input type="submit" class="btn btn-default" id="sub" value="Register Now" style=" border-radius: 17px;   background: #da2128;color: #fff;">
                     </form>
-                    <script>
-						const scriptURL = 'https://script.google.com/macros/s/AKfycbzl8NGRbFyDVLKD3Ik9SIxOhg0tiNoTgo8NmuwzCOq1he2rN_R6QO71xcqF_dNYRVS0/exec'
-						const form = document.forms['submit-to-google-sheet']
-					  
-						form.addEventListener('submit', e => {
-						  e.preventDefault()
-                         
-						//   document.querySelector("#sub").value = location.replace("https://analogeducation.in/webinar/thank-you.html")
-						  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-						  .then(res => res.text())
-														 .then(data => {
-															 document.querySelector("#msg").innerHTML = data;
-															 document.querySelector("#sub").value = "Submit"
-														 });
-						})
-                        form.addEventListener('submit', e => {
-						  e.preventDefault()
-                          document.forms['submit-to-google-sheet'].reset();
-						  window.location.href="thank-you.html"
-						})
-					  </script>
+                    
                 </div>
             </div>
 
