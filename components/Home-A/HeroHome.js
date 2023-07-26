@@ -33,6 +33,14 @@ const HeroHome = () => {
                         <img style={{ width: '100%'}} src="assets/images/home/Slide_2.jpg" alt="Banner 2" />
                         
                      </div>
+                     <div>
+                        <img style={{ width: '100%'}} src="assets/images/home/slide_4.jpg" alt="Banner 2" />
+                        
+                     </div>
+                     <div>
+                        <img style={{ width: '100%'}} src="assets/images/home/slide_5.jpg" alt="Banner 2" />
+                        
+                     </div>
                      
                      </Slider>
                   </div>
