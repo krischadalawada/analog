@@ -46,6 +46,9 @@
     border: none;
     padding: 10px;
 }
+.form-sec input::placeholder,.form-sec textarea::placeholder{
+    color: #fff;
+}
 .form-sec input{
     border-top: none;
     border-left: none;
