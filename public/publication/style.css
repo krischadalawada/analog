@@ -1,0 +1,86 @@
+.header a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.header .col-md-3,.header .col-md-2,.header .col-md-1{
+    align-self: center;
+}
+.first-sec{
+    background-color: #2085B1;
+}
+.first-sec h1{
+    font-size: 50px;
+    color: #fff;
+}
+.first-sec img{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.first-sec .col-md-12{
+    padding: 7% 13% 7% 10%;
+}
+.col-border{
+    border: 2px solid #DA2128 !important;
+    border-radius: 20px;
+    padding: 10px;
+}
+.iassec .col-md-4{
+    padding: 5px;
+}
+.iassec .col-md-4 i{
+    color: #DA2128;
+}
+.form-sec{
+    border-radius: 20px;
+    background-color: #197DAF;
+    padding: 20px;
+    color: #fff;
+}
+.form-sec input,.form-sec textarea{
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #2F8AB7 ;
+    border: none;
+    padding: 10px;
+}
+.form-sec input::placeholder,.form-sec textarea::placeholder{
+    color: #fff;
+}
+.form-sec input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.btn-sub{
+    outline: none;
+    border: none;
+    background-color: #DA2128;
+    color: #fff;
+    padding: 10px 26px;
+    border-radius: 20px;
+}
+footer{
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+    .col-border{
+        height: 98%;
+    }
+    .form-sec{
+        bottom: -40px;
+    position: fixed;
+    width: 31%;
+    right: 15px;
+    }
+}  
+
+@media only screen and (max-width: 992px) {
+    .col-border{
+        margin-top: 20px;
+    }
+}   
