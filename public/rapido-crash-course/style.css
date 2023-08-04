@@ -6,6 +6,22 @@
 .header .col-md-3,.header .col-md-2,.header .col-md-1{
     align-self: center;
 }
+.side-button{
+    background-color: #DA2128;
+    position: fixed;
+    right: 3px;
+    top: 30%;
+    padding: 10px;
+}
+.side-button i{
+    color: #fff;
+    padding: 5px;
+    font-size: 20px;
+}
+.side-button hr{
+    color: #fff;
+    height: 3px !important;
+}
 .first-sec{
     /* background-color: #2085B1; */
     background: url(web.jpg);
@@ -36,21 +52,24 @@
 }
 .form-sec{
     border-radius: 20px;
-    background-color: #197DAF;
+    /* background-color: #197DAF; */
     padding: 20px;
-    color: #fff;
+    color: #000;
 }
 .form-sec input,.form-sec textarea{
     width: 100%;
     outline: none;
     border-radius: 10px;
-    color: white;
-    background-color: #2F8AB7 ;
-    border: none;
+    color: #000;
+    /* background-color: grey ; */
+    /* border: none; */
     padding: 10px;
 }
+.form-sec textarea{
+    display: none;
+}
 .form-sec input::placeholder,.form-sec textarea::placeholder{
-    color: #fff;
+    color: #000;
 }
 .form-sec input{
     border-top: none;
@@ -74,12 +93,12 @@ footer{
     .col-border{
         height: 98%;
     }
-    .form-sec{
+    /* .form-sec{
         bottom: -40px;
     position: fixed;
     width: 31%;
     right: 15px;
-    }
+    } */
     .first-sec{
         /* background-color: #2085B1; */
         background: url(web.jpg);
@@ -96,7 +115,7 @@ footer{
     .first-sec{
         /* background-color: #2085B1; */
         background: url(mobile.jpg);
-        padding: 39%;
+        padding: 60% 0% 92% 0%;
         background-size: 100% 100%;
     }
 }   
