@@ -23,7 +23,7 @@ const EventsHome = () => {
                line: ''
             },
             {
-               line: 'Next on 30.07.2023'
+               line: 'Next on 28.08.2023'
             }
          ]
       },
