@@ -34,7 +34,7 @@ const HeroHome = () => {
                         
                      </div>
                      <div>
-                        <img style={{ width: '100%'}} src="assets/images/home/slide_4.jpg" alt="Banner 2" />
+                        <img style={{ width: '100%'}} src="assets/images/home/slide_4.png" alt="Banner 2" />
                         
                      </div>
                      <div>
