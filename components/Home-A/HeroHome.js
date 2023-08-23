@@ -10,7 +10,7 @@ const HeroHome = () => {
    const { width, height } = useWindowSize()
 
    const settings = {
-      dots: false,
+      dots: true,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
@@ -26,6 +26,10 @@ const HeroHome = () => {
             <div className="banner-slider " >
                      <Slider {...settings}>
                      <div>
+                       <a href="https://analogeducation.in/contact-us"> <img style={{ width: '100%'}} src="assets/images/home/slide_4.png" alt="Banner 2" /></a>
+                        
+                     </div>
+                     <div>
                         <img style={{ width: '100%'}} src="assets/images/home/Slide_1.jpg" alt="Banner 1" />
                         
                      </div>
@@ -33,14 +37,8 @@ const HeroHome = () => {
                         <img style={{ width: '100%'}} src="assets/images/home/Slide_2.jpg" alt="Banner 2" />
                         
                      </div>
-                     <div>
-                        <img style={{ width: '100%'}} src="assets/images/home/slide_4.png" alt="Banner 2" />
-                        
-                     </div>
-                     <div>
-                        <img style={{ width: '100%'}} src="assets/images/home/slide_5.jpg" alt="Banner 2" />
-                        
-                     </div>
+                     
+                    
                      
                      </Slider>
                   </div>
