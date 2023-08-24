@@ -23,7 +23,7 @@ export default function privacy() {
          </section>
             <div class="container  pb-35">
            
-        <p className='pt-20'>Your privacy is important to us. It is the policy of ANALOG IAS Academy to respect your privacy and comply with any applicable laws and regulations regarding any personal information we may collect about you, including on our website, <a href="https://analogeducation.in/">https://analogeducation.in/</a>, and other sites we own and operate.</p>
+        <p className='pt-20'> When you voluntarily visit our website or send us electronic mail, we will keep a record of this information so that we can respond to you. We only collect information from you when you register on our site or fill out a form. Also, when filling out a form on our site, you may be asked to enter your: name, e-mail address or phone number. You may, however, visit our site anonymously. In case you have submitted your personal information and contact details, we reserve the rights to Call, SMS, Email or WhatsApp about our products and offers, even if your number has DND activated on it.Your privacy is important to us. It is the policy of ANALOG IAS Academy to respect your privacy and comply with any applicable laws and regulations regarding any personal information we may collect about you, including on our website, <a href="https://analogeducation.in/">https://analogeducation.in/</a>, and other sites we own and operate.</p>
         <h3>Information We Collect</h3>
         <p>We collect information that includes both data you knowingly and actively provide us when using or participating in any of our services and promotions and any data automatically sent by your devices while accessing our products and services.</p>
         <h3>Log Data</h3>
