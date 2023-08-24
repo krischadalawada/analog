@@ -148,10 +148,10 @@ const ContactUs = () => {
                                                         <div className="contact__form-input">
                                                             <textarea name="message" required placeholder="Message" onChange={onChangeText} ></textarea>
                                                         </div>
-                                                    </div>
-                                                    <div className="col-xxl-12">
                                                         <p> <strong>Disclaimer:</strong> I authorize Analog IAS Academy and its representatives to Call, SMS, Email or WhatsApp me about its products and offers. This consent overrides any registration for DND / NDNC.</p>
-                                                        </div>
+
+                                                    </div>
+                                                    
                                                     {
                                                         clickedSubmit && failure ?
                                                             <div className="col-xxl-12" style={{ caretColor: 'transparent' }}>
