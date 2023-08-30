@@ -153,9 +153,13 @@ text-align: center;
 .faculty-sec{
 background-color:#2E3192;
 padding:40px 0px;
+color: #fff;
 }
 .faculty-sec img{
 width: 200px;
+}
+.faculty-sec h1{
+font-weight: bolder;
 }
 .faculty-sec p{
 color:#fff;
@@ -181,11 +185,17 @@ padding:40px 0px;
 .coaching-sec img{
 width:200px;
 }
+.coaching-sec h1{
+
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  }
 .coaching-sec h2{
 
 color: #fff;
-font-size: 34px;
-font-weight: 700;
+font-size: 24px;
+font-weight: 500;
 }
 .coaching-sec p{
 font-size: 21px;
