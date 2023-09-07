@@ -46,8 +46,8 @@ const Header = () => {
 
    return (
       <>
-         <header>
-            <div id="header-sticky" className={"header__area header__transparent"} style={{ marginTop: '2%', caretColor: 'transparent' }}>
+         <header style={{position:'fixed',top:'0px',width:'100%',background:'#fff',zIndex:'999'}}>
+            <div id="header-sticky" className={"header__area header__transparent"} style={{  caretColor: '#fff' }}>
                <div className="container header__bottom">
                   <div className="elevate p-relative">
                      <div className="row align-items-center">

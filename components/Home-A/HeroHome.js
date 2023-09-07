@@ -22,7 +22,7 @@ const HeroHome = () => {
    return (
       <>
          <section className="bg-home" style={{ caretColor: 'transparent' }}>
-            <div className="align-items-center" style={{paddingTop:'23vh'}}>
+            <div className="align-items-center" style={{paddingTop:'13vh'}}>
             <div className="banner-slider " >
                      <Slider {...settings}>
                      <div>

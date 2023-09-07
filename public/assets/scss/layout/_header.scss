@@ -7,15 +7,15 @@ body{
     overflow-x: hidden;
 }
 .header {
-    &__transparent {
-        position: fixed !important;
-        left: 0;
-        margin: auto;
-        top: 0;
-        width: 100%;
-        z-index: 99;
-        background: transparent;
-    }
+    // &__transparent {
+    //     position: fixed !important;
+    //     left: 0;
+    //     margin: auto;
+    //     top: 0;
+    //     width: 100%;
+    //     z-index: 99;
+    //     background: transparent;
+    // }
 
     &__info {
         & ul {
@@ -374,9 +374,9 @@ body{
 
 /* elevate */
 .elevate {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #00000029;
-    border-radius: 60px;
+    // background: #FFFFFF 0% 0% no-repeat padding-box;
+    // box-shadow: 0px 3px 6px #00000029;
+    // border-radius: 60px;
 }
 
 
