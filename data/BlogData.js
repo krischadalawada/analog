@@ -1,5 +1,16 @@
 export const BlogsData = [
     {
+        blogTitle: 'ANALOG IAS Academy Rejuvenates the Spirit of Sports in Competitive Coaching',
+        id: "ANALOG-IAS-Academy-Rejuvenates-the-Spirit-of-Sports-in-Competitive-Coaching",
+        img: "/assets/images/blog/Aikyam.png",
+        day: '11',
+        monthYear: 'July 2023',
+        author: 'Admin',
+        intro: 'ANALOG IAS Academy, a leading coaching institute for Civil Services aspirants, recently organized its inaugural sports event, ANALOG IAS KREEDOTSAVAM (AIKYAM)-2023. The event was a huge success, with students, teaching staff, and non-teaching staff all participating enthusiastically.',
+        content: "<p>The event was held on August 11th, 2023, and featured a variety of indoor and outdoor activities. On the 11th, students competed in outdoor sports such as cricket, tug of war, and lemon and spoon races. On the 12th, the focus shifted to indoor events such as quizzes, debates, and dumb charades.</p><p>The event was not just about competition, it was also an opportunity for students to come together and have fun. The atmosphere was one of camaraderie and sportsmanship, and everyone had a great time. ANALOG IAS Academy believes sports and competitive spirit can help individuals in preparing for competitive examinations in a number of ways. First, sports can help to improve physical fitness and stamina, which are essential for success in long and demanding exams. Second, sports can teach individuals the importance of preparedness and staying ready, which are also important skills for taking challenges. Third, sports can help to develop mental toughness and resilience, which are essential for dealing with the stress and setbacks that are common in competitive exams. Finally, sports can help to instill a sense of discipline and determination, which are essential for achieving goals.</p><p>In addition to the sporting events, AIKYAM-2023 also featured a flag hoisting ceremony on August 15, 2023. The ceremony was held in front of the academy's head office in Hyderabad, and it was attended by students, staff, and faculty members. The flag hoisting ceremony was a reminder of the importance of patriotism and national unity. </p><p>ANALOG IAS Academy is committed to providing its students with a holistic education and helps develop the skills and knowledge one needs to succeed in the exam. </p><p>Contact us to know more about our comprehensive courses for UPSC.</p>",
+        category: 'UPSC'
+    },
+    {
         blogTitle: 'NATIONAL MONETISATION PIPELINE (NMP)',
         id: "national-monetisation-pipeline-nmp",
         img: "/assets/images/blog/marco-oriolesi-wqLGlhjr6Og-unsplash.jpeg",

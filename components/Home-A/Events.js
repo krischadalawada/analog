@@ -29,15 +29,15 @@ const EventsHome = () => {
       },
       {
          id: 2,
-         img: '/assets/images/home/Astra.jpg',
+         img: '/assets/images/home/AikyamLogo.svg',
          location: '@ Indira Park, ANALOG IAS ACADEMY',
-         url: 'https://astra.analogeducation.in/ofl-civils-prep-with-astra?utm_source=Analog_Website&utm_medium=Online&utm_campaign=Astra',
+         url: 'https://analogeducation.in/blog/ANALOG-IAS-Academy-Rejuvenates-the-Spirit-of-Sports-in-Competitive-Coaching',
          title: [
             {
-               line: 'ASTRA'
+               line: 'AIKYAM'
             },
             {
-               line: 'Scholarship Test'
+               line: 'Sports Meet'
             },
             {
                line: ''
