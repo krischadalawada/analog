@@ -25,7 +25,11 @@ const EventsHome = () => {
             {
                line: 'Next on 28.08.2023'
             }
-         ]
+            
+              
+            
+         ],
+         register: 'Register Now'
       },
       {
          id: 2,
@@ -42,7 +46,10 @@ const EventsHome = () => {
             {
                line: ''
             }
-         ]
+             
+            
+         ],
+         register: 'Read Blog'
       },
    ]
 
@@ -131,8 +138,9 @@ const EventsHome = () => {
                                              }
                                              <p></p>
                                           </div>
+                                          
                                           <Link href={event.url} target="_blank" rel="noopener noreferrer">
-                                             <a className="tp-btn-primary pointer" style={{ marginRight: '5%', width: '80%' }}>Register Now <i className="fa-regular fa-arrow-right fa-ri">
+                                             <a className="tp-btn-primary pointer" style={{ marginRight: '5%', width: '80%' }}>{event.register} <i className="fa-regular fa-arrow-right fa-ri">
                                              </i></a>
                                           </Link>
                                        </div>
