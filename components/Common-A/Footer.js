@@ -67,8 +67,11 @@ const Footer = ({ white_bg = '' }) => {
                            </div>
                         </div>
                      </div>
+                    
                   </div>
+                  <p className="text-center text-light">© Analog IAS Academy 2021, Design and Developed by <a href='https://www.marksandmethods.com/'>Marks & Methods</a></p>
                </div>
+               
             </div>
          </footer>
       </>
