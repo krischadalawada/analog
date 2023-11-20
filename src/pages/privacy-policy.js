@@ -72,6 +72,8 @@ export default function privacy() {
             <p>We use “cookies” to collect information about you and your activity across our site. A cookie is a small piece of data that our website stores on your computer, and accesses each time you visit, so we can understand how you use our site. This helps us serve you content based on preferences you have specified. </p>
             <h3>Limits of Our Policy</h3>
             <p>Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and policies of those sites, and cannot accept responsibility or liability for their respective privacy practices. </p>
+            <h3>Disclaimer</h3>
+            <p>Students may have enrolled in one or multiple programs, tailored to their individual educational pursuits & preferences.</p>
             <h3>Changes to This Policy</h3>
             <p>At our discretion, we may change our privacy policy to reflect updates to our business processes, current acceptable practices, or legislative or regulatory changes. If we decide to change this privacy policy, we will post the changes here at the same link by which you are accessing this privacy policy. </p>
             <h3>Contact Us</h3>
