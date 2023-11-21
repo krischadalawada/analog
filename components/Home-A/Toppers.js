@@ -12,7 +12,8 @@ const Toppers = () => {
                <div className="row">
                   <div className="col-xxl-12">
                      <div className="section__title-wrapper mb-50 text-center">
-                        <h2 className="section__title section__title-50">Toppers Choose the top IAS Coaching in Hyderabad</h2>
+                        <h2 className="section__title section__title-50">Toppers Choose the top IAS Coaching</h2>
+                        <p>Achieve your IAS dream with our comprehensive General Studies course, personalized mentorship, focused test series & current affairs and interview guidance from the best panel. Our students who have enrolled in one or multiple program(s)...</p>
                      </div>
                   </div>
                </div>
