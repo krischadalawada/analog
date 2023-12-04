@@ -68,9 +68,9 @@ const JoinAnalog = () => {
             target: '#courseSix',
             location: 'Ashok Nagar, HYD',
             course: 'Sociology',
-            startDate: '05/07/2023',
-            endDate: '30/10/2023',
-            demoDate: '03/07/2023',
+            startDate: '04/12/2023',
+            endDate: '30/03/2024',
+            demoDate: '04/12/2023',
             timings: '02:00 PM - 04:00 PM'
         }
     ]
