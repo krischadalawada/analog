@@ -26,6 +26,10 @@ const HeroHome = () => {
             <div className="banner-slider " >
                      <Slider {...settings}>
                      <div>
+                        <img style={{ width: '100%'}} src="assets/images/home/slider-new1.png" alt="Banner 2" />
+                        
+                     </div>
+                     <div>
                        <a href="https://analogeducation.in/contact-us"> <img style={{ width: '100%'}} src="assets/images/home/slide_4.png" alt="Banner 2" /></a>
                         
                      </div>
@@ -37,6 +41,7 @@ const HeroHome = () => {
                         <img style={{ width: '100%'}} src="assets/images/home/Slide_2.jpg" alt="Banner 2" />
                         
                      </div>
+                     
                      
                     
                      
