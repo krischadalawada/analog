@@ -30,7 +30,7 @@ const HeroHome = () => {
                         
                      </div>
                      <div>
-                       <a href="https://analogeducation.in/contact-us"> <img style={{ width: '100%'}} src="assets/images/home/slide_4.png" alt="Banner 2" /></a>
+                       <a href="https://analogeducation.in/contact-us"> <img style={{ width: '100%'}} src="assets/images/home/slide_4.jpg" alt="Banner 2" /></a>
                         
                      </div>
                      <div>
