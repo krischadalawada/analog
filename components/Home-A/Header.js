@@ -95,7 +95,7 @@ const Header = () => {
                                     </ul>
                                  </nav>
                               </div>
-                              <a className='focus-trans' href="https://wa.me/916301529232" target="_blank" rel="noopener noreferrer">
+                              <a className='focus-trans' href="https://api.whatsapp.com/send/?phone=916301529232&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
                                  <li className='whatsapp'>
                                     <img className='wa pointer' src="/assets/images/home/whatsapp.png" alt="logo" />
                                  </li>
